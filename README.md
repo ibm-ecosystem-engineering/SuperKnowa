@@ -6,7 +6,7 @@ RAG (Retriever Augmented Generation) uses a private enterprise knowledge base (l
 
 
 
-## RAG(Retriver Augmented Generation)
+## Single-Turn RAG(Retriver Augmented Generation)
 
 1. Data Collection
 2. Search Index
