@@ -1,6 +1,6 @@
 # SuperKnowa
 
-## Generative Question & Answer for Enterprise Private Knowledge Base using RAG
+## Generative Question & Answer for Enterprise Private Knowledge Base
 
 RAG (Retriever Augmented Generation) uses a private enterprise knowledge base (like support documentation, books, contract documents, and corporate policy) to retrieve relevant parts using a neural search and use it to generate cogent & fluent output using LLM. A simple Q&A pipeline does not perform well in practice on accuracy metrics and requires dedicated ML methods. This repo covers the build of end to end pipeline to get generative output from multiple source documents.
 
