@@ -12,22 +12,24 @@ RAG (Retriever Augmented Generation) uses a private enterprise knowledge base (l
 2. Search Index
 3. Neural Retriever
 4. Re-Ranker
-5. In-context learning using LLM
-   BLOOM
-   BLOOMChat
-7. LLM Model Evaluation
-   I. LLM Eval Toolkit
-   II. MLFLOW Integration
-8. Instruct DB
-9. Feedback & Reward Model
-10. User Application
+5. In-context learning using LLM <br />
+   BLOOM <br />
+   BLOOMChat <br />
+7. LLM Model Evaluation <br />
+   I. LLM Eval Toolkit <br />
+   II. MLFLOW Integration <br />
+   III. Benchmark on QuAC <br />
+   IV. Bechmark on SqUAD <br />
+8. Feedback & Reward Model
+9. User Application
 
 ## Fine-Tuning
-1. Fine Tuning using QLORA
-2. Finetuning Falcon 7B
-3. Finetune OpenLAMA
-4. Finetune Flan-T5
-5. Finetune Coga
+1. Instruct DB
+2. Fine Tuning using QLORA
+3. Finetuning Falcon 7B
+4. Finetune OpenLAMA
+5. Finetune Flan-T5
+6. Finetune Coga
 
 
 ## Knowledge Graph with LLM
