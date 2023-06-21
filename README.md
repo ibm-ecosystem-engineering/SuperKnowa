@@ -10,7 +10,8 @@ RAG (Retriever Augmented Generation) uses a private enterprise knowledge base (l
 
 Ml Pipeline
 
-![image](https://github.com/EnterpriseLLM/SuperKnowa/assets/21246183/78947dad-a8aa-4bde-8600-f4fb62c58edb)
+![image](https://github.com/EnterpriseLLM/SuperKnowa/assets/21246183/142dd017-c46a-4506-aaea-3a0dea61cebb)
+
 
 
 1. Data Collection
