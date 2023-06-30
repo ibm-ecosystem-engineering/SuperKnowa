@@ -13,7 +13,7 @@ This folder contains code for scraping and cleaning data from various sources as
 - [IBM Redbooks](../1.%20Data%20Collection/IBM%20Redbooks/): Scraping data from IBM Redbooks
     - [redbooks_scrapper.py](../1.%20Data%20Collection/IBM%20Redbooks/redbooks_scrapper.py): Scrapes all the IBM redbooks recursively
 - [IBM Test](../1.%20Data%20Collection/IBM%20Test%20/): Scraping Questions and Answers from IBM's IT exams
-    - [it_exam_scraping]: Scrapes all the IBM's IT exams available for free
+    - [it_exam_scraping](../1.%20Data%20Collection/IBM%20Test%20/it_exam_scraping.py): Scrapes all the IBM's IT exams available for free
 - [IBM Whitepapers](../1.%20Data%20Collection/IBM%20Whitepapers/): Scraping data from IBM Whitepapers
     - [ibm_whitepaper.py](../1.%20Data%20Collection/IBM%20Whitepapers/ibm_white_paper.py): Scrapes all the IBM White papers recursively
 - [Medium Blogs on IBM products](../1.%20Data%20Collection/Medium%20Blogs%20on%20IBM%20products/): Scraping data from Medium related to IBM products
