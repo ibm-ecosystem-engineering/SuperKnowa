@@ -1,0 +1,665 @@
+Question,context,ideal_answer,answer,F1 score,bert score,blue score,SentenceSim score,meteor score,rouge score,SimHash score,perplexity score
+How do I get ready for using Sourcing and Procurement within SAP S/4HANA Cloud?,"To implement the functions available in Sourcing and Procurement, you activate scope items. For each scope item, several documents are available, such as scope item fact sheets, process flow graphics, and test scripts. For an overview of all scope items and their documents, you can use the SAP Best Practices ExplorerInformation published on SAP site if you are a registered user. Go to SAP S/4HANA and choose solution package SAP Best Practices for SAP S/4HANA Cloud. Select the required Version and Language. On the Accelerators tab, choose SAP Best Practices content library.",Activate the Scope Items in SAP Best Practices.,response: I do not have information regarding using Sourcing and Procurement within SAP S/4HANA Cloud.; evidence: NA,0.08333333333333333,0.5025663292407989,3.297204515308002e-232,0.38921416,0.05050505050505051,0.07692307692307691,26,8.937859790361426
+What features does SAP Sourcing and Procurement offer?,"SAP S/4HANA Sourcing and Procumenet offers the generic features Pricing, Manage Teams and Responsibilities - Procurement, Flexible Workflow, My Inbox, Redistribute Workload, Data Exchange Using Excel, Schedule Purchasing Jobs - Advanced, Item Hierarchies, Fast Entry of Characteristic Values in Purchasing Documents, Manage Current Settings - Procurement (Deprecated)","Pricing, Manage Teams and Responsibilities - Procurement, Flexible Workflow, My Inbox, Redistribute Workload, Data Exchange Using Excel, Schedule Purchasing Jobs - Advanced, Item Hierarchies, Fast Entry of Characteristic Values in Purchasing Documents, Manage Current Settings - Procurement (Deprecated)",response: It is not possible to answer this question.; evidence: NA,0.0,0.49051968653996786,0.0,0.030573715,0.027173913043478264,0.043478260869565216,36,38.999999999999986
+What integration scenarios are available for SAP S/4HANA Cloud Sourcing and Procurement?,"The following integration scenarios are supported for SAP S/4HANA Cloud:
+
+Integration of SAP S/4HANA Procurement Cloud with Suppliers
+Purchasing organizations whose suppliers use traditional data exchange protocols, such as electronic data interchange (EDI), can simplify and automate the exchange of procurement documents and their follow-on messages.
+
+Integration with SAP Ariba: For your purchasing experts and accounts payable accountants, whom you would like to focus on value-driving activities, integration with your suppliers in the Ariba Network drives productivity with nearly touchless orders and invoices.
+
+The integration of SAP S/4HANA Cloud with SAP Ariba applications enables you to combine the guidance for employees provided by SAP Ariba applications with the proven procurement processes provided by SAP S/4HANA Cloud, including processes of Central Procurement.
+
+Integration with SAP Fieldglass: SAP Fieldglass provides a cloud-based solution for managing contingent workforce and for service procurement. The integration of SAP S/4HANA Cloud with SAP Fieldglass enables an integrated invoicing process for the procured services.","
+Integration of SAP S/4HANA Procurement Cloud with Suppliers, Integration with SAP Ariba and Integration with SAP Fieldglass",response: Updating of account assignment objects at goods receipt for purchase orders assigned to an account; evidence: Updating of account assignment objects at goods receipt for purchase orders assigned to an account,0.0425531914893617,0.536795562989003,3.439720752536355e-232,0.20904365,0.015015015015015015,0.04,24,17.93581150621011
+Can I connect my SAP S/4HANA Cloud with external SAP supplier systems?,Integration of the procurement functionality of SAP S/4HANA Cloud with external SAP supplier systems allows suppliers and buyers to exchange documents by using Web services based on the SOAP protocol.,Yes. Integration of the procurement functionality of SAP S/4HANA Cloud with external SAP supplier systems allows suppliers and buyers to exchange documents by using Web services based on the SOAP protocol.,"response: Yes, you can connect your S/4HANA Cloud with external SAP supplier systems.; evidence: NA",0.36363636363636365,0.6619615256786346,0.1821038896383151,0.81215674,0.41471048513302033,0.375,28,30.16935310980826
+What does Central Procurement do?,"With Central Procurement, you can integrate your SAP S/4HANA Cloud system (which acts as a hub system) with other connected systems in your system landscape. SAP S/4HANA, SAP S/4HANA Cloud, or SAP ERP act as connected systems.",Integrate your SAP S/4HANA Cloud system with other connected systems.,response: I am a manager of a procurement process.; evidence: NA,0.0,0.509683891137441,6.954003198833439e-232,0.053017475,0.03424657534246575,0.0,35,10.999999999999996
+Which tool can I use to adapt the UIs in Sourcing and Procurement within SAP S/4HANA Cloud?,"You can use the SAP Web IDE to create your own SAP Fiori user interfaces either from scratch or based on templates. The SAP Fiori user interfaces consume released RESTful OData interfaces. After creation and successful testing, you can deploy these user interfaces into SAP S/4HANA Cloud user interface repository and integrate them into the customer’s SAP Fiori launchpad as new tiles using the Custom Tiles and Custom Catalog Extensions application.",You can use the SAP Web IDE to create your own SAP Fiori user interfaces either from scratch or based on templates. ,response: The UIs can be adapted using the SAP NetWeaver Application Builder.; evidence: The UIs can be adapted using the SAP NetWeaver Application Builder.,0.14634146341463414,0.5720219160829272,3.6231213058724145e-155,0.69074786,0.15013693270735523,0.21739130434782608,31,21.4691927077328
+"How do I use the ""Off-Contract Spend"" feature?","You can use the Off-Contract Spend app to analyze the total spend amount in relation to purchase orders that do not have a contract assignment. For some items, no negotiated pricing or blanket purchase agreement is in place when they are purchased. These items are defined as non-contract purchases. You can use this app to measure the percentage of purchases made without any contract.",Analyze the total spend amount in relation to purchase orders that do not have a contract assignment.,"response: You can use the ""Off-Contract Spend"" feature to post payments to the correct contract.; evidence: Define Withholding Tax Type for Payment Posting",0.16666666666666666,0.5078578293323517,6.788956277594538e-232,0.35909897,0.08960573476702512,0.19512195121951217,36,17.821955712284154
+How can I find the right CSD view for my need?,"To help you decide which CDS view to use for your purposes, SAP has introduced the annotation ObjectModel.supportedCapabilities that indicates the most appropriate use cases for each CDS view. To find out what use cases are best supported by this CDS view, access the entry of the CDS view in the View Browser app and find the values for this annotation under the Annotation tab. For more information, see Supported Capabilities for CDS Views.",SAP has introduced the annotation ObjectModel.supportedCapabilities that indicates the most appropriate use cases for each CDS view,response: I do not have information regarding CSD view.; evidence: NA,0.07692307692307691,0.4943187087774277,8.972141065609098e-232,0.2825858,0.03289473684210526,0.06896551724137931,28,17.999999999999986
+Where do I find the APIs that are availbe in Sourcing and Procurment?,"The following table contains all APIs available in Sourcing and Procurement. You can filter them according to various criteria, the OData APIs are marked blue, the SOAP APIs are marked yellow. ","Check this table contains all APIs available in Sourcing and Procurement. You can filter them according to various criteria, the OData APIs are marked blue, the SOAP APIs are marked yellow. ",response: I do not have information regarding Sourcing and Procurement.; evidence: NA,0.14634146341463414,0.5449841548414791,0.0661074021019606,0.37224227,0.20949720670391064,0.13953488372093023,31,31.831120810901147
+Where can I create new purchasing categories?,"With this app, you can view a worklist of purchasing categories and edit the purchasing categories in your system. You can use various filter criteria to customize the list of purchasing categories. You can choose the name of a purchasing category to display or edit it.","Via the app ""Manage Purchasing Categories"".",response: I do not have information regarding where I can create new purchasing categories.; evidence: NA,0.19047619047619047,0.5446331173181533,3.0984417036474726e-232,0.71911114,0.1352145796590241,0.18181818181818182,27,7.000000000000004
+How can I translate purchasing categories and their descriptions?,"With this app, you can view a worklist of all purchasing categories whose descriptions are relevant for translation. You can choose the name of a purchasing category to navigate to the translation screen, where you can display and edit existing translations, or add new ones.","Via the app ""Translate Purchasing Categories""",response: I do not have information regarding translating purchasing categories and their descriptions.; evidence: NA,0.2,0.5122100146193254,0.0,0.7646512,0.16449410304158907,0.28571428571428575,25,7.000000000000004
+How do I create service entry sheets to record that the ordered services have been performed?,"With this app, you can create service entry sheets to record that the ordered services have been performed. You can change these service entry sheets and send them for approval. You can also search for service entry sheets and sort, filter, and group the list: for example, by supplier or by reference purchase order. Lean services are a type of service that can be purchased in the same way as materials using SAP Fiori apps such as Manage Purchase Orders, Manage Service Entry Sheets - Lean Services, and Create Supplier Invoice. These apps enable a lean process of service procurement that is equivalent to the procurement of materials.","Via the app ""Manage Service Entry Sheets – Lean Services""",response: I do not have information regarding creating service entry sheets.; evidence: NA,0.27272727272727276,0.4711091010009541,0.0,0.629825,0.17845117845117847,0.27272727272727276,29,10.999999999999996
+What does an integration of SAP Ariba offer?,"SAP Ariba solutions extend the core operational processes, providing full source-to-settle functionality.","Integration with SAP Ariba includes guided buying, collaborative sourcing, and networked-based, end-to-end supplier collaboration to deliver a new and simplified user experience and a seemlessly integrated working model with suppliers using Ariba Network.",no information available; evidence: NAI - The information about an integration of SAP Ariba is not available.,0.13333333333333333,0.5254839320074428,3.2495743136156002e-155,0.5990828,0.09216589861751152,0.11538461538461539,30,32.52714748013901
+What is the benefit of Sourcing with SAP Ariba Sourcing?,"Sourcing with SAP Ariba Sourcing (4BL) enables you to identify sources of supply for purchase requisitions in SAP S/4HANA Cloud, using the community of suppliers in Ariba Network and the SAP Ariba Sourcing solution. Note that this scenario is the successor of Sourcing with SAP Ariba Sourcing (1A0).","Identify sources of supply for purchase requisitions in SAP S/4HANA Cloud, using the community of suppliers in Ariba Network and the SAP Ariba Sourcing solution.",response: I do not have information regarding the benefit of sourcing with SAP Ariba Sourcing.; evidence: NA,0.20512820512820512,0.5928105873366197,1.9749774403752623e-78,0.66386056,0.2650226757369614,0.2790697674418605,31,21.8844137094548
+What do I need to know about creating a purchase requisition? ,"A purchase requisition is a request that is made to the purchasing organization to procure a certain list of materials or services. It is an internal document and remains within the organization.
+","Use the My Purchase Requisition app to create, view, edit, copy, and delete requests to the purchasing organization to procure materials or services.",response: I do not have information about creating a purchase requisition.; evidence: NA,0.12121212121212123,0.5073690697550773,7.919883909890055e-232,0.6225427,0.17437845303867405,0.16666666666666669,23,23.999999999999982
+What are Incoterms?,"With this app you can create and maintain incoterms which are the official rules of the International Chamber of Commerce (ICC) regarding how to define trade terms.
+",List of international terms for transportation defined by the International Chamber of Commerce ICC),response: I do not have information regarding Incoterms.; evidence: NA,0.0,0.462424800676458,0.0,0.04959268,0.0,0.0,33,15.000000000000002
+Where do I work on purchase contracts contracts?,"A purchase contract is a legally binding purchase outline agreement that contains special conditions that are negotiated between a buyer and a seller, regarding the goods to be supplied or services to be performed. It is valid for a specific period, during which goods and services are provided to the buyer.","Use the Manage Purchase Contracts app to view, create, and manage purchase contracts. A purchase contract in SAP S/4HANA Procurement is a legally binding purchase outline agreement between a buyer and a seller.",response: I do not have information regarding purchase contracts.; evidence: NA,0.10256410256410255,0.5478874882062276,1.300860878627404e-78,0.5817139,0.11627906976744186,0.08888888888888888,26,30.684964362763868
+Can I do mass changes to purchase contracts?,"With this app, you can update the fields of multiple purchase contracts simultaneously. You can manage the purchase contracts and purchase contract items through online and offline modes. Using the online mode, you can update multiple purchase contracts and purchase contract items in one go from the app list view. Using the offline mode, you can create, update, and delete multiple purchase contracts and purchase contract items in one go using Microsoft Excel.",With the Mass Changes to Purchase Contracts app you can update the fields of multiple purchase contracts simultaneaously in offline and online modes.,response: I do not have information regarding mass changes to purchase contracts.; evidence: NA,0.2857142857142857,0.5286144299639596,4.3521358589488775e-155,0.5230661,0.30241935483870974,0.27027027027027023,26,23.85452401312141
+Where do I find the overdue purchase order items?,"With the Overdue Purchase Order Items app, you can analyze the delivery dates of the purchase orders sent to the supplier. The KPI compares the actual date with the delivery date on item level. All purchase order items for which delivery date has passed and which have not yet been delivered are calculated. You can also use this app to analyze the delivery dates of purchase order items sent to the supplier.
+
+
+",Use the Overdue Purchase Order Items app to analyze the delivery dates of the purchase orders sent to the supplier. You can also activate situation handling for overdue purchase order items in th Manage Situation Types app.,response: I do not have information regarding where to find the overdue purchase order items.; evidence: NA,0.20408163265306123,0.536540076136589,0.06791633087805805,0.66773915,0.2783745076978159,0.22222222222222227,23,32.02923576604443
+Where can I see all my purchasing documents?,"With this app, you can quickly gain an overview of the items in your purchasing documents for each supplier and keep track of those purchasing documents for which you, as a purchaser, are responsible. Besides the count of purchasing document items, the app provides separate tabs for purchase requisitions, purchase orders, good receipts, and supplier invoices. The clear and customizable views let you monitor your purchasing document items for each supplier at the level of detail you require.",The My Purchasing Document Items app gives you an overview and enables you to keep track of the documents for which you are responsible. ,"response: You can see them in the system.; evidence: In most cases, you post goods receipts referencing a preceding document, for example, purchase orders or shipping notifications",0.17391304347826086,0.4583367918218885,8.038820025988695e-232,0.5793261,0.12084592145015106,0.27450980392156865,36,23.894557269044896
+What Analytics are available for purchasing? ,"Central Purchasing Analytics provides users with centralized analyses and the necessary capabilities to better understand the procurement scenarios – both on a holistic level and on a more fine-granular level.
+",Analytics are available for Central Purchasing and Procurement.,no information available; evidence: NAI : NA,0.14285714285714288,0.5599896907806396,1.0518351895246305e-231,0.13937218,0.05555555555555555,0.14285714285714288,23,9.000000000000002
+What entails Central Purchasing? ,"Central Procurement offers a Central Purchasing scenario that provides a single point of access to display and manage purchasing documents centrally. The purchasing documents include purchase requisitions and purchase orders. These documents can be those that are created in the SAP S/4HANA Cloud system (which acts as a hub system), or the ones that have been extracted from the connected systems. SAP S/4HANA, SAP S/4HANA Cloud, or SAP ERP act as connected systems. Central Purchasing provides the flexibility of connecting multiple systems across an organization and carrying out procurement processes centrally.",Central Purchasing provides a single point of access to display and manage purchasing documents centrally. ,response: I am a manager of a company that entails Central Purchasing.; evidence: NA,0.23076923076923075,0.4986030145695335,5.001210060320743e-155,0.49387217,0.16853932584269662,0.3448275862068965,24,15.70767026200679
+Are Machine Learning capabilities available in Procurement?,"SAP applies machine learning intelligence to automate business processes. Machine learning improves the productivity and quality of these processes by making time-efficient decisions and reducing redundant tasks. For example, the system can recommend items that the purchaser can add to the company catalog or predict the quantity consumption of purchase contracts.",Yes. Machine Learning is for example used to recommend items that the purchaser can add to the company catalog. ,response: I do not have information regarding Machine Learning capabilities in Procurement.; evidence: NA,0.12903225806451615,0.5575170285171933,4.336508547901975e-155,0.58384097,0.13964784456587737,0.12121212121212122,37,19.853983360419704
+What reporting and monitoring options do I have? ,"The Procurement Overview shows, at a glance, the most important information and tasks relevant for you right now. The information is displayed on set of actionable cards. You can therefore focus on the most important tasks, enabling faster decisions and immediate action.
+
+The cards show you the most important information ranked according to relevance. For example, on the Monitor Purchase Contracts card, you can see the consumption and expiry date per contract. You can then decide to change a contract by selecting it.
+
+You can use the global filter to filter the entire Procurement Overview by supplier or material group, for example. You then see all urgent contracts, purchase requisitions, or spend information according to the specified filter criteria.
+
+For list cards, selecting the header of a card brings you to the app itself, while selecting an item brings you to more detailed item information.
+
+For graphical or analytical cards, selecting the card brings you to more detailed analytical information.
+
+",Check out the Procurement Overview which shows you the most important information ans tasks relevant for you right now. ,"response: You can use a value-added report to check the status of your value-added process.; evidence: Using a value-added report, you can check the status of your value-added process.",0.14285714285714282,0.5124254760354064,5.754995137822312e-232,0.13355444,0.08955223880597014,0.19230769230769232,36,18.517591829129177
+How can I manage purchasing categories?,"With this app, you can view a worklist of purchasing categories and edit the purchasing categories in your system. You can use various filter criteria to customize the list of purchasing categories. You can choose the name of a purchasing category to display or edit it.
+
+",Use the Manage Purchasing Categories app to view and edit the purchasing categories.,response: I do not have information regarding managing purchasing categories.; evidence: NA,0.17391304347826086,0.5282683111727238,2.4239222938562324e-78,0.66484445,0.28227848101265823,0.24000000000000002,18,13.913807122236166
+What is a purchasing requisition?,A purchase requisition is a request that is made to the purchasing organization to procure a certain list of materials or services. It is an internal document and remains within the organization.,Request to maintain a list of materials or services.,response: I am unable to find information regarding a purchasing requisition.; evidence: NA,0.1,0.5057177528738975,6.695492068419091e-232,0.28291374,0.09202453987730061,0.18181818181818185,30,9.839213538224852
+Which are the key features of the new self-service procurement app?,"With this app, you, as an employee or casual user can do the following:
+* Create, view, edit, copy, and delete self-service purchase requisitions
+* Track the status and process flow of your purchase requisitions
+* Confirm the receipt of goods
+* Return the received goods in case of any issues or defects",Manage your purchase requistions.,"response: The system suggests all the key data for the goods receipt from the preceding document; evidence: In most cases, you post goods receipts referencing a preceding document, for example, purchase orders or shipping notifications The system suggests all the key data for the goods receipt from the preceding document",0.04444444444444444,0.43769235895913944,4.5285806553653e-236,0.3310796,0.009823182711198428,0.037037037037037035,35,4.97773536392234
+How can I collaborate in SAP S/4HANA with my suppliers?,"Ariba Network Integration enables you to collaborate in SAP S/4HANA Cloud with your suppliers via the Ariba Network. You can send electronic purchase orders to your suppliers, and you can receive purchase order confirmations, advanced shipping notifications, and electronic supplier invoices from the Ariba Network. You exchange the data using cXML messages.",Via Ariba Network integration.,response: I do not have information regarding collaboration with my suppliers.; evidence: NA,0.0,0.5075694445301505,1.1052462903316595e-232,0.16789125,0.03164556962025316,0.0,32,4.999999999999999
+Can I evaluate my suppliers?,"With Supplier Evaluation and Performance Monitoring (‏SL4‏), you can evaluate your company’s suppliers to obtain a basis for your business relationship with them and to optimize your supply base. Based on the feedback you gather through questionnaires, you obtain a scorecard for each supplier evaluated. The scorecard helps you to assess a supplier’s strengths and shortcomings and to initiate measures for improvement. Evaluation scorecards also enable you to easily compare suppliers within a peer group.
+
+A combined real-time view across operational and questionnaire-based scores provides a holistic view of your supplier’s performance. This scope item provides two different use cases for the category manager: Evaluate supplier performance and Analyze KPIs based on the evaluation.","Yes, use  Supplier Evaluation and Performance Monitoring (‏SL4‏) to evaluate the suppliers.",response: I do not have information regarding evaluating your suppliers.; evidence: NA,0.08695652173913043,0.4973160196095705,4.506889438070446e-155,0.61844134,0.197265625,0.16666666666666666,22,12.999999999999993
+"How can I create, edit or delete source lists?","Manage Source lists: With this app you can create, edit, delete, or manage source lists. You can also search and view source lists based on different criteria such as plant, material, or supplier. You can use purchasing info records or contracts as the sources of supply for purchase requisitions and purchase orders.",Use the Manage Source Lists app,"response: You can create, edit, or delete source lists in the https://w3.ibm.com/hr/web/us/timeline/co-rate/#create_source_lists>.; evidence: How can I create, edit or delete source lists?",0.15384615384615385,0.3818589197319062,9.26574865179684e-234,0.5778545,0.0796123226029768,0.15,31,6.951123491547478
+Which processes are available in the Manage RFQ app?,"* You send your created RFQs later to SAP Ariba Sourcing, where the bidders and suppliers can place their bids. After you have decided which bidder or supplier should receive the award, you send the awarded quotation back to SAP S/4HANA Cloud. A purchase order or a contract is created automatically in the background. You can display it within the Manage Purchase Orders app or within the Manage Purchase Contracts app.
+* To request only price and quantity information or shipping costs, you send these RFQs later to the Ariba Network, where the suppliers can create their bids. These bids are sent back to SAP S/4HANA Cloud, where you can award one of them.
+* You can also create price requests in SAP S/4HANA Cloud and send them directly to your supplier via e-mail or as a printed version by mail. You receive the quotations from your suppliers and then create the quotations in SAP S/4HANA Cloud manually. For more information, see Working with a Request for Price.","Send RFQs to SAP Ariba Sourcing or Ariba Network for further processing, or create price requests in SAP S/4HANA Cloud to be sent to the suppliers directly.",response: The Manage RFQ app is used to manage RFQs,0.1142857142857143,0.6085482665470668,9.336117803135294e-232,0.47418255,0.11718749999999999,0.15789473684210525,38,24.90502903797607
+How can I view the detailed information for my supplier quotations?,"You can perform the following tasks if you have the business role Purchaser:
+
+Display the list of all quotations
+Search for a particular quotation
+Display detailed information for a quotation by selecting the corresponding line
+
+Display general information such as creation date, supplier address, and contact data
+Display detailed information for items such as the actual item, quantity and pricing details
+Submit quotations that are in status In Preparation
+Edit quotations that are in status In Preparation or in status Submitted
+Delete quotations that are in status In Preparation
+Award quotations
+
+",You need the Purchaser role to view supplier quotations.,response: I do not have information regarding supplier quotations.; evidence: NA,0.2105263157894737,0.5815622005611658,2.2381725002386656e-78,0.7338177,0.27370689655172414,0.19999999999999998,24,9.904674964312845
+Where can I manage my substitution rules during my absence?,"You can use this app to make important decisions via mobile or desktop devices anywhere and anytime. Using this app, you can process your workflow tasks based on the decision options defined in the back-end system. ",Use the My Inbox app. ,response: I do not have information regarding substitution rules.; evidence: NA,0.0,0.38313469489415486,2.597339905741302e-232,-0.06539062,0.03546099290780142,0.0,26,5.999999999999997
+How does an end of purpose (EoP) check in Sourcing and Procurement work?,"Data protection is associated with numerous legal requirements and privacy concerns. In addition to compliance with general data privacy regulation, it is necessary to consider compliance with industry-specific legislation in different countries. SAP provides specific features and functions to support compliance with regard to relevant legal requirements, including data protection.
+
+Sourcing and Procurement provides an end of purpose (EoP) check to determine whether supplier and customer data is still relevant for business activities in the application or can be blocked.","Sourcing and Procurement provides an end of purpose (EoP) check to determine whether supplier and customer data is still relevant for business activities in the application or can be blocked.
+
+When a business partner is blocked, the application does not display any personal data related to this business partner, including the number of the business partner. A business user can neither display or change any information, nor create new business with this business partner. Furthermore, it is not possible to copy a business object or perform follow-up activities for a business object that contains blocked data, and you cannot search for blocked data or search for a business object using blocked data in the search criteria.",response: I do not have information regarding an end of purpose (EoP) check.; evidence: NA,0.11764705882352941,0.5585991022261706,0.054806167388276275,0.37117884,0.3409787942516649,0.12121212121212123,32,106.30590277950826
+How do I use the Enterprise Search to evaluate responses in Supplier Evaluation?,"You can use the Enterprise Search for evaluation responses. To do so, you start on the Fiori launchpad and select Responses in the drop-down list in the top right corner. In the search field, you can enter response name, number or the user who created it and then press Enter.","Start on the Fiori launchpad and select Responses in the drop-down list in the top right corner. In the search field, you can enter response name, number or the user who created it and then press Enter.",response: The Enterprise Search is used to find information that is needed for the supplier evaluation.; evidence: The Enterprise Search is used to find information that is needed for the supplier evaluation.,0.06666666666666667,0.47915419130711945,1.076601202255194e-231,0.17184778,0.10695187165775401,0.17142857142857143,25,34.30631763279928
+Why does the Procurement Overview does not show anything?,"The Procurement Overview shows, at a glance, the most important information and tasks relevant for you right now. The information is displayed on set of actionable cards. You can therefore focus on the most important tasks, enabling faster decisions and immediate action.","To see the information and tasks on the Procurement Overview, you need the Business Catalog RoleSAP_BCR_MM_PRC_OVP_PC assigned to your user.",response: It is a standard report that is used to show the status of procurements.; evidence: Procurement Overview does not show anything,0.16216216216216214,0.6235916702835648,4.011359540802991e-155,0.56707895,0.1453125,0.1702127659574468,23,19.844607570419793
+How can I find out the amount that was spent without a contract in place?,"You can use the Off-Contract Spend app to analyze the total spend amount in relation to purchase orders that do not have a contract assignment. For some items, no negotiated pricing or blanket purchase agreement is in place when they are purchased. These items are defined as non-contract purchases. You can use this app to measure the percentage of purchases made without any contract.","Check out the following apps: Off-Contract Spend, Purchasing Spend Dashboard, and Procurement Overview. Note that you need the SAP_MM_BC_PUR_STRATEGY Business Catalog role assigned to see the information.",response: You can use the Extensibility for Revenue Account Determination to find out the amount that was spent without a contract in place.; evidence: Extensibility for Revenue Account Determination,0.16,0.5264071129463814,4.190319183117324e-155,0.43810207,0.19316109422492403,0.22950819672131145,38,25.794669497621115
+What is non-managed spend?,"Shows you the total invoice spend where that spend isn't associated with a purchase order.
+
+You can switch the view between supplier and material group.
+
+The bar chart shows the spend amount as a percentage of the invoiced spend by material group (or supplier). The number shows the value of the non-managed spend.
+
+Selecting the header or the chart brings you to the Purchasing Spend KPI.",This spend isn't associated with a purchase order. It's calculated by subtracting the sum of net spend from the total spend.,response: I am a financial manager who is tasked with defining the withholding tax type for payment posting.; evidence: Define Withholding Tax Type for Payment Posting,0.04761904761904762,0.5497523648664355,9.97486269044271e-232,0.20066184,0.0847457627118644,0.12244897959183673,32,21.3065652367787
+Where can I find detailed purchasing spend information?,Purchasing Spend Dashboard,Check out the Details tab on the Purchasing Spend Dashboard app to get details of your purchasing spend information. ,response: I do not have information regarding where I can find detailed purchasing spend information.; evidence: NA,0.17647058823529413,0.5919014087745121,0.11401495772493402,0.7243384,0.28176501860712383,0.2222222222222222,23,19.87967331670174
+Can I modify the UIs?,"You can use the SAP Web IDE to create your own SAP Fiori user interfaces either from scratch or based on templates. The SAP Fiori user interfaces consume released RESTful OData interfaces. After creation and successful testing, you can deploy these user interfaces into SAP S/4HANA Cloud user interface repository and integrate them into the customer’s SAP Fiori launchpad as new tiles using the Custom Tiles and Custom Catalog Extensions application.","Yes, you can create your own SAP Fiori Uis. There are also BAdIs available to influence the behaviour of the apps.","no; evidence: Read, Write Translations Read, Write Translations",0.0,0.35812074442704517,8.231055179516831e-232,0.13114612,0.03787878787878788,0.0,31,22.0
+What functions are available to evaluate suppliers?,Evaluate and monitor the performance of your suppliers. Use questionnaires for scoring suppliers in multiple areas. Leverage this data to instantly benchmark performance and to perform analyses needed to identify valuable suppliers and manage them effectively. Develop the required capabilities for promising suppliers with whom you want to build ongoing relationships.,You can use questionnaires for scoring suppliers. The Supplier Evaluation and Performance Monitoring (SL4) you obtain a scorecard based on the questionnaires.,a) Reviewing the suppliers' financials; b) Identifying the best suppliers; c) Identifying the best suppliers; d) Identifying the best suppliers;,0.058823529411764705,0.4841902861992518,1.016644423123022e-231,0.58232856,0.10452961672473869,0.23809523809523808,30,22.796428145777654
+What is data archiving used for?,"Data archiving is used to delete data at the end of its lifecycle and to block and delete personal data in SAP S/4HANA Cloud. Archiving moves the personal data from the database to archive files if the end of purpose is reached. In doing so, the personal data is implicitly marked as blocked. Blocked data has access restrictions to prevent further unauthorized processing.",To delete data at the end of its lifecycle.,response: The archiving of information is a process that is used to save information that is no longer needed.; evidence: The archiving of information is a process that is used to save information that is no longer needed.,0.09523809523809523,0.5980751938290066,4.493596081897022e-233,0.48374665,0.05037783375314861,0.12765957446808512,32,9.944700564439813
+Which objects can be archived?,"The following table shows the available archiving objects:
+
+Objects in Sourcing and Procurement
+
+Archiving Objects
+
+Purchase Requisitions
+
+MM_EBAN
+
+Purchasing Documents
+
+MM_EKKO
+
+Purchasing Info Records
+
+MM_EINA
+
+Materials Management: Invoice Documents
+
+MM_REBEL","Purchase requisitions, purchasing documents, purchasing info records, materials management and invoice documents.",iii. a file that is a comma-separated list of numbers and letters,0.0909090909090909,0.5203486625105143,1.0832677820940877e-231,0.15882343,0.07518796992481204,0.08,30,12.913575622169335
+Who can display blocked data?,"Only users with special authorization can display blocked data; they are not authorized, however, to create, change, or copy business objects with blocked data, or perform follow-up activities with these business objects.",Only users with special authorization.,no one; evidence: NA The data archiving CO_RATE is the percentage of the total amount of data that can be displayed.,0.0,0.4828856764016328,5.795448691279644e-233,0.11539126,0.02252252252252252,0.0,29,5.999999999999996
+Are there prerequisites to be fulfilled before a purchase requisition can be archived?,"The following prerequisites need to be fulfilled before a purchase requisition can be archived:
+
+All business checks for the purchase requisition need to be fulfilled.
+
+Note
+If the items in the purchase requisition are maintained as a hierarchical list, an item in the list can be archived only if all its children and siblings are closed.
+
+The residence time of each purchase requisition item must have passed.","Yes, all business checks for the purchase requisition need to be fulfilled and the residence time of each purchase requisition item must have passed.","response: Yes, there are prerequisites to be fulfilled before a purchase requisition can be archived.; evidence: Integration Required",0.30769230769230765,0.6181920766830444,2.599216485445275e-78,0.63433856,0.27092274678111583,0.28571428571428575,22,22.78230757966485
+Where can I create a new archiving variant?,"When you schedule the archiving run, you need to enter an existing variant or create a new one. You can do so in the Manage Archiving Variants app.
+
+The variant contains the selection criteria for the purchase requisitions that you want to archive.",In the Manage Archiving Variants app.,response: https://w3.stdio.com/stdio/public/stdio.html|Stdio.com/stdio.html>; evidence: https://w3.stdio.com/stdio/public/stdio.html|Stdio.com/stdio.html>,0.0,0.2598597517480021,0.0,0.07718984,0.0,0.0,26,7.0
+Are there mandatory checks to be carried out on purchasing documents before they can be archived?,"The following checks are carried out on purchasing documents before they can be archived:
+
+Whether residence time 1 has passed (mandatory)
+
+Whether residence time 2 has passed (optional)
+
+Whether the residence time is to be checked against the creation date of the document (optional)","Yes, it needs to be checked whether residence time 1 has passed.","response: Yes, there are.; evidence: Integration Required",0.10526315789473685,0.5642761290073395,5.3448396730677054e-155,0.14074606,0.20947176684881605,0.10526315789473685,28,12.852195913308847
+What are reasons why deletion indicator cannot be set for a purchase order item in a log?,"The system gives the following reasons why deletion indicator cannot be set for a purchase order item in a log:
+
+The document could not be blocked.
+
+No additional check is active for the affected document category or document type.
+
+An item is blocked.
+
+The delivery costs have not been cleared for an item.
+
+The blocked stock for an item is not 0.
+
+Down payments exist for an item.
+
+Parked invoices exist for an item.
+
+The GR quantity is not equal to the Gl quantity.
+
+The GR quantity is not equal to the delivered quantity for an item.
+
+The GR quantity is less than the ordered quantity minus the underdelivery tolerance for an item.
+
+The delivery completed indicator has not been set for an item.
+
+The invoiced quantity is not equal to the GR quantity for an item.
+
+The invoiced quantity is less than the ordered quantity for an item.
+
+An item does not satisfy the criteria of the additional checks.
+
+Open rebate arrangements exist.
+
+The last PO history transaction/event for an item lies outside the tolerance.
+
+The date of the last release (call-off) for an item lies outside the tolerance.
+
+No quotation has been entered, or a quotation has not been rejected, or the deadline for submission of quotations has not expired for an item.",In Read Access Logging (RAL).,response: I do not have information regarding purchase order items.; evidence: NA,0.0,0.5183763578534126,3.985119463158008e-232,0.08897068,0.03289473684210526,0.0,33,5.999999999999997
+Which capabilities does an integration of SAP Fieldglass in Sourcing and Procurement add?,SAP Fieldglass provides a cloud-based solution for managing contingent workforce and for service procurement. The integration of SAP S/4HANA Cloud with SAP Fieldglass enables an integrated invoicing process for the procured services.,The integration of SAP S/4HANA Cloud with SAP Fieldglass enables an integrated invoicing process for the procured services.,Updating of cost values for the goods receipt items in Financial Accounting,0.15384615384615383,0.6151289618932284,4.565054879844424e-155,0.16203296,0.20122484689413822,0.1935483870967742,24,18.744908593248237
+What happens with invoicing messages coming from SAP Fieldglass containing errrors?,"You can receive invoices created in SAP Fieldglass inSAP S/4HANA Cloud.
+
+Error-free invoices can be posted automatically in SAP S/4HANA Cloud. Invoices with errors can be parked or saved as drafts and can later be processed manually.",Invoices with errors can be parked or saved as drafts and can later be processed manually.,response: You can correct them in the SAP system; evidence: Invoicing messages coming from SAP Fieldglass containing errrors You can correct them in the SAP system.,0.1,0.6054396740027836,5.496280161896139e-232,0.47740984,0.06968641114982578,0.14285714285714285,28,16.042330705626686
+Which technical service do I use for approving a purchase requisition between SAP Fieldglass and SAP S/4HANA Cloud?,"Purchase Requisition - Send Status Update Notification (PurchaseRequesitionStatusNotification_Out, SOAP service)",The SOAP service PurchaseRequesitionStatusNotification_Out,response: The technical service is called https://w3.sap.com/sap/s/4hc/sap_s_4_hc_cloud/approve_purchase_request|SAP S/4HANA Cloud - SAP Fieldglass - Purchase Requisition>; evidence: https://w3.sap.com/sap/s/4hc/sap_s_4_hc_cloud/approve_purchase_request|SAP S/4HANA Cloud - SAP Fieldglass - Purchase Requisition,0.08695652173913045,0.2560956116455297,1.0879672710966599e-234,0.45925438,0.03322259136212625,0.06896551724137931,36,4.911534548576029
+Can I work with a preferred supplier?,"To be able to work with a preferred supplier list, you must first create it in the application Manage Preferred Supplier Lists. Follow the steps described below to create and edit a preferred supplier list, so that you can include the listed suppliers in the relevant list for your sourcing project.","To be able to work with a preferred supplier list, you must first create it in the application Manage Preferred Supplier Lists. Follow the steps described below to create and edit a preferred supplier list, so that you can include the listed suppliers in the relevant list for your sourcing project.",response: I do not have information regarding preferred suppliers.; evidence: NA,0.07142857142857142,0.5520888070265452,8.804363503668162e-232,0.5904184,0.07894736842105264,0.06451612903225806,24,48.73829460753688
+How can I change a purchase order?,"Edit an existing purchase order. Changes you can make to an existing purchase order depend on the status. For more information, please see the section Editing an Existing Purchase Order in this document.","Depending on the status, you can make the following changes:
+
+Status Draft:
+
+You can change all existing entries.
+
+Status Not Yet Sent, Sent, and Rejected:
+
+You can no longer change the supplier. All other changes are possible.
+
+Status In Approval:
+
+You can not update the supplier. All other changes are possible.",response: Updating purchase order history at goods receipt for a purchase order; evidence: Updating purchase order history at goods receipt for a purchase order,0.0,0.5802924242512933,7.690076942257604e-232,0.30538797,0.049019607843137254,0.026666666666666665,35,52.00000000000008
+Where can I view the Consumption Percentage?,You can view the Consumption Percentage of the central purchase contract on the list page and at the header level of the document. This percentage is calculated based on the type of contract selected. ,On the list page and at the header level of the document.,response: NA; evidence: NA; evidence: NA,0.0,0.43727031079205597,0.0,0.12153511,0.0,0.0,32,13.0
+How is the consumption percentage calculated?,"The consumption percentage is calculated using the following formulas:
+For quantity contracts:
+
+= [(Release Order Quantity Item 1 * Net Price + Release Order Quantity Item 2 * Net Price) / (Purchase Contract Target Quantity Item 1 * Net Price + Purchase Contract Target Quantity Item 2 * Net Price)] * 100
+
+For value contracts:
+
+= [(Purchase Contract Consumed Value Item 1 + Purchase Contract Consumed Value Item 2) / (Purchase Contract Target Value Item 1 + Purchase Contract Target Value Item 2)] * 100","There are two different formulas for quantity and value contracts.
+Quantity contracts:
+= [(Release Order Quantity Item 1 * Net Price + Release Order Quantity Item 2 * Net Price) / (Purchase Contract Target Quantity Item 1 * Net Price + Purchase Contract Target Quantity Item 2 * Net Price)] * 100
+
+Value contracts:
+= [(Purchase Contract Consumed Value Item 1 + Purchase Contract Consumed Value Item 2) / (Purchase Contract Target Value Item 1 + Purchase Contract Target Value Item 2)] * 100",response: The consumption percentage is calculated by multiplying the amount of the payment by the number of days in the month.; evidence: The consumption percentage is calculated by multiplying the amount of the payment by the number of days in the month.,0.0,0.49853712846251097,7.601159375410181e-232,0.313665,0.028735632183908046,0.0,24,84.99999999999984
+Where can I schedule an application job?,"To schedule an application job, you need to logon to the SAP Fiori application Schedule Supplier Invoice Jobs with the authorization role SAP_BR_AP_ACCOUNTANT.",In the Schedule Supplier Invoice Jobs App.,response: I do not have information regarding where I can schedule an application job.; evidence: NA,0.09523809523809522,0.511535906791687,2.417097137022882e-232,0.5126456,0.07978723404255318,0.17391304347826086,27,8.0
+Can I create a new sourcing project based on a purchase requisition?,"To create a sourcing project from a purchase requisition, you use the HTTP method POST on the SourcingProject entity.",Use the HTTP method POST on the SourcingProject entity,response: I do not have information regarding creating a sourcing project.; evidence: NA,0.0,0.5211771743165122,0.0,0.39589447,0.0,0.0,27,9.999999999999998
+What is the Quota arrangement service?,"This service enables you to perform the following actions using the data provided in an API call:
+
+- List quota arrangements or quota arrangement items according to specific selection criteria (Query)
+
+- Get details of a quota arrangement header or of a quota arrangement item (Single Read)
+
+- Navigate from quota arrangement to related items and vice versa
+
+- Create the following objects:
+        - Quota arrangement header
+        - Quota arrangement header with items
+
+- Add items to an existing quota arrangement
+
+- Update quota arrangement header or items
+
+- Delete quota arrangement or quota arrangement items
+
+The service is based on the OData protocol and can be consumed in apps and other user interfaces.","By using the data provided in an API call this service enables you to list quota arrangements or quota arrangement items according to specific selection criteria (Query), get details of a quota arrangement header or of a quota arrangement item (Single Read), navigate from quota arrangement to related items and vice versa, create the objects 'Quota arrangement header' and 'Quota arrangement header with items', add items to an existing quota arrangement, update quota arrangement header or items, delete quota arrangement or quota arrangement items. The service is based on the OData protocol and can be consumed in apps and other user interfaces.",response: The answer is no.; evidence: NA,0.02,0.5121853893453424,7.305907005716941e-232,-0.004717622,0.06976744186046512,0.03669724770642201,28,102.71328949409016
+What are the key features of the Manage Condition Contracts - Supplier Rebates app,"You can use this app to do the following:
+
+- Search for condition contracts by using compact filters and display them in a list
+
+- Perform actions quickly, such as locking and releasing condition contracts and setting and removing settlement locks
+
+- Navigate to condition contract creation and condition contract editing
+
+- Display additional contract details for a selected condition contract, such as the current contract value and open accruals amount
+
+- Display the settlement dates and settlement date details for a selected condition contract
+
+- Display application log entries for a specific settlement date of a selected condition contract
+
+- Get an overview of the business volume for a selected condition contract
+
+- Analyze the document flow in a detailed way and display all related documents for a selected condition contract","You can use this app to search for condition contracts. For a selected condition contract you can perform actions quickly, such as locking and releasing condition contracts and setting and removing settlement locks, navigate to condition contract creation and condition contract editing, display additional contract details for a selected condition contract, display the settlement dates and settlement date details, display application log entries for a specific settlement date, get an overview of the business volume, analyze the document flow in a detailed way and display all related documents.",response: i do not have information regarding the Manage Condition Contracts - Supplier Rebates application.; evidence: NA,0.0631578947368421,0.5084037845549376,7.640041254455826e-232,0.4001115,0.12237762237762238,0.07692307692307693,21,83.37491108068815
+Which process steps does the integration of SAP S/4HANA Cloud with SAP Fieldglass via cXML messages comprise?,"The integration of SAP S/4HANA Cloud with SAP Fieldglass via cXML messages enables an integrated invoicing process for the procured services.
+
+The following table explains the process steps and the cXML message types used in each process step:
+
+Process Step
+
+Details
+
+cXML Message Type
+
+Receiving invoices
+
+You can receive invoices created in SAP Fieldglass inSAP S/4HANA Cloud.
+
+Error-free invoices can be posted automatically in SAP S/4HANA Cloud. Invoices with errors can be parked or saved as drafts and can later be processed manually.
+
+InvoiceDetailRequest
+Sending status updates for invoices
+
+Your suppliers see status updates in SAP Fieldglass for invoices received in SAP S/4HANA Cloud. For example, when an invoice is paid, a status update is sent.","The integration of SAP S/4HANA Cloud with SAP Fieldglass via cXML messages comprises the following two process steps :
+1. Receiving invoices
+2. Sending status updates for invoices",Updating of cost values for the goods receipt items in Financial Accounting,0.1111111111111111,0.5740729157741253,1.0244914152188952e-231,0.13319203,0.14492753623188406,0.2,30,28.74670063205427
+Which parts do BAdIs usually consist of?,"BAdIs usually consist of two parts:
+Definition
+
+BAdI definition is an interface provided by SAP.
+
+Implementation
+
+BAdI implementation is the coding that defines what should happen when the BAdI is called.",BAdIs usually consist of the BAdI Definition and the BadI Implementation,response: a) a b) a c) a d) a e) a f) a g) a h) a i) a j) a k) a l) a m) a n) a o) a p) a q) a r) a s) a t) a u) a v) a w) a x) a y) a z) a ,0.0,0.35731480494141576,0.0,0.029599268,0.0,0.0,30,12.000000000000025
+Which Purchase Requisition apps can you extend according to your business needs?,"Extensibility for Purchase Requisition Apps
+You can extend the following apps according to your business needs:
+
+Change Purchase Requisitions
+
+Display Purchase Requisitions",The Change Purchase Requisitions app and the Display Purchase Requisitions app.,response: You can extend the application to meet your business needs.; evidence: NA,0.0,0.48373982660910664,7.673870691289002e-232,0.32259315,0.060606060606060615,0.08333333333333334,31,11.91994999934571
+Which Purchase Order apps can you extend according to your business needs?,"Process Extensibility for Documents in Procurement
+You can extend the following apps according to your business needs:
+
+Manage Purchase Orders
+
+Create Purchase Order - Advanced
+
+Change Purchase Order - Advanced
+
+Create Purchase Order via Purchase Requisition","The Manage Purchase Orders app, the Create Purchase Order - Advanced app, the Change Purchase Order - Advanced app and the Create Purchase Order via Purchase Requisition app.",response: I do not have information regarding which Purchase Order apps can you extend according to your business needs.; evidence: NA,0.09302325581395349,0.4711274433135986,3.5549360472630305e-155,0.62797445,0.078125,0.12765957446808512,30,25.40634708506618
+The Adobe output forms of the which documents can you extend according to your business needs?,"Extensibility for Adobe Output Forms of Documents in Procurement
+Use
+You can extend the Adobe® output forms of the following documents according to your business needs:
+
+ERS and Invoicing Plan Settlement
+
+Invoice Verification Complaint
+
+Scheduling Agreement Form
+
+Form Template Purchase Contract
+
+Form Template Purchase Order","ERS and Invoicing Plan Settlement, Invoice Verification Complaint, Scheduling Agreement Form, Form Template Purchase Contract and Form Template Purchase Order.",unanswerable; evidence: NA The Adobe output forms of the purchase order documents can you extend according to your business needs.,0.10526315789473685,0.6035834000660822,8.231055179516831e-232,0.51736426,0.16103896103896106,0.15,34,21.000000000000007
+What is the purpose of the Material Price Variance app?,"With this app you can display the deviation of the actual price paid for materials from what has been set as standard data. You can monitor the material price variance over a certain period of time and evaluate the price deviations of different documents, for example info records, purchase orders, contracts, and invoices. This helps you to determine the reason for the price variance and improve the efficiency of your supply chain management.","To display the deviation of the actual price paid for materials from what has been set as standard data. You can monitor the material price variance over a certain period of time and evaluate the price deviations of different documents, for example info records, purchase orders, contracts, and invoices.",to track the value of a specific material in the value-added process,0.11320754716981131,0.5566460873399462,1.0003688322288243e-231,0.45702276,0.18404907975460125,0.1935483870967742,32,35.90961641976687
+What fey features does the Material Price Variance app provide?,"Key Features
+With this app, you can do the following:
+
+Display the material price variance for different purchasing documents in relation to a range of measures
+
+Drill down to display the material price variance for the following objects for a range of dimensions:
+
+Info Records
+Invoice
+Moving Average Price
+Purchase Contracts
+Purchase Orders
+Analyze the material price variance for different object types for the following set of default filters:
+
+Display Currency
+Validity Start Date
+Validity End Date
+Plant
+Supplier
+Purchasing Group
+Purchasing Organization
+Analyze data in chart and tabular format
+
+Save your personalized settings as a variant
+
+This app uses the C_MaterialPriceVariance CDS view.","1. Display the material price variance for different purchasing documents in relation to a range of measures.
+2. Drill down to display the material price variance for a range of dimensions.
+3. Analyze the material price variance for different object types. 4. Analyze data in chart and tabular format.
+5. Save your personalized settings as a variant.",response: The Material Price Variance application provides the following features:,0.10169491525423728,0.57710233827432,6.367803053737255e-232,0.6590089,0.25485714285714284,0.14925373134328357,18,51.87529199780765
+Which devices types does the Material Price Variance app support?,"Supported Device Types
+Desktop
+
+Tablet
+
+Smartphone","The Material Price Variance app supports desktop, tablet and smartphone.",ios and android os and android os,0.125,0.5426026242119926,9.788429383461836e-232,0.3729265,0.06666666666666667,0.11764705882352941,38,10.704495493937793
+What is the purpose of the Contract Expiry app?,"Contract Expiry
+Use
+You can use this app to identify purchase contracts that expire within a specific time frame. You can also use the app to find the number of expiring contracts, target amount, and the released amount of the expiring contracts. You can analyze the number of contracts that would expire in 90 days. The contracts must be valid on current date and should expire before 90 days in the future.","To identify purchase contracts that expire within a specific time frame. You can also use the app to find the number of expiring contracts, target amount, and the released amount of the expiring contracts. You can analyze the number of contracts that would expire in 90 days. The contracts must be valid on current date and should expire before 90 days in the future.",response: I do not have information regarding the Contract Expiry application.; evidence: NA,0.0,0.5447253961312143,7.490163752058132e-232,0.5316122,0.0672645739910314,0.05194805194805195,28,56.563674658241005
+What fey features does the Contract Expiry app provide?,"Key Features
+With this app, you can do the following:
+
+Analyze data in the form of chart and in tabular format.
+
+Share the analysis results via an email or export as an excel.
+
+Use the filter Purchasing Document Subtype to check purchase contract type.
+Navigate to the following apps:
+
+Manage Purchase Contracts
+
+Purchasing Contract Factsheet
+
+My Purchasing Document Items
+
+Supplier Factsheet
+
+Save the analyzed filters for later reference as a new tile.
+
+Filter views
+
+Click the arrow icon on the screen
+
+Choose the Save as Tile option
+
+Enter relevant details and save
+
+The newly created tile displays on the launchpad.
+
+This app uses the following CDS view:
+C_PurchaseContractExpiry","1. Analyze data in the form of chart and in tabular format.
+2. Share the analysis results via an email or export as an excel.
+3. Use the filter Purchasing Document Subtype to check purchase contract type.
+4. Save the analyzed filters for later reference as a new tile.",unanswerable; evidence: NA This is a list of features that the Goods Receipt application provides.,0.03636363636363636,0.5161391454083579,9.37679901839059e-232,0.32101285,0.09132420091324202,0.09375,40,45.40230342028902
+Which devices types does the Contract Expiry app support?,"Supported Device Types
+Desktop
+
+Tablet
+
+Smartphone","The Contract Expiry app supports desktop, tablet and smartphone.",response: I am a virtual assistant who can only help you with information about $TOPIC.; evidence: NA,0.0,0.47624924643473193,3.6801512696566824e-232,0.04130329,0.023923444976076555,0.0,35,9.999999999999998
+What is the purpose of the Unused Contracts app?,"Unused Contracts
+Use
+You can use this app to identify the number of contracts not used from the previous year to date. You can also find the target and released amount of the unused contracts. Unused contracts are contracts that were not used for any purchase order assignment or were not changed within a certain time frame.",To identify the number of contracts not used from the previous year to date. You can also find the target and released amount of the unused contracts.,response: I am unable to answer the question.; evidence: NA,0.0625,0.5171845363719123,1.0332112772921225e-231,0.03306668,0.09677419354838708,0.10810810810810811,32,24.198763703587048
+What options are available to configure the Flexible Workflow for Purchase Scheduling Agreements?,"The flexible workflow is a general function that allows you to define condition-based workflows for approval processes. For purchase scheduling agreements, you can set up automatic, one-step, or multi-step approval workflows based on your requirements.
+The following roles are required when working with the flexible workflow for purchase scheduling agreements:
+Roles in Flexible Workflow for Purchase Scheduling Agreements
+Who Required Role
+User who creates purchase scheduling agreement SAP_BR_PURCHASER
+Approver SAP_BR_PURCHASING_MANAGER
+Business process configuration expert SAP_BPC_EXPERT","For purchase scheduling agreements, you can set up automatic, one-step, or multi-step approval workflows based on your requirements.",response: I do not have information regarding the Flexible Workflow for Purchase Scheduling Agreements.; evidence: NA,0.2424242424242424,0.5637562218166533,8.412065649527267e-232,0.68938935,0.3142048898767427,0.2777777777777778,23,18.999999999999996
+How can I maintain supplier lists for sourcing?,"With this app, you as a sourcing manager, can assign suppliers to a sourcing project based on the selected combination of Material Group and Company Code. You can do this by updating the supplier list in the app Manage Sourcing Projects. During this process, the preferred supplier list for the specified material group and company code is made available for your sourcing project. Please note, that this app doesn't have an own tile on the SAP Fiori launchpad.",A sourcing manager can assign suppliers to a sourcing project based on the selected combination of Material Group and Company Code. You do this by updating the supplier list in the app Manage Sourcing Projects. ,response: I am a business owner who is a buyer.; evidence: NA,0.0,0.5313406065106392,8.784466509829401e-232,0.08909057,0.08287292817679559,0.0851063829787234,32,35.831370917072576
+How do I manage quotations from suppliers?,"Purpose
+You can use this app to display all supplier quotations that you have received for different RFQs. You can view the detailed information for each quotation.
+Key Features
+You can perform the following tasks if you have the business role Purchaser:
+§ Display the list of all quotations
+§ Search for a particular quotation
+§ Display detailed information for a quotation by selecting the corresponding line
+§ Display general information such as creation date, supplier address, and contact data
+§ Display detailed information for items such as the actual item, quantity and pricing details
+§ Submit quotations that are in status In Preparation
+§ Edit quotations that are in status In Preparation or in status Submitted
+§ Delete quotations that are in status In Preparation
+§ Award quotations
+Note
+The system doesn't accept supplier quotations with the net order price that is equal to 0.
+§ Set quotations to Completed
+§ Navigate to the detailed information about suppliers and RFQs
+§ Display the History of the supplier quotations to keep track of the document changes.","
+Use the Manage Supplier Quotations app to display all supplier quotations that you have received for different RFQs. You can display all quotations, search quotations, view detailed information, submit quotations, edit quotations, delete quotations, and award quotations",response: I am a business owner who is looking to manage my business's suppliers.; evidence: NA,0.0784313725490196,0.4655840654264797,8.412065649527267e-232,0.27463698,0.10729613733905578,0.11111111111111113,34,37.93671566789964
+What type of Request for Quotation types are available?,"With this app, you can display RFQs that have been created in the SAP S/4HANA Cloud system by type. You can see the following RFQ types:
+Ext. Price Requests: RFQs for which pricing is extracted from external systems for example, SAP Ariba.
+Ext. Sourcing Requests: RFQs for which bidding and awarding takes place externally. The RFQs that are created in SAP S/4HANA Cloud, and then sent to the SAP Ariba system where the bidding process takes place. The awarded quotations are then sent back to SAP S/4HANA Cloud.
+Int. Sourcing Requests: RFQs for which all the processes happen internally within SAP S/4HANA Cloud.","You can see the following Request for Quotation (RFQ) types:
+External Price Requests: extracted from external systems for example, SAP Ariba.
+External Sourcing Requests: bidding and awarding takes place externally.
+Internal Sourcing Requests: all the processes happen internally within SAP S/4HANA Cloud.",response: I am a virtual assistant who can only help you with information about $TOPIC.; evidence: NA,0.07142857142857144,0.5473401803861965,9.594503055152632e-232,0.2392309,0.09999999999999999,0.06666666666666667,31,42.940522855070206
+Can you schedule recurring jobs related to purchasing?,"With this app you can schedule and monitor recurring, purchasing related activities as a background job.
+
+Key Features
+You can choose from the following job templates:
+
+Automatic Creation of Purchase Orders from Requisitions
+
+Automatic Creation of Service Entry Sheets from Time Recording
+
+Note
+Please use this application job only if an error occurred during the automatic generation of service entry sheets from timesheets and you want to restart the creation of failed service entry sheets or goods receipts.
+
+Create Scheduling Agreement Releases
+
+Renumbering of Schedule Lines
+
+To renumber schedule lines for an item in a purchase scheduling agreement, you need to schedule a background job using the job template Renumbering of Schedule Lines in the app Schedule Purchasing Jobs - Advanced. Here you can define the threshold, which is 50% to 100% of its maximum limit: 9999 schedule lines. During the creation of schedule lines, if the defined threshold value is reached, the scheduled background job triggers the renumbering of the schedule lines so that you can continue creating new lines.","With this app you can schedule and monitor recurring, purchasing related activities as a background job.
+
+Key Features
+You can choose from the following job templates:
+
+Automatic Creation of Purchase Orders from Requisitions
+
+Automatic Creation of Service Entry Sheets from Time Recording
+
+Note
+Please use this application job only if an error occurred during the automatic generation of service entry sheets from timesheets and you want to restart the creation of failed service entry sheets or goods receipts.
+
+Create Scheduling Agreement Releases
+
+Renumbering of Schedule Lines
+
+To renumber schedule lines for an item in a purchase scheduling agreement, you need to schedule a background job using the job template Renumbering of Schedule Lines in the app Schedule Purchasing Jobs - Advanced. Here you can define the threshold, which is 50% to 100% of its maximum limit: 9999 schedule lines. During the creation of schedule lines, if the defined threshold value is reached, the scheduled background job triggers the renumbering of the schedule lines so that you can continue creating new lines.",no evidence; evidence: NA The system suggests all the key data for the goods receipt from the preceding document,0.047337278106508875,0.5723038400922503,1.7862791862686203e-155,0.2784099,0.1699197860962567,0.09523809523809523,38,109.29768660144074
+How can you manage quota arrangements?,"With this app you can schedule and monitor recurring, purchasing related activities as a background job.
+Key Features
+You can choose from the following job templates:
+
+• Automatic Creation of Purchase Orders from Requisitions
+
+• Automatic Creation of Service Entry Sheets from Time Recording
+
+Note
+Please use this application job only if an error occurred during the automatic generation of service entry sheets from timesheets and you want to restart the creation of failed service entry sheets or goods receipts.
+
+• Create Scheduling Agreement Releases
+
+• Renumbering of Schedule Lines
+
+To renumber schedule lines for an item in a purchase scheduling agreement, you need to schedule a background job using the job template Renumbering of Schedule Lines in the app Schedule Purchasing Jobs - Advanced. Here you can define the threshold, which is 50% to 100% of its maximum limit: 9999 schedule lines. During the creation of schedule lines, if the defined threshold value is reached, the scheduled background job triggers the renumbering of the schedule lines so that you can continue creating new lines.","You can schedule and monitor recurring, purchasing related activities as a background job. You can choose from the following job templates:
+• Automatic Creation of Purchase Orders from Requisitions
+• Automatic Creation of Service Entry Sheets from Time Recording
+• Create Scheduling Agreement Releases
+• Renumbering of Schedule Lines",response: I am a virtual assistant who can only help you with information about $TOPIC.; evidence: NA,0.06349206349206349,0.502872032198039,9.594503055152632e-232,0.025702331,0.09999999999999999,0.09677419354838708,39,47.88837839615428
+How can I find the consumption of value type contracts?,"You can use this app to identify the consumption percentage of value type contracts from the previous year to date. You can also find the target and released amount of the contracts.
+The KPI is displayed in the following views:
+§ By Supplier
+§ By Purchasing Group
+§ By Purchasing Organization
+§ Document
+§ Trend
+§ Trend by Supplier",Use the Value Contract Consumption app to identify the consumption percentage of value type contracts from the previous year to date.,response: You can find the consumption of value type contracts by analyzing the total value of all the value type contracts in the value chain.,0.30769230769230765,0.6620696010412993,0.1133766028025001,0.69882166,0.2591610790581631,0.43478260869565216,18,17.945734920059476
+What are settlement documents?,"When you settle condition contracts, the system creates one or more settlement documents according to the settings of the condition contract type.
+Purpose of Settlement Documents
+Settlement documents serve the following purposes.
+§ Settlement documents document the settlement run: You can see the created settlement documents in the document flow of a condition contract.
+§ Settlement documents are used to calculate rebate or accruals amounts: The calculation is performed by means of a separate pricing procedure specified in the settlement document.
+§ Settlement documents are the link to financial accounting: The system creates journal entries according to the different settings for the condition contract type and for pricing.","Settlement documents serve the following purposes:
+- document the settlement run
+- used to calculate rebate or accruals amounts
+- the link to financial accounting",response: I am a virtual assistant who can only help you with information about $TOPIC.; evidence: NA,0.0,0.49524789777669037,8.06798322521923e-232,0.20767286,0.022321428571428572,0.0,29,26.000000000000007
+How can I monitor settlement documents?,"With this app, you can easily get an overview of settlement documents for a selected time period and specific criteria.
+
+The app also allows you to drill down on cumulated settlement amounts based on settlement document information. This facilitates the management of settlement documents and helps you to make informed business decisions.
+
+You can monitor settlement documents based on document and condition contract information. The settlement amounts are converted and summed up in the respective display currency; this gives you a precise overview of the settlement documents in your settlement process.",You can easily get an overview of settlement documents for a selected time period and specific criteria and drill down on cumulated settlement amounts based on settlement document information. This facilitates the management of settlement documents and helps you to make informed business decisions.,response: I do not have information regarding how to monitor settlement documents.; evidence: NA,0.14545454545454548,0.5328410201602511,3.306908134433258e-155,0.58849275,0.20499465811965814,0.13793103448275862,18,40.62692629415067
+How can I verify the amounts calculated during condition contract settlement?,"With this app, you can view an itemization of the business volume for selected condition contract settlement documents.
+This app uses the C_DetStmntPurgRbteQry CDS view.
+Key Features
+You can use this app to verify the settlement amounts that are calculated by the system during condition contracts settlement by providing a complete list of the items which were included in these calculations.","With Analyze Detailed Statement Purchasing Rebates, you can view an itemization of the business volume for selected condition contract settlement documents.",response: You can verify the amounts calculated during condition contract settlement by referring to the payment posting.; evidence: How can I verify the amounts calculated during condition contract settlement?,0.2222222222222222,0.6528171739157509,1.3878192587942283e-78,0.55181676,0.17399665033186523,0.24000000000000002,26,21.649905047814233
+What can I do with Extend Contract Conditions?,"With this app you can extend the selected condition contracts according to the extension calendar in the condition contract header.
+Key Features
+Select condition contracts with an extension calendar.
+Extend condition contracts with an extension calendar.","You can extend the selected condition contracts according to the extension calendar in the condition contract header, such as, select condition contracts with an extension calendar and extend condition contracts with an extension calendar.",response: You can use the Extend Contract Conditions to determine the revenue account for the period in question.; evidence: Revenue Account Determination,0.25,0.5220001672322934,4.152586198841012e-155,0.40230286,0.2534231953889787,0.35714285714285715,23,29.85385531159205
+How can I manage sources of supply?,"With this app you can view and manage existing sources of supply for a material for a defined validity period. You can create a source of supply, such as a source list, a contract, or a purchasing info record.
+Key Features
+You can perform the following tasks if you have the business role purchaser:
+• Search and view sources of supply based on different criteria, such as material, supplier, material group, plant, purchasing organization, purchasing document category, quota arrangement, and validity period.
+• View the relevance of different sources of supply
+• Create or edit sources of supply
+Note
+When you click create and choose a source of supply, you will be navigated to the respective app to provide the details for the creation of the purchasing document.
+§ Check the default source assignment of a purchase requisition for a specific material, plant, and date combination
+§ Choose Simulate SoS Assignment
+§ Enter the relevant material, plant, and date
+§ Choose Go
+The system will display the default sources of supply. If multiple sources of supply exist and if the system cannot determine a single default source of supply, then all sources of supply will be shown.","With Manage Sources of Supply, you can view and manage existing sources of supply for a material for a defined validity period. You can create a source of supply, such as a source list, a contract, or a purchasing info record.",response: I do not have information regarding how to manage sources of supply.; evidence: NA,0.16,0.5371974189030496,1.2297563025247023e-78,0.6461896,0.1955912334352701,0.14285714285714285,23,38.846162272242644
+What options are available in Monitor Supplier Confirmations?,"With this app, you can display purchasing document items (purchase orders and scheduling agreements) that have pending supplier confirmations and monitor their status from the supplier. You can also choose a purchasing document item to view its delivery schedule, account assignment details, and general information.
+Key Features
+You can use this app to:
+• View purchasing document items based on filter criteria such as the purchasing document, purchasing organization, purchasing group, supplier, and confirmation category.
+Note
+Only purchasing document items that fall within a specified monitoring period are displayed in this app. This monitoring period is defined by your business configuration expert in the configuration step Set Up Confirmation Control. This configuration step can be found in the Manage Your Solution app under Sourcing and Procurement  Operational Procurement  Confirmations.
+• View the delivery schedule, account assignment details, and general information of a purchasing document item.
+• Navigate to view contextual information related to a supplier.
+• Navigate to view contextual information related to a material.","You can display purchasing document items (purchase orders and scheduling agreements) that have pending supplier confirmations and monitor their status from the supplier. You can also choose a purchasing document item to view its delivery schedule, account assignment details, and general information.",no relevant information is found; evidence: NA The system suggests all the key data for the goods receipt from the preceding document,0.10344827586206896,0.5196307636797428,3.0609232467155214e-155,0.44624218,0.11955492424242424,0.125,23,41.44410224073789
+What is the Off-Contract Spend app used for?,"You can use the Off-Contract Spend app to analyze the total spend amount in relation to purchase orders that do not have a contract assignment. For some items, no negotiated pricing or blanket purchase agreement is in place when they are purchased. These items are defined as non-contract purchases. You can use this app to measure the percentage of purchases made without any contract.
+The KPI is displayed in the following views:
+• By Supplier
+• By Purchasing Group
+• By Purchasing Organization
+• By Material Group
+• Document
+• By Plant
+• By WBS Element
+• By Cost Center
+• Trend
+• Trend by Supplier
+• Trend by Purchasing Category","You can use the Off-Contract Spend app to analyze the total spend amount in relation to purchase orders that do not have a contract assignment. For some items, no negotiated pricing or blanket purchase agreement is in place when they are purchased. These items are defined as non-contract purchases. You can use this app to measure the percentage of purchases made without any contract.",response: I am unable to answer this question.; evidence: NA,0.05714285714285715,0.541900383574622,8.319100378795605e-232,-0.07240155,0.10256410256410255,0.052631578947368425,33,58.056995189723594
+What is the Manage Purchasing Info Records app used for?,"With this app you can view and manage purchasing info records (info records). You can also determine which material can be procured from a specific supplier at a defined price for a certain validity period. To create an info record using this app, you must store a material or a material group and its supplier details at a plant or a purchasing organization level.
+Key Features
+With this app, you can do the following:
+• Search for info records based on different criteria such as info record number, material, material group, supplier, and plant
+• View, create, edit, or delete info records
+Note
+You can create and display info records for the following procurement types:
+o Consignment
+o Pipeline
+o Standard
+o Subcontracting
+• Maintain conditions for a defined validity period. Conditions are used to determine the net price of a material.
+Note
+You can only define the condition type Gross Price in info records.
+• Maintain the following sections in an info record:
+o General Information
+o Purchasing Data
+o Delivery and Quantity
+o Conditions
+o Reference
+• Enable info records for automatic sourcing
+• Extend existing info records to different plants and purchasing organizations. To extend an info record, you can do the following:
+o Choose Create New Purchasing Info Record icon.
+o Enter the material and supplier details.
+• The info record details for this material and supplier combination appear on the screen.
+o Enter the relevant plant and purchasing organization details.
+o Choose Save.
+Note
+You can provide description for an info record only when you have entered the material group.
+• Navigate to the Material and Supplier object pages","You can view and manage purchasing info records (info records). You can also determine which material can be procured from a specific supplier at a defined price for a certain validity period. To create an info record using this app, you must store a material or a material group and its supplier details at a plant or a purchasing organization level.",response: a. Manage Purchasing Info Records is an application used to manage the archiving of information about purchases.; evidence: Manage Purchasing Info Records is an application used to manage the archiving of information about purchases.,0.19277108433734938,0.5325594967187837,9.966150368347767e-232,0.696637,0.16055045871559634,0.22916666666666669,20,61.884889585538325
+What can I do in the Evaluating Suppliers app in Supplier Evaluation?,"You can use this app to access evaluation responses that category managers are asking you to fill out. You can also access responses that you have already filled out. Note that you can display submitted evaluation responses, but you can no longer change them.
+Key Features
+You can display evaluation responses, which can have the following statuses:
+• New
+• In process
+• Submitted
+You can also search for specific evaluation responses, using the statuses as search criteria.","You can use this app to access evaluation responses that category managers are asking you to fill out. You can also access responses that you have already filled out. Note that you can display submitted evaluation responses, but you can no longer change them.",response: You can use the Evaluating Suppliers application to rate the suppliers you are evaluating.; evidence: Evaluating Suppliers,0.19999999999999998,0.5952796936035156,1.3162666718999167e-78,0.345666,0.2032520325203252,0.2903225806451613,27,35.449972514025085
+Where can I find quota arrangements? ,"With this app you can display and manage quota arrangements. This app enables you to specify the portion of a requirement that can be obtained from a certain source of supply over a specific period of time. If a quota arrangement exists for a material, the system takes this quota arrangement into account during the source determination process. You can specify a quota arrangement for a material and plant combination for a specific validity period.",You can display and manage quota arrangements in the Manage Quota Arrangements app. ,response: I do not have information regarding quota arrangements.; evidence: NA,0.17391304347826086,0.543644920984904,4.976381283078758e-155,0.692564,0.17151379567486955,0.16666666666666669,15,13.905997768932968
+How do I create a quota arrangement?,"With this app you can display and manage quota arrangements. This app enables you to specify the portion of a requirement that can be obtained from a certain source of supply over a specific period of time. If a quota arrangement exists for a material, the system takes this quota arrangement into account during the source determination process. You can specify a quota arrangement for a material and plant combination for a specific validity period.",You can create quota arrangements in the Manage Quota Arrangements app,response: I am a financial manager who is trying to create a quota arrangement.; evidence: NA,0.16666666666666666,0.5130192041397095,5.249111552455261e-232,0.61004347,0.16524869109947646,0.2962962962962963,22,11.870190147560061
+What is a RQ?,"RQ (Internal Sourcing Request) If you select this document type, awarding takes place in an SAP S/4HANA system. Central supplier quotations and follow-on documents must be created manually.",RQ is an internal sourcing request and used to create a central RFQ where awarding takes place in an SAP S/4HANA system. ,"response: The information about Read, Write Translations is not relevant.; evidence: Read, Write Translations",0.0625,0.5364928767085075,9.893133360884868e-232,0.05912496,0.07389162561576354,0.05405405405405405,29,22.927087918122442
+How do I make sure a central RFQ is sent to an Ariba system?,"RE (External Sourcing Request) If you select this document type, the central RFQ is sent to SAP Ariba Sourcing, where the suppliers can place their bids, and the awarding takes place in SAP Ariba Sourcing. Central supplier quotations and follow-on documents are created automatically.",Use an external sourcing request (RE) to send the central RFQ to an Ariba system.,response: I do not have information regarding how to make sure a central RFQ is sent to an Ariba system.; evidence: NA,0.37499999999999994,0.6161265043275697,0.15330272465145417,0.9011762,0.3090897817460318,0.3783783783783784,26,14.302970419066028
+What is a purchase contract? ,"A purchase contract is a legally binding purchase outline agreement that contains special conditions that are negotiated between a buyer and a seller, regarding the goods to be supplied or services to be performed. It is valid for a specific period, during which goods and services are provided to the buyer.",A legally binding purchase outline agreement containing the conditions negotiated between a buyer and a seller.,response: I am a virtual assistant who can only help you with information about $TOPIC.; evidence: NA,0.0,0.4638093411922455,7.95096645136912e-232,0.1362467,0.046511627906976744,0.06060606060606061,26,16.26269486544751
+Where do I need rounding profiles?,"When you enter purchase orders and sales orders, you can have the system optimize the quantities to ensure that in agreements with customers or suppliers threshold values or the use of complete logistical units of measure, such as whole pallets, can, for example, be guaranteed.",Rounding profiles are used to optimize the quantities.,response: I do not have information regarding rounding profiles.; evidence: NA,0.2222222222222222,0.5002303143342336,6.42207747478458e-232,0.65721273,0.17746913580246912,0.2105263157894737,28,9.000000000000002
+What types of rounding profiles exist? ,"Static rounding profiles are used when you want to round up to a multiple of a unit of measure without changing the unit of measure. However, static rounding profiles can only be used to round up rather than round down quantities.",Static and dynamic rounding profiles,response: I am unable to find information regarding rounding profiles.; evidence: NA,0.23529411764705882,0.4461726602166891,9.29446412632448e-156,0.61860466,0.12583892617449666,0.23529411764705882,18,5.90952825156533
+Where do I maintain rounding profiles?,"In Maintain Rounding Profile configuration step, you must define a rounding profile, a rounding rule, and a unit of measure group. ",In the Maintain Rounding Profile configuration step.,response: I do not have information regarding where to maintain rounding profiles.; evidence: NA,0.2,0.5384264340003332,3.103614158540553e-232,0.7287719,0.22058823529411764,0.2857142857142857,21,8.0
+When do I use dynamic rounding?,"n Maintain Rounding Profile configuration step, you define how dynamic rounding takes place, by defining a dynamic rounding profile, a rounding rule, and a unit of measure group. Rounding profiles and unit of measure groups are then assigned to the products / purchasing info record.
+
+Dynamic Rounding Profile.
+
+A dynamic rounding profile consists of a rounding rule and a rounding method.
+
+Rounding method.
+
+The rounding method controls how rounding is performed. The rounding methods that are possible are predefined in the system. The following are examples of possible rounding methods:
+
+Rounding to a multiple of the order/sales unit without a change in the unit of measure.
+
+Rounding to a multiple of the order/sales unit with a possible change to the unit of measure (for example, to larger units, such as pallets).
+
+Rounding rule
+
+The rounding rule consists of units of measure and percentage threshold values. You can define your own rounding rules in Maintain Rounding Profile configuration step. You do this by assigning a threshold value at which the system rounds up or down, to each unit of measure. The rules for conversion between the different units of measure must be defined in the relevant product master.
+
+Unit of measure group
+
+The unit of measure group specifies which units of measure are allowed for the supplier or the recipient of the goods. The units of measure to be used in rounding are derived from the rounding rule and the units of measure to be used for the product. If you wish to round to a specific unit of measure, the system performs the following checks based on the settings in the rounding profile:
+
+Is the unit of measure contained in the unit of measure group for the product from the supplier?
+
+Is the unit of measure contained in the unit of measure group for the product from the distribution chain?",Dynamic rounding rounds to multiples of a unit of measure and are suited for rounding to complete logistical units of measure such as whole pallets.,"response: I am a business owner who is a translator.; evidence: Operations for Key User Adaptation Read, Write Translations",0.048780487804878044,0.5032468512654305,1.0618063059647207e-231,0.021295384,0.08264462809917354,0.0909090909090909,34,25.839486174770343
+When do I use static rounding? ,"A static rounding profile comprises threshold and rounding values, whereby every threshold value is assigned a rounding value. In rounding off, the system starts with the highest level in the rounding profile. It processes all the levels below that, carrying out the calculation until the procedure is stopped or until the lowest level is reached. The lowest level is processed differently, as the rounding logic is different here than in the other levels.
+
+The steps in the procedure are as follows:
+
+As long as the lowest level has not been reached:
+
+It divides the quantity required into whole numbers by the rounding value of the current level.
+
+It then checks whether the remainder is equal to or greater than the threshold value of the current level.
+
+If yes:
+
+It rounds up the quantity required to the next multiple of the rounding value of the current level and stops there.
+
+If no:
+
+It repeats the procedure with the next lower level.
+
+If the lowest level has been reached:
+
+It checks whether the quantity required is equal to or greater than the threshold value of the lowest level.
+
+If yes:
+
+It rounds up the quantity required to the next multiple of the rounding value of the first level and stops there.
+
+If no:
+
+It does not change the quantity required and stops there.","Static rounding round up to a multiple of a unit of measure without changing the unit of measure. They can only be used to round up, not to round down quantities.",response: I do not have information regarding when to use static rounding.; evidence: NA,0.19047619047619047,0.5419191618760427,1.0669733992029681e-231,0.7229252,0.21754535147392287,0.2222222222222222,32,29.45100597140119
+How can I adapt existing fields in SAP S/4HANA Sourcing and Procurement?,"You can change the layout of tables and forms directly in the running user interface. A special graphical user interface adaptation mode provides the mechanisms to hide fields in existing forms, tables, or filters. You can rename labels, add fields to the user interface from the field repository and move fields or entire blocks to other sections of the screen.","You can change the layout of tables and forms directly in the running user interface. A special graphical user interface adaptation mode provides the mechanisms to hide fields in existing forms, tables, or filters. You can rename labels, add fields to the user interface from the field repository and move fields or entire blocks to other sections of the screen.",response: I do not have information regarding existing fields.; evidence: NA,0.0625,0.47690436244010925,8.412065649527267e-232,0.24544512,0.07462686567164181,0.056338028169014086,26,60.90840634183418
+How can I create custom logic for the BAdIs in SAP S/4HANA Sourcing and Procurement?,"Many business objects have enhancement spots (also called Business Add-Ins (BAdIs)). A BAdI allwos you to attach additional code to the existing program and it usually consists of two parts. These are definition and implementation. In the Custom Logic app, you can create custom logic for the BAdIs, for example, you can implement additional checks, set default values, or create mappings in combination with custom fields.","In the Custom Logic app, you can create custom logic for the BAdIs, for example, you can implement additional checks, set default values, or create mappings in combination with custom fields.",response: I do not have information on how to create custom logic for the BAdIs in SAP S/4HANA Sourcing and Procurement.; evidence: NA,0.23529411764705882,0.5183741273358464,0.13191601177632875,0.7223507,0.20855379188712525,0.2545454545454545,23,28.131960037927584
+Which information is avaiblable on the Purchasing Spend card in the Purchasing overview app?,"- Shows you the overall purchasing spend, calculated using the aggregated purchase order values.
+
+- You can switch the view between supplier, material group, and purchasing spend trend.
+
+- Selecting the header brings you to the Purchasing Spend KPI.
+
+- Purchasing Spend Trend shows you the trend of the overall purchasing spend over the last four quarters.
+
+        - Shows Planned Spend of Schedule Line, Purchase Order Net   Amount, and Expected Spend of Purchase Requisition for the upcoming quarters.
+
+        - Selecting the header brings you to the Purchase Order Value KPI.
+
+        - You can also click one of the quarterly data points to get more information.
+
+        - The graph reflects what's in the global filter.","It shows you the overall purchasing spend, calculated using the aggregated purchase order values. You can switch the view between supplier, material group, and purchasing spend trend. The graph reflects what's in the global filter.",response: i. The Purchasing Spend card shows the total amount of the purchase and the total amount of the purchase order.; evidence: i. The Purchasing Spend card shows the total amount of the purchase and the total amount of the purchase order.,0.2580645161290323,0.5653114270190803,4.338447293476101e-155,0.48207885,0.24242203674948234,0.3333333333333333,27,27.313733564958333
+How can I change a price relating to a purchase contract? ,"You can change a price relating to a purchase contract in two ways:
+Gross price
+The price change is applied directly to the gross price.
+Condition type
+The price change relates to one particular condition type only. If the price change solely affects the freight costs, you can restrict the change to the condition type for freight costs.","You can change a price relating to a purchase contract in two ways, either the price change applies directly to the gross price or it relates to one particular condition type only.",response: You cannot change a price relating to a purchase contract.; evidence: NA,0.358974358974359,0.628534676397548,0.22068603375419538,0.69161475,0.4532804857480182,0.4,21,23.303343293877365
