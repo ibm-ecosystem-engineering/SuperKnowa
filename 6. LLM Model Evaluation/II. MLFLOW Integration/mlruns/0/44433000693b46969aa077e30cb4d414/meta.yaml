@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/sahil/Documents/GitHub/Foundation-models/Evaluation/Private%20dataset%20evaluation/Final%20Evaluation/mlruns/0/44433000693b46969aa077e30cb4d414/artifacts
+end_time: 1686652345904
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 44433000693b46969aa077e30cb4d414
+run_name: rambunctious-doe-609
+run_uuid: 44433000693b46969aa077e30cb4d414
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1686652314002
+status: 3
+tags: []
+user_id: sahil

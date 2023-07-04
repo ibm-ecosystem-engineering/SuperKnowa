@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/sahil/Documents/GitHub/Foundation-models/Evaluation/Private%20dataset%20evaluation/Final%20Evaluation/mlruns/862705334431691732/b6fb9a39c36540749026a49f642c51c3/artifacts
+end_time: 1686920606569
+entry_point_name: ''
+experiment_id: '862705334431691732'
+lifecycle_stage: active
+run_id: b6fb9a39c36540749026a49f642c51c3
+run_name: sneaky-shark-356
+run_uuid: b6fb9a39c36540749026a49f642c51c3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1686920571820
+status: 3
+tags: []
+user_id: sahil
