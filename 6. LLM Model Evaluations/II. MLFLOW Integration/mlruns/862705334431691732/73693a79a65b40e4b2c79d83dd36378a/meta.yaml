@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/sahil/Documents/GitHub/Foundation-models/Evaluation/Private%20dataset%20evaluation/Final%20Evaluation/mlruns/862705334431691732/73693a79a65b40e4b2c79d83dd36378a/artifacts
+end_time: 1687434427006
+entry_point_name: ''
+experiment_id: '862705334431691732'
+lifecycle_stage: active
+run_id: 73693a79a65b40e4b2c79d83dd36378a
+run_name: ModelEvaluation_20230622171702
+run_uuid: 73693a79a65b40e4b2c79d83dd36378a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687434422933
+status: 3
+tags: []
+user_id: sahil

@@ -1,0 +1,9 @@
+   Model Name  Temperature Top P Top K Decoding Method  Min New Tokens  \
+0       Bloom          0.3     -     -          sample              10   
+1  FlanT5-XXL          0.7     1    50          Greedy              10   
+2   FlanT5-XL          0.7     1    50          Greedy              10   
+
+   Max New Tokens Stop Sequences  
+0             200       Question  
+1             200              -  
+2             200              -  
