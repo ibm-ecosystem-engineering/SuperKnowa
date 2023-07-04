@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/sahil/Documents/GitHub/Foundation-models/Evaluation/Private%20dataset%20evaluation/Final%20Evaluation/mlruns/862705334431691732/f1794d2cd5004e349417a5723550e295/artifacts
+end_time: 1686924806519
+entry_point_name: ''
+experiment_id: '862705334431691732'
+lifecycle_stage: active
+run_id: f1794d2cd5004e349417a5723550e295
+run_name: kindly-hawk-374
+run_uuid: f1794d2cd5004e349417a5723550e295
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1686924802348
+status: 3
+tags: []
+user_id: sahil
