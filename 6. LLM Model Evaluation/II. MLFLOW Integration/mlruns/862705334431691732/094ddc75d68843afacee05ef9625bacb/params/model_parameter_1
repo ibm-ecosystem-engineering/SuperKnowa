@@ -1,9 +1,0 @@
-  Model Name  Temperature Top P Top K Decoding Method  Min New Tokens  \
-3     FlanT5          0.7     1    50          Greedy              10   
-4       Coga          0.7     1    50          Greedy              10   
-5   Flan_ul2          0.7     1    50          Greedy              10   
-
-   Max New Tokens Stop Sequences  
-3             200              -  
-4             200              -  
-5             200              -  
