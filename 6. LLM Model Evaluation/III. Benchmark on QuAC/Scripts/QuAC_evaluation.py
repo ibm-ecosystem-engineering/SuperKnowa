@@ -318,14 +318,9 @@ for i in range(len(df["data"])):
                 },
             }
             
-            #bam
-            # response = requests.post('https://bam-api.res.ibm.com/v1/generate', headers=headers, json=json_data)
 
-            #Coga
-            response = requests.post('https://fmaas-dev-api.bx.cloud9.ibm.com/v1/generate', headers=headers, json=json_data)
+            response = requests.post('llm.demo.server', headers=headers, json=json_data)
 
-            #LLma
-            # response = requests.post('https://api-inference.huggingface.co/models/decapoda-research/llama-7b-hf', headers=headers, json=json_data)
 
 
             json_response = json.loads(response.content.decode("utf-8"))
