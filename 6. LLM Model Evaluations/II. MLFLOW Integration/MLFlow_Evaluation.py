@@ -18,7 +18,7 @@ mlflow.start_run(run_name=run_name)
 mlflow.set_experiment('Model_Evaluation')
 
 # List of file names
-csv_files = glob.glob("*.csv")
+csv_files = glob.glob("Output_CSV/*.csv")
 
 # Define model size mappings
 model_size_mapping = {
