@@ -12,7 +12,8 @@ from primeqa.components.reranker.colbert_reranker import ColBERTReranker
 model_name_or_path = "DrDecr.dnn"
 
 
-bamToken = os.getenv('BAM_TOKEN')
+llmToken = os.getenv('LLM_TOKEN')
+llmInternalToken = os.getenv('LLM_INTERNAL_TOKEN')
 
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '1'
 
@@ -68,6 +69,7 @@ def pre_processingtext(text_data):
 max_num_documents=10
 
 def solr_reteriver(question):
+    question = question.replace("?","")
     response = requests.get(f'http://150.239.171.68:8983/solr/superknowa/select?q='+question+'&q.op=AND&wt=json')
     query_result = response.json()
     
@@ -137,7 +139,7 @@ def format_string(doc):
 #     perfecttext = perfecttext[0:4000]
     return perfecttext
 
-def process_bam_request(question):
+def three_llm_model(question):
     
     wd_result,url = solr_reranker(question)
     if '0 documents found' not in wd_result:
@@ -148,45 +150,64 @@ def process_bam_request(question):
 
         headers = {
             'Content-Type': 'application/json',
-            'Authorization': bamToken,
+            'Authorization': llmInternalToken,
         }
 
         json_data = {
             'model_id': 'bigscience/bloom',
-            # 'inputs': [
-            #     messageText,
-            # ],
-            'inputs':  [combined_input],
-            # "inputs": ["Answer the question based only on the context below. \
-            #     Context: IBM Cloud Pak for Data offers the IBM Watson Knowledge Catalog service, which provides a number of features to incorporate such policy security, and compliance features and to govern your data. A data steward or administrator can use the IBM Watson Knowledge Catalog to build a governance catalog consisting of terms policies, and rules that can help govern and secure the data. \
-            #     Question: What is Watson Knowledge catalog?"],        
+            'inputs':  [combined_input],      
                 'parameters': {
-                # "stream": "true",
                 'temperature': 0.5,
                 'max_new_tokens': 200,
             },
         }
 
-        ## demo link of llm server will be replace with original link
-        response = requests.post('https://llm-api.res.ibm.com/v1/generate', headers=headers, json=json_data)
+        json_data2 = {
+            'model_id': 'ibm/coga-3b-0.1',
+            'inputs':  [combined_input],      
+                'parameters': {
+                'temperature': 0.5,
+                'max_new_tokens': 200,
+            },
+        }
+        
+        json_data3 = {
+            'model_id': 'google/flan-t5-xxl',
+            'inputs':  [combined_input],      
+            "parameters": {
+                        "decoding_method": "greedy",
+                        "temperature": 0.7,
+                        "top_p": 1,
+                        "top_k": 50,
+                        "min_new_tokens": 10,
+                        "max_new_tokens": 200
+            },
+        }
+
+        response = requests.post('https://fmaas-dev-api.bx.cloud9.ibm.com/v1/generate', headers=headers, json=json_data)
+        response2 = requests.post('https://fmaas-dev-api.bx.cloud9.ibm.com/v1/generate', headers=headers, json=json_data2)
+        response3 = requests.post('https://fmaas-dev-api.bx.cloud9.ibm.com/v1/generate', headers=headers, json=json_data3)
+
         json_response = json.loads(response.content.decode("utf-8"))
+        json_response2 = json.loads(response2.content.decode("utf-8"))
+        json_response3 = json.loads(response3.content.decode("utf-8"))
         result = json_response['results'][0]['generated_text'].split("Answer:")
-        if len(result) > 1:
-            print("BAM Output: ", result[1])
-            return result[1],url
-        else:
-            print("BAM Output: ", result[0])
-            return result[0],url
-    else:
-        return "0 documents found" , "None"
+        result2 = json_response2['results'][0]['generated_text'].split("Answer:")
+        result3 = json_response3['results'][0]['generated_text'].split("Answer:")
+        print("3rd response: ", result3)
+        print("LLM Output 1: ", result[1])
+        print("LLM Output 2: ", result2[0])
+        print("LLM Output 3: ", result3[0])
+        return result[1], result2[0], result3[0], url
+
 
 def main():
     question = "what is ibm cloud pak for data"
     # print("-------- Final answer ---------------")
-    answer ,url = process_bam_request(question)
-    print("FINAL ANSWER: ", answer)
+    answer1, answer2, answer3, url = three_llm_model(question)
+    print("ANSWER 1: ", answer1, "ANSWER 2: ", answer2, "ANSWER 3: ", answer3)
     print("URL: ", url)
-    return answer , url
+    return answer1, answer2, answer3, url
 
 if __name__ == "__main__":
     main()
