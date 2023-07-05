@@ -30,10 +30,10 @@ import collections
 
 
 
-bamToken = os.getenv('BAM_TOKEN')
+Token = os.getenv('_TOKEN')
 
 #os.environ['PYTORCH_CUDA_ALLOC_CONF'] = 'max_split_size_mb=0'
-print("--- bam key", bamToken)
+print("---  key", Token)
 
 
 def normalize_answer(s):
@@ -245,13 +245,13 @@ for i in range(len(df["data"])):
         #print("----- Question no:",count)
 
        # if i < 10:
-       #     bamToken = "BAM_TOKEN_1"
+       #     Token = "_TOKEN_1"
        # elif i < 20:
-       #     bamToken = "BAM_TOKEN_2"
+       #     Token = "_TOKEN_2"
        # elif i < 30:
-       #     bamToken = "BAM_TOKEN_3"
+       #     Token = "_TOKEN_3"
        # else:
-       #     bamToken = "BAM_TOKEN_1"
+       #     Token = "_TOKEN_1"
 
 
         retries = 0
@@ -269,7 +269,7 @@ for i in range(len(df["data"])):
                 print("INPUT PROMPT: ", model_input)
                 headers = {
                     'Content-Type': 'application/json',
-                    'Authorization': bamToken,
+                    'Authorization': Token,
                 }
                 
                 json_data = {
@@ -299,7 +299,7 @@ for i in range(len(df["data"])):
                           "min_new_tokens": 10,
                           "max_new_tokens": 200
 
-                        #bam
+                        #
                         # 'parameters': {
                         # # "stream": "true",
                         # 'temperature': 0.3,
@@ -313,18 +313,12 @@ for i in range(len(df["data"])):
                     },
                 }
                 
-                #bam
-                # response = requests.post('https://bam-api.res.ibm.com/v1/generate', headers=headers, json=json_data)
-
-                #Coga
-                response = requests.post('https://fmaas-dev-api.bx.cloud9.ibm.com/v1/generate', headers=headers, json=json_data)
-
-                #LLma
-                # response = requests.post('https://api-inference.huggingface.co/models/decapoda-research/llama-7b-hf', headers=headers, json=json_data)
+                #
+                response = requests.post('LLM.Sample.Demo', headers=headers, json=json_data)
 
 
                 json_response = json.loads(response.content.decode("utf-8"))
-                print("BAM OUTPUT: ", json_response)
+                print(" OUTPUT: ", json_response)
 
                 model_output1 = json_response['results'][0]['generated_text']
                 model_output1 = model_output1.replace("Question", '')

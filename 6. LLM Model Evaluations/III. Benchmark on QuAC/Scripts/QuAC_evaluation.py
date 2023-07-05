@@ -30,10 +30,10 @@ import collections
 
 
 
-bamToken = os.getenv('BAM_TOKEN')
+ Token = os.getenv('TOKEN')
 
 #os.environ['PYTORCH_CUDA_ALLOC_CONF'] = 'max_split_size_mb=0'
-print("--- bam key", bamToken)
+print("--- key", oken)
 
 
 def normalize_answer(s):
@@ -250,13 +250,13 @@ for i in range(len(df["data"])):
     #print("----- Question no:",count)
 
    # if i < 10:
-   #     bamToken = "BAM_TOKEN_1"
+   #     oken = "TOKEN_1"
    # elif i < 20:
-   #     bamToken = "BAM_TOKEN_2"
+   #     oken = "TOKEN_2"
    # elif i < 30:
-   #     bamToken = "BAM_TOKEN_3"
+   #     oken = "TOKEN_3"
    # else:
-   #     bamToken = "BAM_TOKEN_1"
+   #     oken = "TOKEN_1"
 
 
     retries = 0
@@ -274,7 +274,7 @@ for i in range(len(df["data"])):
             print("INPUT PROMPT: ", model_input)
             headers = {
                 'Content-Type': 'application/json',
-                'Authorization': bamToken,
+                'Authorization': oken,
             }
             
             json_data = {
@@ -304,8 +304,7 @@ for i in range(len(df["data"])):
                       "min_new_tokens": 10,
                       "max_new_tokens": 200
 
-                    #bam
-                    # 'parameters': {
+                    #                    # 'parameters': {
                     # # "stream": "true",
                     # 'temperature': 0.3,
                     # 'min_new_tokens': 10,
@@ -324,7 +323,7 @@ for i in range(len(df["data"])):
 
 
             json_response = json.loads(response.content.decode("utf-8"))
-            print("BAM OUTPUT: ", json_response)
+            print("OUTPUT: ", json_response)
 
             model_output1 = json_response['results'][0]['generated_text']
             model_output1 = model_output1.replace("Question", '')
