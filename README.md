@@ -52,5 +52,8 @@ Kunal Sawarkar
 Build Team 
 
 Shivam Solanki- Senior Data Scientist
+Abhilasha Mangal- Senior Data Scientist
+Sahil Desai- Senior Data Scientist
+Amit Khandelwal- Senior Data Scientist
 
 Copyright-
