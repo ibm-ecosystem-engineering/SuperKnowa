@@ -6,6 +6,10 @@ This folder contains LLM Model Evaluation scripts and Benchmark sample data as l
    
    - [I. LLM Eval Toolkit](I.%20LLM%20Eval%20Toolkit): Scripts for LLM Model Evaluation table generation
    - [II. MLFLOW Integration](II.%20MLFLOW%20Integration): MLFlOW evaluation dashboard script
+      - [Notebook](II.%20MLFLOW%20Integration/Notebook): Evaluation Notebook
+      - [Output_CSV](II.%20MLFLOW%20Integration/Output_CSV): Output CSV for LLM Models Evaluation
+      - [Result](II.%20MLFLOW%20Integration/Result): Result file and png of MLFLOW
+      - [mlruns](II.%20MLFLOW%20Integration/mlruns): MLFLOW metadata 
    - [III. Benchmark on QuAC](III.%20Benchmark%20on%20QuAC): QuAC Benchmark dataset and evaluation Script for LLM Model
       - [Data](III.%20Benchmark%20on%20QuAC/Data) : Dataset for the Benchmark 
       - [Result](III.%20Benchmark%20on%20QuAC/Result) : Evaluation result 
