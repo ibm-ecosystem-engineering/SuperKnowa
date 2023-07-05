@@ -25,10 +25,12 @@ Ml Pipeline
    I. LLM Eval Toolkit <br />
    II. MLFLOW Integration <br />
    III. Benchmark on QuAC <br />
-   IV. Bechmark on SqUAD <br />
-   V. Bechmark on CoQA
-8. Feedback & Reward Model
-9. User Application
+   IV. Benchmark on SqUAD <br />
+   V. Benchmark on CoQA <br />
+   VI. Benchmark on TydiQA <br />
+   VII. Benchmark on Dolly <br />
+9. Feedback & Reward Model
+10. User Application
 
 ## Fine-Tuning
 1. Instruct DB
