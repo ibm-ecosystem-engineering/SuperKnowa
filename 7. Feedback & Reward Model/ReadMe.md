@@ -10,3 +10,10 @@ The trained model gets saved in this folder
 
 ## Input :
 The input dataset is placed here, which can be used to train SFT LLM and reward model.
+
+
+
+## References :
+
+1. https://github.com/lvwerra/trl
+2. https://argilla.io/blog/argilla-for-llms/
