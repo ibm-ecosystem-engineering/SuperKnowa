@@ -1,10 +1,18 @@
-# Re-Ranker
+# Re-Ranker Module
 
-This folder contains code for retrieving data from Solr and Watson Discovery and applying Re-Ranker algorithm:
+![ColBERT Framework](https://raw.githubusercontent.com/stanford-futuredata/ColBERT/master/docs/images/ColBERT-Framework-MaxSim-W370px.png)
 
-- [Solr](../4.%20Re-Ranker/Solr/): Retrieving data from SOLR
-    - [solr_retriever_reranker.ipynb](../4.%20Re-Ranker/Solr/solr_retriever_reranker.ipynb): Reterving data from solr and apply Colbert Reranker on data with single LLM model
-    - [solr_retriever_reranker.py](../4.%20Re-Ranker/Solr/solr_retriever_reranker.py): Reterving data from solr and apply Colbert Reranker on data with single LLM model
-    
-- [Watson Discovery](../4.%20Re-Ranker/Watson%20Discovery/): Retrieving data from Watson Discovery 
-    - [Re-ranker.ipynb](../4.%20Re-Ranker/Watson%20Discovery/Re-ranker.ipynb): Reterving data from Watson Discovery and apply Colbert Reranker on data with single LLM model
+The `Re-Ranker` module consists of code implementations for retrieving data (from Solr, Watson Discovery and Elastic Search) databases and applying the Re-Ranking algorithm to create a more efficient search result.
+
+This folder is structured as follows:
+
+## Solr <img src="https://norconex.com/wp-content/uploads/Solr_Logo_on_white_web.png" height="50" width="50"> 
+- **Retrieval and Re-ranking with Solr**
+    1. [solr_retriever_reranker.ipynb](../4.%20Re-Ranker/Solr/solr_retriever_reranker.ipynb): This Jupyter notebook explains the process of retrieving data from the Solr database and applying the Colbert Re-Ranker algorithm using a Deep learning model.
+    2. [solr_retriever_reranker.py](../4.%20Re-Ranker/Solr/solr_retriever_reranker.py): This Python script programmatically retrieves data from the Solr database and applies the Colbert Re-Ranker algorithm using a Deep learning model.
+
+## Watson Discovery <img src="https://www.cloudcreations.com/wp-content/uploads/2020/10/icon_ibmwatson_5.png" height="50" width="50"> 
+- **Retrieval and Re-ranking with Watson Discovery**
+    1. [Re-ranker.ipynb](../4.%20Re-Ranker/Watson%20Discovery/Re-ranker.ipynb): This Jupyter notebook outlines the data retrieval process from Watson Discovery and the subsequent application of the Colbert Re-Ranker algorithm.
+
+These scripts and notebooks are like helpful guidebooks. They show you how to pull data from different places and make your search results better by using something called the re-ranking algorithm. They take into account how closely a query matches and how good the data is to make sure the results are the best they can be.
