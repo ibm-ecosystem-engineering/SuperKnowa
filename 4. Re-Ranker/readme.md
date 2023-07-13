@@ -2,7 +2,7 @@
 
 ![ColBERT Framework](https://raw.githubusercontent.com/stanford-futuredata/ColBERT/master/docs/images/ColBERT-Framework-MaxSim-W370px.png)
 
-The `Re-Ranker` module consists of code implementations for retrieving data (from Solr, Watson Discovery and Elastic Search) databases and applying the Re-Ranking algorithm to create a more efficient search result.
+The `Re-Ranker` module consists of code implementations for retrieving data (from Solr, Watson Discovery and Elastic Search databases) and applying the Re-Ranking algorithm to create a more efficient search result.
 
 This folder is structured as follows:
 
