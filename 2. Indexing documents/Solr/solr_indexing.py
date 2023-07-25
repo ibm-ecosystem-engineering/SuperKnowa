@@ -14,10 +14,11 @@ import PyPDF2
 from pathlib import Path
 from dateutil.parser import parse
 
-
+## get today's date
 today = date.today()
 print("Today's date:", today)
 
+## get all files from folder
 def get_all_files(folder_name):
     # Change the directory
     os.chdir(folder_name)
