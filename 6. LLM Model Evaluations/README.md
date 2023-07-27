@@ -1,4 +1,3 @@
-<img width="828" alt="image" src="https://github.com/EnterpriseLLM/SuperKnowa/assets/112084296/2ce82d40-91f2-4035-8545-0fc70ab035a4">
 # LLM Model Evaluation
 
 This folder contains LLM Model Evaluation scripts and Benchmark sample data as listed below:
