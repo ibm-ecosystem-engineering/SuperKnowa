@@ -2,6 +2,8 @@
 
 ![ColBERT Framework](https://raw.githubusercontent.com/stanford-futuredata/ColBERT/master/docs/images/ColBERT-Framework-MaxSim-W370px.png)
 
+Source:https://www.semanticscholar.org/paper/ColBERT%3A-Efficient-and-Effective-Passage-Search-via-Khattab-Zaharia/60b8ad6177230ad5402af409a6edb5af441baeb4
+
 The `Re-Ranker` module consists of code implementations for retrieving data (from Solr, Watson Discovery and Elastic Search databases) and applying the Re-Ranking algorithm to create a more efficient search result.
 
 This folder is structured as follows:
@@ -22,4 +24,8 @@ These scripts and notebooks are  helpful guidebooks. They show you how to pull d
 
 ## Elastic
 - **Retrieval and Re-ranking with Elastic Search**
-- Details coming soon
+- Elastic retriever has various models to improve the relevancy of the returned document.
+    1. [es_retriever_reranker.ipynb](../3.%20Re-ranker/Elastic%20Search/es_%20reteriver_reranker.ipynb): This Jupyter notebook explains the process of retrieving data from the ES index and applying the Colbert based DrDecr re-Ranker algorithm using a Deep learning model.
+
+## Reference
+[DrDecr Re-ranking model](https://huggingface.co/PrimeQA/DrDecr_XOR-TyDi_whitebox)
