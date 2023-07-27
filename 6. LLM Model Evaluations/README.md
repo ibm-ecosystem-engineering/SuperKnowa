@@ -5,7 +5,9 @@ This folder contains LLM Model Evaluation scripts and Benchmark sample data as l
 
 <img src="https://github.com/EnterpriseLLM/SuperKnowa/assets/112084296/23766e0c-a39c-4139-ad78-a7c9ad2420cf" alt="image" width="700" height="300">
 
-- Evaluation Process: Run evaluation on Different LLM models:
+## Evaluation Process:
+
+-   Run evaluation on Different LLM models:
    - Evaluate the Q&A generation models, including Bloom, FlanT5-XXL, and Coga, using the specified evaluation metrics.
    - Record the evaluation results for each model in separate CSV files.
 - Store Result CSV Files in MLFlow Data Source:
@@ -17,9 +19,7 @@ This folder contains LLM Model Evaluation scripts and Benchmark sample data as l
    - Access the MLFlow dashboard, which provides a visual representation of the evaluation results.
    - The dashboard showcases model performance using graphs, charts, and tables, making it easier to compare and analyze the different LLM models.
 
-![ezgif-5-8d3a67a84e](https://github.com/EnterpriseLLM/SuperKnowa/assets/112084296/9710d29f-4092-4a6a-87f3-1207111f875a)
-
-
+![ML-Flow-Dashboard](https://github.com/EnterpriseLLM/SuperKnowa/assets/112084296/2b3ca47b-e779-4411-8c8a-2d4715bdc9fe)
 
 - [I. LLM Eval Toolkit](I.%20LLM%20Eval%20Toolkit): Scripts for LLM Model Evaluation table generation
 - [II. MLFLOW Integration](II.%20MLFLOW%20Integration): MLFlOW evaluation dashboard script
