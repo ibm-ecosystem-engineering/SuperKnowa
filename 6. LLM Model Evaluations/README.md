@@ -3,7 +3,10 @@
 
 This folder contains LLM Model Evaluation scripts and Benchmark sample data as listed below:
 
-   
+
+<img src="https://github.com/EnterpriseLLM/SuperKnowa/assets/112084296/23766e0c-a39c-4139-ad78-a7c9ad2420cf" alt="image" width="700" height="300">
+
+
    - [I. LLM Eval Toolkit](I.%20LLM%20Eval%20Toolkit): Scripts for LLM Model Evaluation table generation
    - [II. MLFLOW Integration](II.%20MLFLOW%20Integration): MLFlOW evaluation dashboard script
       - [Notebook](II.%20MLFLOW%20Integration/Notebook): Evaluation Notebook
