@@ -1,0 +1,13 @@
+FROM registry.access.redhat.com/ubi8/python-39:1-113.1682304667 as base
+
+WORKDIR /app/backend
+
+COPY requirement.txt requirement.txt
+RUN pip3 install -r requirement.txt
+
+RUN mkdir model
+
+COPY src/ src/
+COPY main.py main.py
+
+ENTRYPOINT ["python3","main.py"]

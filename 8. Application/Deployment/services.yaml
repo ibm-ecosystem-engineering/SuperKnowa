@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: superknowa-backend-svc
+spec:
+  selector:
+    app: superknowa-backend-app
+  ports:
+    - protocol: TCP
+      port: 3001
+      targetPort: 3001

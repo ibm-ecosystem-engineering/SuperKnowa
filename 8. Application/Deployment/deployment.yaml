@@ -1,0 +1,102 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: superknowa-backend
+  labels:
+    app: superknowa-backend-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: superknowa-backend-app
+  template:
+    metadata:
+      labels:
+        app: superknowa-backend-app
+    spec:
+      containers:
+        - name: backend-container
+          image: image-registry.openshift-image-registry.svc:5000/superknowa/backend:1.0.1
+          ports:
+            - containerPort: 3001
+          env:
+            - name: MODEL_SERVICE_URL
+              valueFrom:
+                secretKeyRef:
+                  name: superknowa-backend-config
+                  key: MODEL_SERVICE_URL
+            - name: MODEL_AUTH_TOKEN
+              valueFrom:
+                secretKeyRef:
+                  name: superknowa-backend-config
+                  key: MODEL_AUTH_TOKEN
+            - name: WD_URL
+              valueFrom:
+                secretKeyRef:
+                  name: superknowa-backend-config
+                  key: WD_URL
+            - name: WD_AUTH_KEY
+              valueFrom:
+                secretKeyRef:
+                  name: superknowa-backend-config
+                  key: WD_AUTH_KEY
+            - name: WD_PROJECT_ID
+              valueFrom:
+                secretKeyRef:
+                  name: superknowa-backend-config
+                  key: WD_PROJECT_ID
+            - name: WD_COLLECTION_ID
+              valueFrom:
+                secretKeyRef:
+                  name: superknowa-backend-config
+                  key: WD_COLLECTION_ID
+            - name: SOLR_BACKEND
+              valueFrom:
+                secretKeyRef:
+                  name: superknowa-backend-config
+                  key: SOLR_BACKEND
+            - name: RERANKER_URL
+              valueFrom:
+                secretKeyRef:
+                  name: superknowa-backend-config
+                  key: RERANKER_URL
+            - name: MONGO_URL
+              valueFrom:
+                secretKeyRef:
+                  name: superknowa-backend-config
+                  key: MONGO_URL
+            - name: MONGO_PASS
+              valueFrom:
+                secretKeyRef:
+                  name: superknowa-backend-config
+                  key: MONGO_PASS
+            - name: MONGO_USER
+              valueFrom:
+                secretKeyRef:
+                  name: superknowa-backend-config
+                  key: MONGO_USER
+            - name: MONGO_DB
+              valueFrom:
+                secretKeyRef:
+                  name: superknowa-backend-config
+                  key: MONGO_DB
+            - name: ELASTIC_URL
+              valueFrom:
+                secretKeyRef:
+                  name: superknowa-backend-config
+                  key: ELASTIC_URL
+          volumeMounts:
+            - name: superknowa-ca-certificate
+              mountPath: "/app/backend/cert"
+              readOnly: true
+          resources:
+            requests:
+              memory: "512Mi"
+              cpu: "500m"
+            limits:
+              memory: "1024Mi"
+              cpu: "1000m"
+      volumes:
+        - name: superknowa-ca-certificate
+          secret:
+            secretName: superknowa-ca-certificate

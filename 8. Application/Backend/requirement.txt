@@ -1,0 +1,15 @@
+ibm-watson
+ibm-cloud-sdk-core
+Flask
+openai
+beautifulsoup4
+regex
+lxml
+flask-cors
+numpy
+pandas
+bson
+pymongo
+PyPDF2
+scikit-learn
+elasticsearch===7.10.1
