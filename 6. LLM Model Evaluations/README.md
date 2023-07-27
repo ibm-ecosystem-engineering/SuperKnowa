@@ -17,6 +17,7 @@ This folder contains LLM Model Evaluation scripts and Benchmark sample data as l
    - Access the MLFlow dashboard, which provides a visual representation of the evaluation results.
    - The dashboard showcases model performance using graphs, charts, and tables, making it easier to compare and analyze the different LLM models.
 
+![ezgif-5-8d3a67a84e](https://github.com/EnterpriseLLM/SuperKnowa/assets/112084296/9710d29f-4092-4a6a-87f3-1207111f875a)
 
 
 
