@@ -13,6 +13,8 @@ Below are the components that built the superknowa application.
   - elasticsearch
   - IBM Watson Discovery
  
-## Architecture diagram
+## Reference Architecture
 
-![superknowa](https://github.com/EnterpriseLLM/SuperKnowa/assets/111310676/f543b520-a209-4150-9afa-d86f388c684a)
+![superknowa](https://github.com/EnterpriseLLM/SuperKnowa/assets/111310676/278bced3-9253-4cf7-9b2f-0690b72a9f0b)
+
+## Running the application
