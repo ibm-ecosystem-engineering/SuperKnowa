@@ -2,6 +2,8 @@
 
 This repository contains Python scripts demonstrating the use of a Neural Retriever in a Retrieval Augmented Generation (RAG) pipeline. The scripts demonstrate three different implementations of a Neural Retriever using Apache Solr, Elasticsearch, and Wikidata as document stores.
 
+
+
 ## Directory Contents
 
 - [Elastic Search](../3.%20Neural%20Retriever/ElasticSearch/): Demonstrates the use of Elasticsearch as a document store for the neural retriever.

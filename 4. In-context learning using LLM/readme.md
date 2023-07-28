@@ -24,7 +24,7 @@ And the script will generate an answer like:
 DataOps offers several benefits including decreasing the cycle time in deploying analytical solutions, lowering data defects, reducing the time required to resolve data defects, and minimizing data silos.
 ```
 
-![Example interaction](/5.%20In-context%20learning%20using%20LLM/Screenshot/notebook.png)
+![Example interaction](/4.%20In-context%20learning%20using%20LLM/Screenshot/notebook.png)
 
 ## Dependencies
 
