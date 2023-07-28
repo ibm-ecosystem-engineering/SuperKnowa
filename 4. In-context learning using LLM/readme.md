@@ -1,5 +1,11 @@
 # In-Context Learning with LLM
 
+<img src="https://ai.stanford.edu/blog/assets/img/posts/2022-08-01-understanding-incontext/images/image13.gif" alt="GIF Description" width="600" height="400">
+
+Image Source - http://ai.stanford.edu/blog/understanding-incontext/
+
+
+
 This directory contains a Jupyter notebook that demonstrates in-context learning using LLM. The script prompts the user for a context and a question based on that context, and then uses an LLM model to generate an answer to the question.
 
 ![In-context learning](https://production-media.paperswithcode.com/thumbnails/task/c9598674-b034-477e-b5ec-a7e324336280.jpg) 
