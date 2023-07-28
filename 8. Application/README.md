@@ -17,4 +17,7 @@ Below are the components that built the superknowa application.
 
 ![superknowa](https://github.com/EnterpriseLLM/SuperKnowa/assets/111310676/278bced3-9253-4cf7-9b2f-0690b72a9f0b)
 
-## Running the application
+## Deployment
+
+- [Run the Backend sever](Backend/)
+- [OCP Deployment](Deployment/)
