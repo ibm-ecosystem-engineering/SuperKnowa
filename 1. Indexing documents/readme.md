@@ -8,8 +8,8 @@ Image source: https://www.giffgaff.io/tech/elasticsearch-index-management
 
 ## Repository Contents
 
-- [Elastic Search](../2.%20Indexing%20documents/Elastic%20Search/): A directory containing a Python notebook (`elasticsearch_indexer.ipynb`) that demonstrates how to index documents into Elasticsearch.
-- [Solr](../2.%20Indexing%20documents/Solr/): A directory containing a Python script (`solr_indexing.py`) that shows how to index documents into Solr.
+- [Elastic Search](../1.%20Indexing%20documents/Elastic%20Search/): A directory containing a Python notebook (`elasticsearch_indexer.ipynb`) that demonstrates how to index documents into Elasticsearch.
+- [Solr](../1.%20Indexing%20documents/Solr/): A directory containing a Python script (`solr_indexing.py`) that shows how to index documents into Solr.
 
 You can also index your documents in Watson Discovery by following the [documentation here](https://cloud.ibm.com/docs/discovery-data?topic=discovery-data-upload-data).
 
