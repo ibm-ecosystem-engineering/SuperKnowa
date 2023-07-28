@@ -17,6 +17,13 @@ Ml Pipeline
 
 ![image](https://github.com/EnterpriseLLM/SuperKnowa/assets/21246183/142dd017-c46a-4506-aaea-3a0dea61cebb)
 
+Evaluation Leaderboard
+
+
+![LeaderBoard](https://github.com/EnterpriseLLM/SuperKnowa/assets/112084296/3f7c8334-e8f2-4f9a-8ce4-b398871a46ca)
+
+
+
 1. [Indexing Documents](/2.%20Indexing%20documents/)
 1. [Neural Retriever](/3.%20Neural%20Retriever/)
 1. [Re-Ranker](/3.%20Neural%20Retriever/)
