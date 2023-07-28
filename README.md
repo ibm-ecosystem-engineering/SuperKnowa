@@ -62,5 +62,6 @@ Build Team
 - Abhilasha Mangal- Senior Data Scientist
 - Sahil Desai- Senior Data Scientist
 - Amit Khandelwal- Senior Data Scientist
+- Himadri Talukder - Senior Software Engineer
 
 Copyright-
