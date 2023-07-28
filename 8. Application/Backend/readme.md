@@ -7,6 +7,7 @@ To run the server locally please follow the below steps.
 - A MongoDB server
 - Reranker service ( we are using DrDecr model from primeQA)
 - Retriever ( Elasticsearch)
+- [Python 3.9](https://www.python.org/downloads/) or later
 
 ## Create environment
 
@@ -106,5 +107,26 @@ export ELASTIC_URL='<Elasticsearch url with user and password>'
 
 ```
 python3 main.py
+```
+## TEST
+
+### Multi model call
+
+```sh
+curl --location 'http://localhost:3001/api/v1/chat/multi/elastic/3' \
+--header 'Content-Type: application/json' \
+--data '{
+    "question":"what is turbonomic?"
+}'
+```
+
+### Single model call
+
+```sh
+curl --location 'http://localhost:3001/api/v1/chat/elastic' \
+--header 'Content-Type: application/json' \
+--data '{
+    "question":"what is sap btp?"
+}'
 ```
 
