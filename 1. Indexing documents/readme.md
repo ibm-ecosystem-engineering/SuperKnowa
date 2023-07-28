@@ -13,6 +13,8 @@ Image source: https://www.giffgaff.io/tech/elasticsearch-index-management
 
 You can also index your documents in Watson Discovery by following the [documentation here](https://cloud.ibm.com/docs/discovery-data?topic=discovery-data-upload-data).
 
+![Indexing](./Screenshots/data_up.png)
+
 ## Getting Started
 
 1. Clone this repository.
