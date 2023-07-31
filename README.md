@@ -20,8 +20,18 @@ Ml Pipeline
 Evaluation Leaderboard
 
 
-![LeaderBoard](https://github.com/EnterpriseLLM/SuperKnowa/assets/112084296/3f7c8334-e8f2-4f9a-8ce4-b398871a46ca)
+- flan-t5-xxl outperforms ul2 irrespective of retriever used
+- ES scores better in comparison to Solr as retriever for flan-t5-xxl
+- There is a drop in accuracy when we use reranker in comparsion to when we do not.
 
+
+![Screenshot 2023-07-31 at 8 55 13 PM](https://github.com/EnterpriseLLM/SuperKnowa/assets/112084296/d34c6e55-0fb8-4636-82ff-b4f57ff56ef8)
+
+
+![visualization](https://github.com/EnterpriseLLM/SuperKnowa/assets/112084296/58d6e72b-c40f-4a3c-9d01-7fe1d191e583)
+
+
+![visualization (2)](https://github.com/EnterpriseLLM/SuperKnowa/assets/112084296/13d75f46-04ad-4c78-a9fb-833a2f2f4299)
 
 
 1. [Indexing Documents](/1.%20Indexing%20documents/)
