@@ -13,7 +13,9 @@ The trained model gets saved in this folder
 ## Input :
 The input dataset is placed here, which can be used to train SFT LLM and reward model.
 
-
+To find a detailed overview of Reward Modeling and RLHF, refer to the medium blog:
+- blog1.com
+- blog2.com
 
 ## References :
 
