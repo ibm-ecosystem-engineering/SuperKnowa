@@ -7,7 +7,7 @@ This repository contains Python scripts demonstrating the use of a Neural Retrie
 ## Directory Contents
 
 - [Elastic Search](../2.%20Neural%20Retriever/ElasticSearch/): Demonstrates the use of Elasticsearch as a document store for the neural retriever.
-    - [es_retriever.ipynb](../2.%20Neural%20Retriever/ElasticSearch/es_retriever.ipynb): Notebook for retrieving documents from the Elastic Search index
+    - [es_retriever.ipynb](../2.%20Neural%20Retriever/ElasticSearch/elastic_retriever.ipynb): Notebook for retrieving documents from the Elastic Search index
 - [Solr](../2.%20Neural%20Retriever/Solr/): Demonstrates the use of Apache Solr as a document store for the neural retriever.
     - [solr_retriever.ipynb](../2.%20Neural%20Retriever/Solr/solr_retriever.ipynb): An example notebook showing how to query documents from the Solr collection
     - [solr_retriever](../2.%20Neural%20Retriever/Solr/solr_retriever.py): Python Script to search for documents from the Solr indexed collection
