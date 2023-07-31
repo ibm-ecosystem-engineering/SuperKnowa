@@ -11,7 +11,7 @@ This folder is structured as follows:
 
 ## Watson Discovery <img src="https://www.cloudcreations.com/wp-content/uploads/2020/10/icon_ibmwatson_5.png" height="50" width="50"> 
 - **Retrieval and Re-ranking with Watson Discovery**
-    1. [Re-ranker.ipynb](../3.%20Re-Ranker/Watson%20Discovery/Re-ranker.ipynb): This Jupyter notebook outlines the data retrieval process from Watson Discovery and the subsequent application of the Colbert Re-Ranker algorithm.
+    1. [Re-ranker.ipynb](../3.%20Re-ranker/Watson%20Discovery/Re-ranker.ipynb): This Jupyter notebook outlines the data retrieval process from Watson Discovery and the subsequent application of the Colbert Re-Ranker algorithm.
 
 These scripts and notebooks are  helpful guidebooks. They show you how to pull data from different places and make your search results better by using something called the re-ranking algorithm. They take into account how closely a query matches and how good the data is to make sure the results are the best they can be.
 
