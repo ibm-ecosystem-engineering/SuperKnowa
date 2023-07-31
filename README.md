@@ -24,17 +24,11 @@ Evaluation Leaderboard
 
 
 
-1. [Indexing Documents](/2.%20Indexing%20documents/)
-1. [Neural Retriever](/3.%20Neural%20Retriever/)
-1. [Re-Ranker](/3.%20Neural%20Retriever/)
-1. [In-context learning using LLM](/5.%20In-context%20learning%20using%20LLM/)
-1. [Fine-Tuning](/7.%20Fine-Tuning/)
-   1. Instruct DB
-   2. Fine Tuning using QLORA
-   3. Finetuning Falcon 7B
-   4. Finetune OpenLAMA
-   5. Finetune Flan-T5
-1. [LLM Model Evaluation](/6.%20LLM%20Model%20Evaluations/)
+1. [Indexing Documents](/1.%20Indexing%20documents/)
+1. [Neural Retriever](/2.%20Neural%20Retriever/)
+1. [Re-Ranker](/3.%20Re-ranker/)
+1. [In-context learning using LLM](/4.%20In-context%20learning%20using%20LLM/)
+1. [LLM Model Evaluation](/5.%20LLM%20Model%20Evaluations/)  <br />
    I. LLM Eval Toolkit <br />
    II. MLFLOW Integration <br />
    III. Benchmark on QuAC <br />
@@ -42,6 +36,12 @@ Evaluation Leaderboard
    V. Benchmark on CoQA <br />
    VI. Benchmark on TydiQA <br />
    VII. Benchmark on Dolly <br />
+1. [Fine-Tuning](/6.%20Fine-Tuning/)
+   1. Instruct DB
+   2. Fine Tuning using QLORA
+   3. Finetuning Falcon 7B
+   4. Finetune OpenLAMA
+   5. Finetune Flan-T5
 1. [Feedback & Reward Model](/7.%20Feedback%20%26%20Reward%20Model/)
 1. [User Application](/9.%20User%20Application/)
 
