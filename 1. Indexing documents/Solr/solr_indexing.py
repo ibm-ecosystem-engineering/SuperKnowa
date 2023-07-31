@@ -1,3 +1,4 @@
+## Import pre-required all libs.
 import pysolr
 import os
 import tika
@@ -30,6 +31,7 @@ def get_all_files(folder_name):
             file_path_list.append(file_path)
     return file_path_list
 
+## Reading data from pdf file
 def readdata_frompdf(file_name):
     content=''
     try:
@@ -45,6 +47,7 @@ def readdata_frompdf(file_name):
          print("file is empty")
          return content
 
+##  removing html tags from HTML files.
 def pre_processingtext(text_data):
     replaced = re.sub("</?p[^>]*>", "", text_data)
     replaced = re.sub("</?a[^>]*>", "", replaced)
@@ -55,6 +58,7 @@ def pre_processingtext(text_data):
     replaced = re.sub("id=*>;", "", replaced)
     return replaced
 
+##  Indexing ibm developer data
 def index_ibm_developerdata():
     with open(file_path, 'r', encoding="latin1") as file:
         if ".txt" in file_path:
@@ -108,6 +112,7 @@ def index_ibm_developerdata():
             "categories": ""+str(categories)+"",
         })
         
+ ## indexing white paper data        
 def indexwhitepaerdata():
     for filename in os.listdir(white_paper_docs_dir):
         print("processing i---",i)
@@ -200,7 +205,7 @@ def indexwhitepaerdata():
                         "categories": "",
                 })
 
-    
+   ## indexing redbooks data 
 def redbooks_indexing():
     for filename in os.listdir(redbooks_data_dir):
         print("processing i---",i)
@@ -285,6 +290,7 @@ def redbooks_indexing():
                     solrdocs=[]
                 i=i+1
 
+## indexing ibm cloud docs
 def ibm_cloud_docs():
     with open(ibm_cloud_metadta_file, 'r', encoding="latin1") as file:
         content = file.read()
@@ -352,6 +358,7 @@ def ibm_cloud_docs():
                     j = -1
                     continue
 
+## indexing ibm doc indexing
 def ibm_doc_index():
     for filename in os.listdir(ibm_docs_dir):
         file_path = os.path.join(ibm_docs_dir, filename)
@@ -410,14 +417,13 @@ def ibm_doc_index():
 
 
         
-
+## Downloading files....
 def downloadFile(url, fileName):
     with open(fileName, "wb") as file:
         response = requests.get(url)
         file.write(response.content)
 
-# Connect to Solr
-solr = pysolr.Solr('http://150.239.171.68:8983/solr/superknowa/', always_commit=True,timeout=50)
+
 
 # Directory containing the documents
 ibm_docs_dir = '/Users/abhilashamangal/Documents/GitHub/Foundation-models_main/Scraper/scrape_data/ibm_developer_metadata/'
@@ -429,6 +435,8 @@ ibm_medium_blog ='/Users/abhilashamangal/Documents/GitHub/Foundation-models_main
 ibm_medium_blog_csv ='/Users/abhilashamangal/Documents/GitHub/Foundation-models_main/Scraper/scrape_data/Medium/csv'
 
 
+# Connect to Solr
+solr = pysolr.Solr('http://150.239.171.68:8983/solr/superknowa/', always_commit=True,timeout=50)
 # Iterate over the files in the directory
 solrdocs =[]
 i = 0

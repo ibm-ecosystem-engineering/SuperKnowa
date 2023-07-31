@@ -1,3 +1,4 @@
+## Import libs
 import json
 import re
 import requests
@@ -9,6 +10,7 @@ import numpy as np
 # Retrieve documents
 max_num_documents=10
 
+## Removibg unwanted text
 def skip_unwanted_characters(document, keyword):
         lines = document.split('\n')
         desired_text = ""
@@ -25,6 +27,7 @@ def skip_unwanted_characters(document, keyword):
     
         return desired_text.strip()
 
+## Removing some HTML tags form content
 def pre_processingtext(text_data):
     replaced = re.sub("\{{ .*?\}}", "", text_data)
     replaced = re.sub("\{: .*?\}", "", replaced)
@@ -97,6 +100,7 @@ def solr_reteriver(question):
     print(f'QUERY: {question}')
     return results_list
 
+## format string 
 def format_string(doc):
     doc = doc.encode("ascii", "ignore")
     string_decode = doc.decode()
