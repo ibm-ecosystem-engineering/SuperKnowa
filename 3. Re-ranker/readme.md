@@ -18,8 +18,8 @@ These scripts and notebooks are  helpful guidebooks. They show you how to pull d
 ## Solr <img src="https://norconex.com/wp-content/uploads/Solr_Logo_on_white_web.png" height="50" width="50"> 
 - **Retrieval and Re-ranking with Solr**
 - Solr retrieval works best for really long documents like books with hundreds of pages. 
-    1. [solr_retriever_reranker.ipynb](../3.%20Re-Ranker/Solr/solr_retriever_reranker.ipynb): This Jupyter notebook explains the process of retrieving data from the Solr database and applying the Colbert Re-Ranker algorithm using a Deep learning model.
-    2. [solr_retriever_reranker.py](../3.%20Re-Ranker/Solr/solr_retriever_reranker.py): This Python script programmatically retrieves data from the Solr database and applies the Colbert Re-Ranker algorithm using a Deep learning model.
+    1. [solr_retriever_reranker.ipynb](../3.%20Re-ranker/Solr/solr_retriever_reranker.ipynb): This Jupyter notebook explains the process of retrieving data from the Solr database and applying the Colbert Re-Ranker algorithm using a Deep learning model.
+    2. [solr_retriever_reranker.py](../3.%20Re-ranker/Solr/solr_retriever_reranker.py): This Python script programmatically retrieves data from the Solr database and applies the Colbert Re-Ranker algorithm using a Deep learning model.
 
 
 ## Elastic
