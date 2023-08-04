@@ -35,15 +35,15 @@ Evaluation Leaderboard
 
 ## Eval_Package and MLflow_Package for Evaluation 
 
-[Eval_Package]()
+[Eval_Package](5.%20LLM%20Model%20Evaluations/I.%20LLM%20Eval%20Toolkit/Eval_Package)
   
 The Eval_Package is a tool designed to evaluate the performance of the LLM (Language Model) on a dataset containing questions, context, and ideal answers. It allows you to run evaluations on various datasets and assess how well the Model generates the answer.
 
 ### Features 
    - Evaluate LLM Model on custom datasets: Use the Eval_Package to assess the performance of your Model on datasets of your choice.
-   - Measure model accuracy: The package provides metrics to gauge the accuracy of the model generated answers against the ideal answers.
+   - Measure model accuracy: The package provides metrics to gauge the accuracy of the model-generated answers against the ideal answers.
 
-[MLflow_Package]()
+[MLflow_Package](5.%20LLM%20Model%20Evaluations/I.%20LLM%20Eval%20Toolkit/MLflow_Package)
 
 The MLflow_Package is a comprehensive toolkit designed to integrate the results from the Eval_Package and efficiently track and manage experiments. It also enables you to create a leaderboard for evaluation comparisons and visualize metrics through a dashboard.
 
