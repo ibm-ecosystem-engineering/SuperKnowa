@@ -44,7 +44,7 @@ The data section contains parameters related to the input data and evaluation.
 {
   ...
   "data": {
-    "data_path": "path/to/evalution-result-csvs",
+    "data_path": "path/to/dataset",
     "question": "instruction",
     "context": "input",
     "idea_answer": "output",
@@ -90,7 +90,7 @@ Run the evaluation script
 `python eval_script.py  `
 
 Evaluation 
-Run the evaluation result will be generated into provided path for `result_file`.  
-#### Make your result path is connected with MLFlow results. 
+Run the evaluation result will be generated into a provided path for `result_file`.  
+#### Make your result path connected with MLFlow results. 
 
 
