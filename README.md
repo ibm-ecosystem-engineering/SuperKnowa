@@ -33,6 +33,25 @@ Evaluation Leaderboard
 
 ![visualization (2)](https://github.com/EnterpriseLLM/SuperKnowa/assets/112084296/13d75f46-04ad-4c78-a9fb-833a2f2f4299)
 
+## Eval_Package and MLflow_Package for Evaluation 
+
+[Eval_Package]()
+  
+The Eval_Package is a tool designed to evaluate the performance of the LLM (Language Model) on a dataset containing questions, context, and ideal answers. It allows you to run evaluations on various datasets and assess how well the Model generates the answer.
+
+### Features 
+   - Evaluate LLM Model on custom datasets: Use the Eval_Package to assess the performance of your Model on datasets of your choice.
+   - Measure model accuracy: The package provides metrics to gauge the accuracy of the model generated answers against the ideal answers.
+
+[MLflow_Package]()
+
+The MLflow_Package is a comprehensive toolkit designed to integrate the results from the Eval_Package and efficiently track and manage experiments. It also enables you to create a leaderboard for evaluation comparisons and visualize metrics through a dashboard.
+
+### Features 
+   - Experiment tracking: Utilize MLflow to keep a record of experiments, including parameters, metrics, and model artifacts generated during evaluations.
+   - Leaderboard creation: The package allows you to create a leaderboard, making it easy to compare the performance of different  Models across multiple datasets.
+   - Metric visualization: Generate insightful charts and graphs through the dashboard, allowing you to visualize and analyze evaluation metrics easily.
+  
 
 1. [Indexing Documents](/1.%20Indexing%20documents/)
 1. [Neural Retriever](/2.%20Neural%20Retriever/)
