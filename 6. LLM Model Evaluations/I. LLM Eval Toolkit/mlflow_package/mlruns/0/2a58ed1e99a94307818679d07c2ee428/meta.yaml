@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/sahil/Documents/GitHub/Foundation-models/Evaluation/Private%20dataset%20evaluation/Final%20Evaluation/mlflow_package/mlruns/0/2a58ed1e99a94307818679d07c2ee428/artifacts
+end_time: 1690976509704
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2a58ed1e99a94307818679d07c2ee428
+run_name: SuperKnowa_Evaluation_20230802171046
+run_uuid: 2a58ed1e99a94307818679d07c2ee428
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690976446349
+status: 3
+tags: []
+user_id: sahil

@@ -1,0 +1,10 @@
+sentence_transformers
+transformers
+nltk
+beautifulsoup4
+requests
+torch
+simhash
+pandas
+rouge-score
+Pillow

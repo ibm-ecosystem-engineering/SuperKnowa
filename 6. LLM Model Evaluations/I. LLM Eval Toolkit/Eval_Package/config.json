@@ -1,0 +1,20 @@
+{
+"model": 
+	{
+	"bam_token": "Bearer Your-API-Key", 
+	"model_name": "google/flan-t5-xxl"
+	}, 
+"data": 
+	{
+	"data_path": "../../../Public dataset evaluation/CoQA dataset evaluation/Data/alpaca_data.json", 
+	"question": "instruction", 
+	"context": "input",
+	"idea_answer": "output",
+	"q_num":5
+	
+	}, 
+"result": 
+	{
+	"result_file": "../../../Private dataset evaluation/Final Evaluation/Model_Evaluation_csv/CoQA_FlanT5-XXL.csv"
+	}
+}
