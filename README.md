@@ -17,7 +17,7 @@ Ml Pipeline
 
 ![image](https://github.com/EnterpriseLLM/SuperKnowa/assets/21246183/142dd017-c46a-4506-aaea-3a0dea61cebb)
 
-Evaluation Leaderboard
+## [Evaluation Leaderboard](./5.%20LLM%20Model%20Evaluations/II.%20MLFLOW%20Integration/)
 
 
 - flan-t5-xxl outperforms ul2 irrespective of retriever used
