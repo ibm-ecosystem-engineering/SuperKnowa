@@ -1,4 +1,4 @@
-# SuperKnowa
+# SuperKnowa powered by watsonx.ai
 
 ## Generative Question & Answer on Private Knowledge Base using RAG(Retriever Augmented Generation)
 
@@ -8,7 +8,7 @@ RAG (Retriever Augmented Generation) uses a private enterprise knowledge base (l
 
 ## Single-Turn RAG(Retriver Augmented Generation)
 
-Watch the video [here](https://cdnapisec.kaltura.com/index.php/extwidget/preview/partner_id/1773841/uiconf_id/27941801/entry_id/1_yola7kmy/embed/dynamic).
+Watch the video on watsonx.ai [here](https://cdnapisec.kaltura.com/index.php/extwidget/preview/partner_id/1773841/uiconf_id/27941801/entry_id/1_yola7kmy/embed/dynamic).
 
 
 <img src="https://media.giphy.com/media/AmvB3Wwox8JqXqrd1k/giphy.gif" alt="GIF Description" width="600" height="400">
