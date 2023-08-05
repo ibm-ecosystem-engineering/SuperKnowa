@@ -33,7 +33,7 @@ Ml Pipeline
 
 ![visualization (2)](https://github.com/EnterpriseLLM/SuperKnowa/assets/112084296/13d75f46-04ad-4c78-a9fb-833a2f2f4299)
 
-## Eval_Package and MLflow_Package for Evaluation 
+## RAG Evaluation packages 
 
 ## [Eval_Package](5.%20LLM%20Model%20Evaluations/I.%20LLM%20Eval%20Toolkit/Eval_Package)
   
