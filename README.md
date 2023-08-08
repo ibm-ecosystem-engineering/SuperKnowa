@@ -1,4 +1,10 @@
 # SuperKnowa powered by watsonx.ai
+- <add a generic intro> 
+- Text to SQL
+- Converaational Q&A
+- Ask your documents (like pdf)
+- Abstractive Summarisation & Key Points from your pdf
+- Summarisation
 
 ## Generative Question & Answer on Private Knowledge Base using RAG(Retriever Augmented Generation)
 
