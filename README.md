@@ -1,64 +1,31 @@
 # SuperKnowa powered by watsonx.ai
-- <add a generic intro> 
-- Text to SQL
-- Converaational Q&A
-- Ask your documents (like pdf)
-- Abstractive Summarisation & Key Points from your pdf
-- Summarisation
 
-## Generative Question & Answer on Private Knowledge Base using RAG(Retriever Augmented Generation)
+Welcome to the SuperKnowa GitHub Repository!
 
-RAG (Retriever Augmented Generation) uses a private enterprise knowledge base (like support documentation, books, contract documents, and corporate policy) to retrieve relevant parts using a neural search and use it to generate cogent & fluent output using LLM. A simple Q&A pipeline using APIs does not perform well in practice on accuracy metrics of specific Q&A and requires dedicated efforts. This repo covers the build of end to end pipeline to get generative output from multiple source documents.
+SuperKnowa is a powerful platform developed by watsonx.ai (watch the video on watsonx.ai [here](https://cdnapisec.kaltura.com/index.php/extwidget/preview/partner_id/1773841/uiconf_id/27941801/entry_id/1_yola7kmy/embed/dynamic)) that harnesses the capabilities of Large Language Models (LLMs) to offer a range of advanced Generative AI use cases. This repository introduces you to the various use cases covered by SuperKnowa.
 
+## Use Cases
+### Conversational Q&A
+Engage in natural language conversations with SuperKnowa's conversational Question & Answer (Q&A) system. Ask questions based on private enterprise knowledge base, and receive detailed, context-aware responses.
 
+### Ask Your Documents
+Leverage SuperKnowa's "Ask your documents" feature to unlock the potential of your PDFs and text documents. SuperKnowa can help you extract relevant information, answer specific questions, and assist in information retrieval.
 
-## Single-Turn RAG(Retriver Augmented Generation)
+### Abstractive Summarisation & Key Points from PDF
+SuperKnowa's abstractive summarisation feature goes beyond simple extraction. It can analyze lengthy PDF documents and generate concise abstractive summaries, capturing the essence of the content. Additionally, SuperKnowa identifies key points, making it easier to comprehend and communicate complex information.
 
-Watch the video on watsonx.ai [here](https://cdnapisec.kaltura.com/index.php/extwidget/preview/partner_id/1773841/uiconf_id/27941801/entry_id/1_yola7kmy/embed/dynamic).
+### Summarisation
+Effortlessly generate coherent and informative summaries with SuperKnowa's summarisation feature. Extract the main points and essential details from articles, reports, and other texts, allowing for efficient content comprehension.
 
+### Text to SQL
+Experience the power of SuperKnowa's Text to SQL capability, which transforms natural language queries into structured SQL queries. Interact with databases using plain language, eliminating the need for expertise in SQL.
 
-<img src="https://media.giphy.com/media/AmvB3Wwox8JqXqrd1k/giphy.gif" alt="GIF Description" width="600" height="400">
+## Getting Started
+To explore SuperKnowa's features and capabilities, refer to the [blog series](https://medium.com/towards-generative-ai/unleashing-the-power-of-the-information-retriever-in-the-retrieval-augmented-generation-pipeline-a782c7287e9b), code examples, and resources provided in this repository.
 
-Ml Pipeline
+For questions, feedback, or collaboration opportunities, feel free to reach out to us.
 
-![image](https://github.com/EnterpriseLLM/SuperKnowa/assets/21246183/142dd017-c46a-4506-aaea-3a0dea61cebb)
-
-## [Evaluation Leaderboard](./5.%20LLM%20Model%20Evaluations/II.%20MLFLOW%20Integration/)
-
-
-- flan-t5-xxl outperforms ul2 irrespective of retriever used
-- ES scores better in comparison to Solr as retriever for flan-t5-xxl
-- There is a drop in accuracy when we use reranker in comparsion to when we do not.
-
-
-![Screenshot 2023-07-31 at 8 55 13 PM](https://github.com/EnterpriseLLM/SuperKnowa/assets/112084296/d34c6e55-0fb8-4636-82ff-b4f57ff56ef8)
-
-
-![visualization](https://github.com/EnterpriseLLM/SuperKnowa/assets/112084296/58d6e72b-c40f-4a3c-9d01-7fe1d191e583)
-
-
-![visualization (2)](https://github.com/EnterpriseLLM/SuperKnowa/assets/112084296/13d75f46-04ad-4c78-a9fb-833a2f2f4299)
-
-## RAG Evaluation packages 
-
-## [Eval_Package](5.%20LLM%20Model%20Evaluations/I.%20LLM%20Eval%20Toolkit/Eval_Package)
-  
-The Eval_Package is a tool designed to evaluate the performance of the LLM (Language Model) on a dataset containing questions, context, and ideal answers. It allows you to run evaluations on various datasets and assess how well the Model generates the answer.
-
-### Features 
-   - Evaluate LLM Model on custom datasets: Use the Eval_Package to assess the performance of your Model on datasets of your choice.
-   - Measure model accuracy: The package provides metrics to gauge the accuracy of the model-generated answers against the ideal answers.
-
-## [MLflow_Package](5.%20LLM%20Model%20Evaluations/I.%20LLM%20Eval%20Toolkit/mlflow_package)
-
-The MLflow_Package is a comprehensive toolkit designed to integrate the results from the Eval_Package and efficiently track and manage experiments. It also enables you to create a leaderboard for evaluation comparisons and visualize metrics through a dashboard.
-
-### Features 
-   - Experiment tracking: Utilize MLflow to keep a record of experiments, including parameters, metrics, and model artifacts generated during evaluations.
-   - Leaderboard creation: The package allows you to create a leaderboard, making it easy to compare the performance of different  Models across multiple datasets.
-   - Metric visualization: Generate insightful charts and graphs through the dashboard, allowing you to visualize and analyze evaluation metrics easily.
-
-===================================
+Let's unlock the potential of Generative AI with SuperKnowa and shape the future of AI-powered knowledge processing!
 
 ## Repository Contents
 
@@ -99,6 +66,29 @@ The MLflow_Package is a comprehensive toolkit designed to integrate the results 
    1. [Backend](./8.%20Application/Backend/)
 
    1. [Deployment](./8.%20Application/Deployment/)
+
+1. [Generative AI use cases]()
+
+============================================================================
+
+## RAG Evaluation packages 
+
+## [Eval_Package](5.%20LLM%20Model%20Evaluations/I.%20LLM%20Eval%20Toolkit/Eval_Package)
+  
+The Eval_Package is a tool designed to evaluate the performance of the LLM (Language Model) on a dataset containing questions, context, and ideal answers. It allows you to run evaluations on various datasets and assess how well the Model generates the answer.
+
+### Features 
+   - Evaluate LLM Model on custom datasets: Use the Eval_Package to assess the performance of your Model on datasets of your choice.
+   - Measure model accuracy: The package provides metrics to gauge the accuracy of the model-generated answers against the ideal answers.
+
+## [MLflow_Package](5.%20LLM%20Model%20Evaluations/I.%20LLM%20Eval%20Toolkit/mlflow_package)
+
+The MLflow_Package is a comprehensive toolkit designed to integrate the results from the Eval_Package and efficiently track and manage experiments. It also enables you to create a leaderboard for evaluation comparisons and visualize metrics through a dashboard.
+
+### Features 
+   - Experiment tracking: Utilize MLflow to keep a record of experiments, including parameters, metrics, and model artifacts generated during evaluations.
+   - Leaderboard creation: The package allows you to create a leaderboard, making it easy to compare the performance of different  Models across multiple datasets.
+   - Metric visualization: Generate insightful charts and graphs through the dashboard, allowing you to visualize and analyze evaluation metrics easily.
 
 ===================================
 
