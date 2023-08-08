@@ -17,6 +17,8 @@ The MLflow_Package is a comprehensive toolkit designed to integrate the results 
    - Leaderboard creation: The package allows you to create a leaderboard, making it easy to compare the performance of different  Models across multiple datasets.
    - Metric visualization: Generate insightful charts and graphs through the dashboard, allowing you to visualize and analyze evaluation metrics easily.
 
+![ML-Flow-Dashboard](https://github.com/EnterpriseLLM/SuperKnowa/assets/112084296/2b3ca47b-e779-4411-8c8a-2d4715bdc9fe)
+
 ## Directory contents
 
 This folder contains toolkit for evaluating RAG pipeline as listed below:
