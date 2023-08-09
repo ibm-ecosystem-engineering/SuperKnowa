@@ -6,10 +6,10 @@ This directory showcases a range of Generative AI use cases that empower you to 
 
 This repository is organized into subdirectories, each representing a different use case. Navigate to the respective directory to explore specific code examples, documentation, and guides for each use case.
 
-- [Conversational Q&A](./1.%20Conversational%20Q&A/): Code and resources for the Conversational Q&A use case.
-- [Ask Your Documents PDF](./2.%20Ask%20your%20documents/): Code and resources for asking questions based on your PDF.
-- [PDF Understanding](./3.%20PDF%20Understanding%20-%20Key%20Points/): Code and resources for interacting with PDF documents.
-- [Summarisation](./): Code and resources for generating informative content summaries.
+- [Conversational Q&A on Private Knowledge Base](./1.%20Conversational%20Q&A/): Code and resources for the Conversational Q&A use case.
+- [Ask Your Pdf/Documents](./2.%20Ask%20your%20documents/): Code and resources for asking questions based on your PDF.
+- [Summarisation](./3.%20Summarization/): Code and resources for generating informative content summaries.
+- [PDF Understanding](./4.%20PDF%20Understanding%20-%20Key%20Points/): Code and resources for interacting with PDF documents.
 - [Text-to-SQL](./5.%20Text%20to%20SQL/): Code and resources for transforming text queries into SQL queries.
 
 ## Getting Started

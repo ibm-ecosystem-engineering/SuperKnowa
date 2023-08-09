@@ -37,21 +37,19 @@ Let's unlock the potential of Generative AI with SuperKnowa and shape the future
 
    1. [MLFLOW Integration](/5.%20LLM%20Model%20Evaluations/II.%20MLFLOW%20Integration/)
 
-   1. [Benchmark Evaluation](./5.%20LLM%20Model%20Evaluations/III.%20Benchmark%20Evaluations/)
-
 1. [Fine-Tuning](/6.%20Fine-Tuning/)
 
    1. [Instruct DB](./6.%20Fine-Tuning/1.%20Instruct%20DB/)
 
    1. [Fine Tuning Falcon 7B using QLORA](./6.%20Fine-Tuning/2.%20Falcon-7B/)
 
-1. [Feedback & Reward Model](/7.%20Feedback%20%26%20Reward%20Model/)
+1. [RLHF Model](./7.%20RLHF%20Model/)
 
-1. [End User Application](/9.%20User%20Application/)
+1. [Deploy & Infer](./8.%20Deploy%20%26%20Infer/)
 
-   1. [Backend](./8.%20Application/Backend/)
+   1. [Backend](./8.%20Deploy%20%26%20Infer/Backend/)
 
-   1. [Deployment](./8.%20Application/Deployment/)
+   1. [Deployment](./8.%20Deploy%20%26%20Infer/Deployment/)
 
 1. [Enterprise LLM Use Cases](./Enterprise%20LLM%20Use%20Cases/)
 

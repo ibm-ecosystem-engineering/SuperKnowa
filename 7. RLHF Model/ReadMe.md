@@ -8,7 +8,12 @@ To find a detailed overview of Reward Modeling and RLHF, refer to the medium blo
 
 ## Notebook :
 1. [rewardModelTraining.ipynb](../7.%20Feedback%20%26%20Reward%20Model/notebooks/rewardModelTraining.ipynb) : This notebook takes in user preference data as input and trains a model of choice to output scaler reward.
+
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExeXBjaTc5cWJzbnBnaXZydTYyYnlqcHpxMDFpdmNyejZudTNidjFsYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3PyP8FDINh3MZji2Cw/giphy.gif" alt="GIF Description" width="500" height="300">
+
 2. [RLHFImplementation.ipynb](../7.%20Feedback%20%26%20Reward%20Model/notebooks/RLHFImplementation.ipynb) : This notebook takes a SFT LLM, a reward model and data as input. It then finetunes the LLM using PPO.
+
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExa21kdHFnbzhocG10ZGozZnUycnYxYWhtbzFtc2FmeWRpdGkweXh6cSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Hxpvnqe4pZ0L7G12OX/giphy.gif" alt="GIF Description" width="500" height="300">
 
 ## Output :
 The trained model gets saved in this folder
