@@ -55,7 +55,9 @@ Let's unlock the potential of Generative AI with SuperKnowa and shape the future
 
 1. [Enterprise LLM Use Cases](./Enterprise%20LLM%20Use%20Cases/)
 
-## LLM Eval Toolkit
+=================================================================================================================================
+
+## LLM Eval Toolkit with MLFlow
 
 ## [Eval_Package](5.%20LLM%20Model%20Evaluations/I.%20LLM%20Eval%20Toolkit/Eval_Package)
   
@@ -73,6 +75,7 @@ The MLflow_Package is a comprehensive toolkit designed to integrate the results 
    - Experiment tracking: Utilize MLflow to keep a record of experiments, including parameters, metrics, and model artifacts generated during evaluations.
    - Leaderboard creation: The package allows you to create a leaderboard, making it easy to compare the performance of different  Models across multiple datasets.
    - Metric visualization: Generate insightful charts and graphs through the dashboard, allowing you to visualize and analyze evaluation metrics easily.
+   - =================================================================================================================================
 
 ## Enterprise LLM Use Cases
 ### 1. Conversational Q&A on Private Knowledge Base
@@ -90,7 +93,7 @@ Effortlessly generate coherent and informative summaries with SuperKnowa's summa
 ### 5. Text to SQL
 Experience the power of SuperKnowa's Text-to-SQL capability, which transforms natural language queries into structured SQL queries. Interact with databases using plain language, eliminating the need for expertise in SQL.
 
-===================================
+=================================================================================================================================
 
 ## Build Team 
 
