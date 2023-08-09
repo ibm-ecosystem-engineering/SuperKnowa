@@ -1,8 +1,8 @@
-# SuperKnowa powered by watsonx.ai
+# SuperKnowa (powered by watsonx)
 
 Welcome to the SuperKnowa GitHub Repository!
 
-SuperKnowa is a powerful platform developed by watsonx.ai (watch the video on watsonx.ai [here](https://cdnapisec.kaltura.com/index.php/extwidget/preview/partner_id/1773841/uiconf_id/27941801/entry_id/1_yola7kmy/embed/dynamic)) that harnesses the capabilities of Large Language Models (LLMs) to offer a range of advanced Generative AI use cases. This repository introduces you to the various use cases covered by SuperKnowa.
+SuperKnowa is a powerful framework developed using watsonx (watch the video on watsonx.ai [here](https://cdnapisec.kaltura.com/index.php/extwidget/preview/partner_id/1773841/uiconf_id/27941801/entry_id/1_yola7kmy/embed/dynamic)) that harnesses the capabilities of Large Language Models (LLMs) to offer a range of advanced Generative AI use cases. This repository introduces you to the various use cases covered by SuperKnowa.
 
 ## Use Cases
 ### Conversational Q&A
