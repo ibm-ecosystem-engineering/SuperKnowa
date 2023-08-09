@@ -1,7 +1,9 @@
-# Deploy Superknowa to OCP Cluster
+# Deploy RAG Pipeline
 
-## Prerequisites
+## 1. Deploy to OCP
 
+### Prerequisites 
+(Change commands to deploy to another cloud)
 - A Kubernetes or Red Hat OpenShift cluster on which you can deploy an application
 - A MongoDB server
 - Reranker service ( we are using DrDecr model from primeQA)
