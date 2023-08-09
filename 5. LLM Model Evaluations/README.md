@@ -16,6 +16,8 @@ The MLflow_Package is a comprehensive toolkit designed to integrate the results 
 
 <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYjJod3pnZG1hbjloano0cmhxZ3JrbDJsbXgxM2t5enF5eXI3cWZvaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/6FV33YFa0HxuDxjPv9/giphy.gif" alt="GIF Description" width="500" height="300">
 
+ # Experiment Visualisation using Leaderboard
+
 ### Features 
    - Experiment tracking: Utilize MLflow to keep a record of experiments, including parameters, metrics, and model artifacts generated during evaluations.
    - Leaderboard creation: The package allows you to create a leaderboard, making it easy to compare the performance of different  Models across multiple datasets.
@@ -34,7 +36,7 @@ This folder contains toolkit for evaluating RAG pipeline as listed below:
    1. [Eval_Package](./I.%20LLM%20Eval%20Toolkit/Eval_Package/): A package to automatically evaluate the LLM based RAG pipeline
    1. [mlflow_package](./I.%20LLM%20Eval%20Toolkit/mlflow_package/): A package to automatically add the evaluation results to the
 
- ## Experiment Visualisation using Leaderboard
+
 
 - [II. MLFLOW Integration](II.%20MLFLOW%20Integration): MLFlOW evaluation dashboard scripts
    1. [Notebook](II.%20MLFLOW%20Integration/Notebook): Evaluation Notebook
