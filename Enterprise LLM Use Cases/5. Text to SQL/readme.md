@@ -9,6 +9,9 @@ This use case demonstrates a solution for converting natural language text into 
 
 ### Python Scripts
 
+#### `textToSqlStreamlit.py`
+A streamlit based demo app that takes user input in natural language, converts it into a SQL query and also exectutes the query against the database to get the results from the database.
+
 #### `db_connectors.py`
 
 This script contains functions related to connecting to various databases. It includes connectors for different types of databases such as SQLite, MySQL, PostgreSQL, etc.
