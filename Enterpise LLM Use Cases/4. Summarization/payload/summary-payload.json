@@ -1,0 +1,12 @@
+{
+  "model_id": "google/flan-t5-xxl",
+  "inputs": [],
+  "parameters": {
+    "decoding_method": "greedy",
+    "temperature": 0.7,
+    "top_p": 1,
+    "top_k": 50,
+    "min_new_tokens": 10,
+    "max_new_tokens": 50
+  }
+}

@@ -1,0 +1,123 @@
+body {
+  font-family: "IBM Plex Sans", sans-serif !important;
+}
+
+.upload-data {
+    float: right;
+    width: min(250px, 100%);
+}
+
+.carbon-btn {
+    height: 2.5rem;
+    width: min(250px, 100%);
+    border-radius: 0;
+    text-align: left;
+    padding-left: 1rem;
+    padding-right: 4rem;
+    margin-top: 0.5rem;
+    font-size: 14px;
+}
+
+.nav-dropdown-btn {
+    width: 3rem;
+    height: 3rem;
+    text-align: center;
+    padding-top: 0.7rem;
+
+    &:hover {
+        background-color: #6c757d;
+    }
+}
+
+/* For DropDown */
+.dropdown-menu[data-bs-popper] {
+    border-radius: 0;
+    box-shadow: 0 2px 6px 0 rgba(0,0,0,.2);
+    width: 100%;
+    padding: unset;
+    border: none;
+    background-color: #f4f4f4;
+    max-height: 13.75rem;
+    transition: max-height .11s cubic-bezier(.2,0,.38,.9);
+    min-width: 12rem;
+}
+
+.dmi-class {
+    color: #525252;
+    font-size: 14px;
+    border-bottom: 1px solid transparent;
+    border-top: 1px solid transparent;
+    border-top-color: #c6c6c6;
+    padding: 11px 24px 11px 16px;
+    height: 2.5rem;
+    letter-spacing: 0.16px;
+    line-height: 1rem;
+
+    &:first-of-type {
+        border-top-color: transparent;
+    }
+
+    &:hover {
+        background-color: #e8e8e8;
+    }
+}
+
+/* For payload modal */
+.modal-content {
+    border-radius: 0;
+    min-height: 550px !important;
+    max-height: 550px !important;
+
+    .nav-tabs {
+        padding-bottom: 1rem;
+    }
+
+    .nav-item > a {
+        background: none;
+        border: none;
+        border-bottom: 2px solid #e0e0e0;
+        color: #525252;
+        font-size: 0.875rem;
+        font-weight: 400;
+        height: 2.5rem;
+        margin-left: 1px;
+        padding: 0.5rem 1rem;
+
+        &:focus {
+            outline: 2px solid #0f62fe;
+            outline-offset: -2px;
+        }
+
+        &.active {
+            background: none;
+            border: none;
+            border-bottom: 2px solid #0f62fe;
+            color: #161616;
+            font-weight: 600;
+        }
+    }
+}
+
+/* hljs is for markdown */
+.hljs {
+    background-color: #343a3f;
+    color: #78a9ff;
+    font-family: 'IBM Plex Mono', sans-serif !important;
+}
+.hljs-string {
+    color: #9ef0f0;
+    font-family: 'IBM Plex Mono', sans-serif !important;
+}
+
+.tab-content {
+    background-color: #343a3f;
+}
+
+#generate-output {
+    max-width: 100%;
+    overflow: scroll;
+}
+
+.output-div:not(:first-child) {
+    padding-top: 2rem;
+}
