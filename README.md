@@ -1,4 +1,5 @@
-# SuperKnowa (powered by watsonx)
+# SuperKnowa 
+### (powered by watsonx)
 
 Welcome to the SuperKnowa GitHub repository! Here, you'll find a diverse collection of pluggable components designed to tackle various Generative AI use cases using Large Language Models (LLMs). Think of these components as building blocks, much like Lego pieces, that you can assemble to address a wide range of challenges in the realm of AI-driven text generation.
 
