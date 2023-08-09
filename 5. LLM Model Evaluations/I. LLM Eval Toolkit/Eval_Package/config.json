@@ -1,7 +1,7 @@
 {
 "model": 
 	{
-	"bam_token": "Bearer Your-API-Key", 
+	"watsonxai_token": "Bearer Your-API-Key", 
 	"model_name": "google/flan-t5-xxl"
 	}, 
 "data": 
