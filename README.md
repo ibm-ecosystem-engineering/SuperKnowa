@@ -54,7 +54,7 @@ Let's unlock the potential of Generative AI with SuperKnowa and shape the future
 
 1. [Enterprise LLM Use Cases](./Enterprise%20LLM%20Use%20Cases/)
 
-## RAG Evaluation packages 
+## LLM Eval Toolkit
 
 ## [Eval_Package](5.%20LLM%20Model%20Evaluations/I.%20LLM%20Eval%20Toolkit/Eval_Package)
   
@@ -73,30 +73,34 @@ The MLflow_Package is a comprehensive toolkit designed to integrate the results 
    - Leaderboard creation: The package allows you to create a leaderboard, making it easy to compare the performance of different  Models across multiple datasets.
    - Metric visualization: Generate insightful charts and graphs through the dashboard, allowing you to visualize and analyze evaluation metrics easily.
 
-## Use Cases
-### Conversational Q&A
-Engage in natural language conversations with SuperKnowa's conversational Question & Answer (Q&A) system. Ask questions based on private enterprise knowledge base, and receive detailed, context-aware responses.
+## Enterprise LLM Use Cases
+### 1. Conversational Q&A on Private Knowledge Base
+Engage in natural language conversations with SuperKnowa's conversational Question & Answer (Q&A) system. Ask questions based on the private enterprise knowledge base, and receive detailed, context-aware responses.
 
-### Ask Your Documents
+### 2. Ask Your Pdf/Documents
 Leverage SuperKnowa's "Ask your documents" feature to unlock the potential of your PDFs and text documents. SuperKnowa can help you extract relevant information, answer specific questions, and assist in information retrieval.
 
-### Abstractive Summarisation & Key Points from PDF
+### 3. Abstractive Summarisation & Key Points from PDF
 SuperKnowa's abstractive summarisation feature goes beyond simple extraction. It can analyze lengthy PDF documents and generate concise abstractive summaries, capturing the essence of the content. Additionally, SuperKnowa identifies key points, making it easier to comprehend and communicate complex information.
 
-### Summarisation
+### 4. Extractive Summarisation
 Effortlessly generate coherent and informative summaries with SuperKnowa's summarisation feature. Extract the main points and essential details from articles, reports, and other texts, allowing for efficient content comprehension.
 
-### Text to SQL
-Experience the power of SuperKnowa's Text to SQL capability, which transforms natural language queries into structured SQL queries. Interact with databases using plain language, eliminating the need for expertise in SQL.
+### 5. Text to SQL
+Experience the power of SuperKnowa's Text-to-SQL capability, which transforms natural language queries into structured SQL queries. Interact with databases using plain language, eliminating the need for expertise in SQL.
 
 ===================================
 
-Owner: Kunal Sawarkar
+## Build Team 
 
-Build Team 
+Owner: Kunal Sawarkar, Chief Data Scientist
 
-- Shivam Solanki- Senior Advisory Data Scientist
-- Abhilasha Mangal- Senior Data Scientist
-- Sahil Desai- Senior Data Scientist
+Build Squad
+- Shivam Solanki, Senior Advisory Data Scientist
+- Michael Spriggs, Principal Architect
+- Kevin Huang, Sr. ML-Ops Engineer 
+- Abhilasha Mangal, Senior Data Scientist
+- Sahil Desai, Data Scientist
 - Amit Khandelwal- Senior Data Scientist
 - Himadri Talukder - Senior Software Engineer
+- Tyler 
