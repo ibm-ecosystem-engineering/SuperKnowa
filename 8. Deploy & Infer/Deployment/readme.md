@@ -1,6 +1,6 @@
 # Deploy RAG Pipeline
 
-## 1. Deploy to OCP
+## I. Deploy to Openshift or Kubertenes
 
 ### Prerequisites 
 (Change commands to deploy to another cloud)
