@@ -59,7 +59,7 @@ Let's unlock the potential of Generative AI with SuperKnowa and shape the future
 
 ## LLM Eval Toolkit with MLFlow
 
-## [Eval_Package](5.%20LLM%20Model%20Evaluations/I.%20LLM%20Eval%20Toolkit/Eval_Package)
+### [Eval_Package](5.%20LLM%20Model%20Evaluations/I.%20LLM%20Eval%20Toolkit/Eval_Package)
   
 The Eval_Package is a tool designed to evaluate the performance of the LLM (Language Model) on a dataset containing questions, context, and ideal answers. It allows you to run evaluations on various datasets and assess how well the Model generates the answer.
 
@@ -75,9 +75,10 @@ The MLflow_Package is a comprehensive toolkit designed to integrate the results 
    - Experiment tracking: Utilize MLflow to keep a record of experiments, including parameters, metrics, and model artifacts generated during evaluations.
    - Leaderboard creation: The package allows you to create a leaderboard, making it easy to compare the performance of different  Models across multiple datasets.
    - Metric visualization: Generate insightful charts and graphs through the dashboard, allowing you to visualize and analyze evaluation metrics easily.
-   - ===============================================================================
+===============================================================================
 
 ## Enterprise LLM Use Cases
+
 ### 1. Conversational Q&A on Private Knowledge Base
 Engage in natural language conversations with SuperKnowa's conversational Question & Answer (Q&A) system. Ask questions based on the private enterprise knowledge base, and receive detailed, context-aware responses.
 
