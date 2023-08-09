@@ -1,13 +1,14 @@
 # SuperKnowa (powered by watsonx)
 
-Welcome to the SuperKnowa GitHub Repository!
+Welcome to the SuperKnowa GitHub repository! Here, you'll find a diverse collection of pluggable components designed to tackle various Generative AI use cases using Large Language Models (LLMs). Think of these components as building blocks, much like Lego pieces, that you can assemble to address a wide range of challenges in the realm of AI-driven text generation.
 
 SuperKnowa is a powerful framework developed using watsonx (watch the video on watsonx.ai [here](https://cdnapisec.kaltura.com/index.php/extwidget/preview/partner_id/1773841/uiconf_id/27941801/entry_id/1_yola7kmy/embed/dynamic)) that harnesses the capabilities of Large Language Models (LLMs) to offer a range of advanced Generative AI use cases. This repository introduces you to the various use cases covered by SuperKnowa.
+
 
 ## Getting Started
 To explore SuperKnowa's features and capabilities, refer to the [blog series](https://medium.com/towards-generative-ai/unleashing-the-power-of-the-information-retriever-in-the-retrieval-augmented-generation-pipeline-a782c7287e9b), code examples, and resources provided in this repository.
 
-For questions, feedback, or collaboration opportunities, feel free to reach out to us.
+For detailed instructions and examples, navigate to each component's directory. Unleash the potential of Large Language Models in your projects using SuperKnowa's Generative AI Lego Components!
 
 Let's unlock the potential of Generative AI with SuperKnowa and shape the future of AI-powered knowledge processing!
 
@@ -51,7 +52,7 @@ Let's unlock the potential of Generative AI with SuperKnowa and shape the future
 
    1. [Deployment](./8.%20Application/Deployment/)
 
-1. [Generative AI use cases]()
+1. [Enterprise LLM Use Cases](./Enterprise%20LLM%20Use%20Cases/)
 
 ## RAG Evaluation packages 
 
