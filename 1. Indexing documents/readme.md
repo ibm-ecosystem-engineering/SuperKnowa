@@ -3,6 +3,8 @@
 
 This repository contains resources for indexing documents into Elasticsearch and Apache Solr. Both Elasticsearch and Solr are powerful, open-source search platforms that offer robust capabilities for handling and analyzing large datasets.
 
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcGJ1aXg2Y2xkN3FpNXljbjJuZGUxaDBzbWw4eTA1M2RvNm9sM3hvZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/BTonLUeA6eND0vQZSt/giphy.gif" alt="GIF Description" width="500" height="300">
+
 ![Indexing](https://gg-cms-admin-prd.s3.eu-west-1.amazonaws.com/iocms/sharding_3cb0e30cbe.png)
 
 Image source: https://www.giffgaff.io/tech/elasticsearch-index-management

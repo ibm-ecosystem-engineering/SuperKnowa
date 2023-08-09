@@ -4,6 +4,8 @@
   
 The Eval_Package is a tool designed to evaluate the performance of the LLM (Language Model) on a dataset containing questions, context, and ideal answers. It allows you to run evaluations on various datasets and assess how well the Model generates the answer.
 
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOTllNWVhYTdsYjZrZHFqeDhzcXcwcDlqcWs0ajJnZHVhNGYyZW9pMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/2ZN76vTSwlqxbwcpjX/giphy.gif" alt="GIF Description" width="500" height="300">
+
 ### Features 
    - Evaluate LLM Model on custom datasets: Use the Eval_Package to assess the performance of your Model on datasets of your choice.
    - Measure model accuracy: The package provides metrics to gauge the accuracy of the model-generated answers against the ideal answers.
@@ -11,6 +13,8 @@ The Eval_Package is a tool designed to evaluate the performance of the LLM (Lang
 ## [MLflow_Package](./I.%20LLM%20Eval%20Toolkit/mlflow_package/)
 
 The MLflow_Package is a comprehensive toolkit designed to integrate the results from the Eval_Package and efficiently track and manage experiments. It also enables you to create a leaderboard for evaluation comparisons and visualize metrics through a dashboard.
+
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYjJod3pnZG1hbjloano0cmhxZ3JrbDJsbXgxM2t5enF5eXI3cWZvaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/6FV33YFa0HxuDxjPv9/giphy.gif" alt="GIF Description" width="500" height="300">
 
 ### Features 
    - Experiment tracking: Utilize MLflow to keep a record of experiments, including parameters, metrics, and model artifacts generated during evaluations.
