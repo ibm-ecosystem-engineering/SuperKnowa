@@ -31,9 +31,9 @@ Let's unlock the potential of Generative AI with SuperKnowa and shape the future
 
 1. [In-context learning using LLM](/4.%20In-context%20learning%20using%20LLM/)
 
-1. [LLM Model Evaluation](/5.%20LLM%20Model%20Evaluations/)
+1. [LLM Eval Toolkit](/5.%20LLM%20Model%20Evaluations/)
 
-   1. [LLM Eval Toolkit](/5.%20LLM%20Model%20Evaluations/I.%20LLM%20Eval%20Toolkit/)
+   1. [LLM Model Evaluation](/5.%20LLM%20Model%20Evaluations/I.%20LLM%20Eval%20Toolkit/)
 
    1. [MLFLOW Integration](/5.%20LLM%20Model%20Evaluations/II.%20MLFLOW%20Integration/)
 
@@ -47,7 +47,7 @@ Let's unlock the potential of Generative AI with SuperKnowa and shape the future
 
 1. [Feedback & Reward Model](/7.%20Feedback%20%26%20Reward%20Model/)
 
-1. [User Application](/9.%20User%20Application/)
+1. [End User Application](/9.%20User%20Application/)
 
    1. [Backend](./8.%20Application/Backend/)
 
