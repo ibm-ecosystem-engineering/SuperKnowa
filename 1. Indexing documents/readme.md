@@ -1,5 +1,5 @@
 
-# Indexing Documents with Elasticsearch or Solr
+# Indexing Documents with ElasticSearch or Solr
 
 This repository contains resources for indexing documents into Elasticsearch and Apache Solr. Both Elasticsearch and Solr are powerful, open-source search platforms that offer robust capabilities for handling and analyzing large datasets.
 
