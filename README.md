@@ -87,11 +87,11 @@ Engage in natural language conversations with SuperKnowa's conversational Questi
 ### 2. Ask Your Pdf/Documents
 Leverage SuperKnowa's "Ask your documents" feature to unlock the potential of your PDFs and text documents. SuperKnowa can help you extract relevant information, answer specific questions, and assist in information retrieval.
 
-### 3. Abstractive Summarisation & Key Points from PDF
-SuperKnowa's abstractive summarisation feature goes beyond simple extraction. It can analyze lengthy PDF documents and generate concise abstractive summaries, capturing the essence of the content. Additionally, SuperKnowa identifies key points, making it easier to comprehend and communicate complex information.
+### 3. Summarisation
+Effortlessly generate coherent and informative summaries with SuperKnowa's summarization feature across large text corpus using FlanT5 and UL2. Extract the main points and essential details from articles, reports, and other texts, allowing for efficient content comprehension.
 
-### 4. Extractive Summarisation
-Effortlessly generate coherent and informative summaries with SuperKnowa's summarisation feature. Extract the main points and essential details from articles, reports, and other texts, allowing for efficient content comprehension.
+### 4. Key Points from your PDF
+SuperKnowa's abstractive summarisation feature goes beyond simple extraction using FlanUL2, and LLAMA2. It can analyze lengthy PDF documents and generate concise abstractive summaries, capturing the essence of the content. Additionally, SuperKnowa identifies key points, making it easier to comprehend and communicate complex information.
 
 ### 5. Text to SQL
 Experience the power of SuperKnowa's Text-to-SQL capability, which transforms natural language queries into structured SQL queries. Interact with databases using plain language, eliminating the need for expertise in SQL.
