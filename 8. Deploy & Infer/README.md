@@ -27,7 +27,7 @@ The basic flow is:
 
 ## Prerequisites
 
-The SuperKnowa Backend relies on the following external services which must be deployed in advance.
+The SuperKnowa Backend relies on the following external services which must be deployed in advance:
 
 - Reranker service.
 - LLM deployed with watsonx.ai.
