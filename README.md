@@ -98,6 +98,9 @@ width="500" height="300">
 ### 3. Summarisation
 Effortlessly generate coherent and informative summaries with SuperKnowa's summarization feature across large text corpus using FlanT5 and UL2. Extract the main points and essential details from articles, reports, and other texts, allowing for efficient content comprehension.
 
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZTk3NWJtczFsaGp6aXd2Z2hoM3pzeHNwcm1ocWVvOHZjeGJubzh2YSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/5Z5wAc62XXZNlCgvOO/giphy.gif" alt="SuperKnowa PDF version"
+width="500" height="300">
+
 ### 4. Key Points from your PDF
 SuperKnowa's abstractive summarisation feature goes beyond simple extraction using FlanUL2, and LLAMA2. It can analyze lengthy PDF documents and generate concise abstractive summaries, capturing the essence of the content. Additionally, SuperKnowa identifies key points, making it easier to comprehend and communicate complex information.
 

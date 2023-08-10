@@ -2,6 +2,9 @@
 
 This directory provides a solution for generating text summaries using Language Model (LLM) powered by watsonx.ai. The directory consists of Python scripts, a configuration file, a JSON payload file, and a CSS file for styling.
 
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZTk3NWJtczFsaGp6aXd2Z2hoM3pzeHNwcm1ocWVvOHZjeGJubzh2YSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/5Z5wAc62XXZNlCgvOO/giphy.gif" alt="SuperKnowa PDF version"
+width="500" height="300">
+
 ## Files and Descriptions
 
 ### Python Scripts
