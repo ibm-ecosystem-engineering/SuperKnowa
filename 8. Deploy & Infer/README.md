@@ -29,13 +29,13 @@ The basic flow is:
 
 The SuperKnowa Backend relies on the following external services which must be deployed in advance.
 
-- You have deployed the Reranker service.
-- You have deployed a LLM with watsonx.ai.
+- Reranker service.
+- LLM deployed with watsonx.ai.
 - You have indexed a corpus of data with one of the following Information Retrievers:
   - Solr
   - Elasticsearch
   - IBM Watson Discovery
-- You have deployed MongoDB. You can use the IBM Cloud MongoDB service for example.
+- MongoDB. You can use the IBM Cloud MongoDB service for this purpose.
 - (Optional) For OpenShift deployment, you will need an OpenShift cluster on which you can deploy applications.
 
 ## Deploy the Backend Service
