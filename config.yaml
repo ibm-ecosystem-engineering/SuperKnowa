@@ -1,0 +1,18 @@
+retriever:
+  indexName: superknowa
+  query: What is IBM Cloud?
+  elasticURL : # enter the url of elatsic server instance
+  resPath: resultRetriever
+
+reranker:
+  query: What is IBM Data and Analytics Reference Architecture
+  listOfDocuments: resultRetriever
+  resPath: resultReranker
+  max_reranked_documents : 10
+  reranker_url : # enter the url of reranker server instance
+
+LLMQnA:
+  question: What is IBM Data and Analytics Reference Architecture
+  resPath: resultLLMQnA
+  context: resultReranker
+
