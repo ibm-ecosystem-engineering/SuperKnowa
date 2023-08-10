@@ -18,41 +18,43 @@ Let's unlock the potential of Generative AI with SuperKnowa and shape the future
 
 ## Repository Contents
 
-1. [Indexing Documents](/1.%20Indexing%20documents/)
+1. [1. Indexing Documents](/1.%20Indexing%20documents/)
 
    1. [Elastic Search](./1.%20Indexing%20documents/Elastic%20Search/)
 
    1. [Solr](./1.%20Indexing%20documents/Solr/)
 
-1. [Neural Retriever](/2.%20Neural%20Retriever/)
+1. [2. Neural Retriever](/2.%20Neural%20Retriever/)
 
    1. [Elastic Search](./2.%20Neural%20Retriever/ElasticSearch/)
 
    1. [Solr](./2.%20Neural%20Retriever/Solr/)
 
-1. [Re-Ranker](/3.%20Re-ranker/)
+1. [3. Re-Ranker](/3.%20Re-ranker/)
 
-1. [In-context learning using LLM](/4.%20In-context%20learning%20using%20LLM/)
+1. [4. In-context learning using LLM](/4.%20In-context%20learning%20using%20LLM/)
 
-1. [LLM Eval Toolkit](/5.%20LLM%20Model%20Evaluations/)
+1. [5. LLM Evaluations](./5.%20LLM%20Model%20Evaluations/)
 
    1. [LLM Model Evaluation](/5.%20LLM%20Model%20Evaluations/I.%20LLM%20Eval%20Toolkit/)
 
    1. [MLFLOW Integration](/5.%20LLM%20Model%20Evaluations/II.%20MLFLOW%20Integration/)
 
-1. [Fine-Tuning](/6.%20Fine-Tuning/)
+1. [6. Fine-Tuning](/6.%20Fine-Tuning/)
 
    1. [Instruct DB](./6.%20Fine-Tuning/1.%20Instruct%20DB/)
 
    1. [Fine Tuning Falcon 7B using QLORA](./6.%20Fine-Tuning/2.%20Falcon-7B/)
 
-1. [RLHF Model](./7.%20RLHF%20Model/)
+1. [7. RLHF Model](./7.%20RLHF%20Model/)
 
-1. [Deploy & Infer](./8.%20Deploy%20%26%20Infer/)
+1. [8. Deploy & Infer](./8.%20Deploy%20%26%20Infer/)
 
    1. [Backend](./8.%20Deploy%20%26%20Infer/Backend/)
 
    1. [Deployment](./8.%20Deploy%20%26%20Infer/Deployment/)
+
+1. [9. Human Feedback for AI Alignment](./9.%20Human%20Feedback%20for%20AI%20Alignment/)
 
 1. [Enterprise LLM Use Cases](./Enterprise%20LLM%20Use%20Cases/)
 
@@ -85,8 +87,13 @@ The MLflow_Package is a comprehensive toolkit designed to integrate the results 
 ### 1. Conversational Q&A on Private Knowledge Base
 Engage in natural language conversations with SuperKnowa's conversational Question & Answer (Q&A) system. Ask questions based on the private enterprise knowledge base, and receive detailed, context-aware responses.
 
+<img src="https://media.giphy.com/media/AmvB3Wwox8JqXqrd1k/giphy.gif" alt="GIF Description" width="500" height="300">
+
 ### 2. Ask Your Pdf/Documents
 Leverage SuperKnowa's "Ask your documents" feature to unlock the potential of your PDFs and text documents. SuperKnowa can help you extract relevant information, answer specific questions, and assist in information retrieval.
+
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOGJtb3gzbmZpcHFycGd5NXlwZTNnenFldXVzNnlqd2x4Z2w2ZWxkbiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/RHiZsJJMAGURFWplHL/giphy.gif" alt="SuperKnowa PDF version"
+width="500" height="300">
 
 ### 3. Summarisation
 Effortlessly generate coherent and informative summaries with SuperKnowa's summarization feature across large text corpus using FlanT5 and UL2. Extract the main points and essential details from articles, reports, and other texts, allowing for efficient content comprehension.
@@ -94,10 +101,14 @@ Effortlessly generate coherent and informative summaries with SuperKnowa's summa
 ### 4. Key Points from your PDF
 SuperKnowa's abstractive summarisation feature goes beyond simple extraction using FlanUL2, and LLAMA2. It can analyze lengthy PDF documents and generate concise abstractive summaries, capturing the essence of the content. Additionally, SuperKnowa identifies key points, making it easier to comprehend and communicate complex information.
 
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExa2wyN3NjNmVsbHhoaXJ3ODRzazJ4bnU2Z2p5ZWtmcTNvY3RmNjN4NSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/tQO2UoGJO8zEuGK4OC/giphy.gif" alt="PDF Understanding" width="500" height="300">
+
 ### 5. Text to SQL
 Experience the power of SuperKnowa's Text-to-SQL capability, which transforms natural language queries into structured SQL queries. Interact with databases using plain language, eliminating the need for expertise in SQL.
 
-=====================================================================
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZmJkcnc5MndjcWVjdTU4dnFoZXVhdzYxY3lhdXR5aW1qNW52MGUzMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/b4Y1nmTCFv4fjnH745/giphy.gif" alt="GIF Description" width="500" height="300">
+
+
 ## Build Team 
 
 Owner: Kunal Sawarkar, Chief Data Scientist
