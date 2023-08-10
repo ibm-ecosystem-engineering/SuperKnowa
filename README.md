@@ -18,43 +18,43 @@ Let's unlock the potential of Generative AI with SuperKnowa and shape the future
 
 ## Repository Contents
 
-1. [1. Indexing Documents](/1.%20Indexing%20documents/)
+1. [Indexing Documents](/1.%20Indexing%20documents/)
 
    1. [Elastic Search](./1.%20Indexing%20documents/Elastic%20Search/)
 
    1. [Solr](./1.%20Indexing%20documents/Solr/)
 
-1. [2. Neural Retriever](/2.%20Neural%20Retriever/)
+1. [Neural Retriever](/2.%20Neural%20Retriever/)
 
    1. [Elastic Search](./2.%20Neural%20Retriever/ElasticSearch/)
 
    1. [Solr](./2.%20Neural%20Retriever/Solr/)
 
-1. [3. Re-Ranker](/3.%20Re-ranker/)
+1. [Re-Ranker](/3.%20Re-ranker/)
 
-1. [4. In-context learning using LLM](/4.%20In-context%20learning%20using%20LLM/)
+1. [In-context learning using LLM](/4.%20In-context%20learning%20using%20LLM/)
 
-1. [5. LLM Evaluations](./5.%20LLM%20Model%20Evaluations/)
+1. [LLM Evaluations](./5.%20LLM%20Model%20Evaluations/)
 
    1. [LLM Model Evaluation](/5.%20LLM%20Model%20Evaluations/I.%20LLM%20Eval%20Toolkit/)
 
    1. [MLFLOW Integration](/5.%20LLM%20Model%20Evaluations/II.%20MLFLOW%20Integration/)
 
-1. [6. Fine-Tuning](/6.%20Fine-Tuning/)
+1. [Fine-Tuning](/6.%20Fine-Tuning/)
 
    1. [Instruct DB](./6.%20Fine-Tuning/1.%20Instruct%20DB/)
 
    1. [Fine Tuning Falcon 7B using QLORA](./6.%20Fine-Tuning/2.%20Falcon-7B/)
 
-1. [7. RLHF Model](./7.%20RLHF%20Model/)
+1. [RLHF Model](./7.%20RLHF%20Model/)
 
-1. [8. Deploy & Infer](./8.%20Deploy%20%26%20Infer/)
+1. [Deploy & Infer](./8.%20Deploy%20%26%20Infer/)
 
    1. [Backend](./8.%20Deploy%20%26%20Infer/Backend/)
 
    1. [Deployment](./8.%20Deploy%20%26%20Infer/Deployment/)
 
-1. [9. Human Feedback for AI Alignment](./9.%20Human%20Feedback%20for%20AI%20Alignment/)
+1. [AI Alignment Tool](./9.%20AI%20Alignment%20Tool/)
 
 1. [Enterprise LLM Use Cases](./Enterprise%20LLM%20Use%20Cases/)
 
