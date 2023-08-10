@@ -369,6 +369,8 @@ Here is the implementation designing with reactJS and materialUI.
 
 **Rating component:**
 
+![image](https://github.com/ibm-ecosystem-engineering/SuperKnowa/assets/111310676/78417bf6-5aca-4064-9f5b-2d27c4f7deee)
+
 ```js
 import { Box, Grid, useTheme, Rating } from "@mui/material";
 import { useState } from "react";
@@ -447,6 +449,8 @@ const AnswerRating = ({
 export default AnswerRating;
 ```
 **Q&A and Comments component**
+
+![image](https://github.com/ibm-ecosystem-engineering/SuperKnowa/assets/111310676/ac157c78-6261-4d28-aea2-e7cf99649235)
 
 ```js
 import * as React from "react";
