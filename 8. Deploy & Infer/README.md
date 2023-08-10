@@ -1,6 +1,6 @@
 # SuperKnowa Backend Service
 
-In this subdirectory contains code, and deployment and integration guides, for the SuperKnowa Backend Service.
+This subdirectory contains code, and deployment and integration guides, for the SuperKnowa Backend Service.
 
 The SuperKnowa Backend Service is intended to be used in the context of Retrieval Augmented Generation (RAG) application. It leverages an external Information Retrieval service (Solr, Elasticsearch, or Watson Discovery) and a LLM hosted on watsonx.ai in order to answer 
 questions about a corpus of data. 
