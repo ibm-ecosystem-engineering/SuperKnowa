@@ -36,15 +36,11 @@ The SuperKnowa Backend relies on the following external services which must be d
   - Elasticsearch
   - IBM Watson Discovery
 - Deploy a MongoDB instance. You can use the IBM Cloud MongoDB service.
-- You will need an OpenShift or Kubernetes cluster on which you can deploy applications.
+- (Optional) For OpenShift deployment, you will need an OpenShift cluster on which you can deploy applications.
 
 ## Deploy the Backend Service
 
+- [Deploy locally](Backend/)
+- [Deploy on OpenShift](Deployment/)
+
 ## Test the API
-
-Once you have deployed the SuperKnowa Backend you can test it using REST API either from `curl` commands, Jupyter notebooks, etc. 
- 
-## Contents
-
-- [Run the Backend sever](Backend/)
-- [OCP Deployment](Deployment/)
