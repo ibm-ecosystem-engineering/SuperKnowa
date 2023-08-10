@@ -13,7 +13,7 @@ Note that we do not include a reference front-end application in this directory.
 
 ![superknowa](https://github.com/EnterpriseLLM/SuperKnowa/assets/111310676/278bced3-9253-4cf7-9b2f-0690b72a9f0b)
 
-The basic flow is as follows:
+The basic flow is:
 
 1. A user submits a question in natural language to a front-end application.
 2. The front-end application forwards the request to the SuperKnowa Backend.
@@ -27,24 +27,22 @@ The basic flow is as follows:
 
 ## Prerequisites
 
-## Core Service API
+The SuperKnowa Backend relies on the following external services which must be deployed in advance.
 
-## 
-
-## Components
-
-Below are the components that built the superknowa application.
-
-- Superknowa client app
-- Superknowa backend server
-- Reranker server
-- Watsonx.ai
-- Retrievers
+- Deploy a Reranker service.
+- Deploy a LLM with watsonx.ai.
+- Index the corpus of data with one of the following Information Retrievers:
   - Solr
   - Elasticsearch
   - IBM Watson Discovery
+- Deploy a MongoDB instance. You can use the IBM Cloud MongoDB service.
+- You will need an OpenShift or Kubernetes cluster on which you can deploy applications.
+
+## Core Service API
+
+Once you have deployed the SuperKnowa Backend you can test it using REST API either from `curl` commands, Jupyter notebooks, etc. 
  
-## Deployment
+## Contents
 
 - [Run the Backend sever](Backend/)
 - [OCP Deployment](Deployment/)
