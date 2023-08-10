@@ -7,15 +7,15 @@ This repository contains Python scripts demonstrating the use of a Neural Retrie
 ## Directory Contents
 
 - [Elastic Search](../2.%20Neural%20Retriever/ElasticSearch/): Demonstrates the use of Elasticsearch as a document store for the neural retriever.
-    - [es_retriever.ipynb](../2.%20Neural%20Retriever/ElasticSearch/elastic_retriever.ipynb): Notebook for retrieving documents from the Elastic Search index
+    - [es_retriever.ipynb](../2.%20Neural%20Retriever/ElasticSearch/elastic_retriever.ipynb)
 - [Solr](../2.%20Neural%20Retriever/Solr/): Demonstrates the use of Apache Solr as a document store for the neural retriever.
-    - [solr_retriever.ipynb](../2.%20Neural%20Retriever/Solr/solr_retriever.ipynb): An example notebook showing how to query documents from the Solr collection
-    - [solr_retriever](../2.%20Neural%20Retriever/Solr/solr_retriever.py): Python Script to search for documents from the Solr indexed collection
+    - [solr_retriever.ipynb](../2.%20Neural%20Retriever/Solr/solr_retriever.ipynb)
+    - [solr_retriever](../2.%20Neural%20Retriever/Solr/solr_retriever.py)
 
 - [Watson Discover](../2.%20Neural%20Retriever/Watson%20Discovery/): Demonstrates the use of Watson Discovery as a document store for the neural retriever.
-    - [WD_PDF_Retriever](../2.%20Neural%20Retriever/Watson%20Discovery/WD_PDF_Retriever.py): A Python scripts that uploads and indexes a PDF to the Watson Discovery collection making it available for future queries
-    - [WD_retriever.py](../2.%20Neural%20Retriever/Watson%20Discovery/WD_retriever.py): A Python script for querying documents from the Watson Discovery collection.
-    
+    - [WD_PDF_Retriever](../2.%20Neural%20Retriever/Watson%20Discovery/WD_PDF_Retriever.py)
+    - [WD_retriever.py](../2.%20Neural%20Retriever/Watson%20Discovery/WD_retriever.py)
+
 ![Retriever](./Screenshots/retriever.png)
 
 ## Getting Started
