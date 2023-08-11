@@ -16,16 +16,23 @@ This repository contains Python scripts demonstrating the use of a Neural Retrie
     - [WD_PDF_Retriever](../2.%20Neural%20Retriever/Watson%20Discovery/WD_PDF_Retriever.py)
     - [WD_retriever.py](../2.%20Neural%20Retriever/Watson%20Discovery/WD_retriever.py)
 
+- [ProcessElastic.py](./ProcessElastic.py): Re-usable Script to retrieve documents from elastic search instance.
+
+
 ![Retriever](./Screenshots/retriever.png)
 
 ## Getting Started
 
 1. Clone this repository.
 2. Install the required dependencies (see the Dependencies section below).
-3. Update the document store connection details in the scripts as necessary.
-4. Run the desired script to see the neural retriever in action.
+3. Modify the [config.yaml](../config.yaml) to update the `retriever` pointing to your service
+4. Run the [ProcessElastic.py](./ProcessElastic.py) to see the neural retriever in action.
 
 ## Usage
+
+Run the [ProcessElastic.py](./ProcessElastic.py) after updating [config.yaml](../config.yaml) to see the neural retriever in action.
+
+### Example scripts and notebook
 
 Each script defines a function for the information retriever (`SolrRetriever`, `ESRetriever`, or `WDRetriever`) takes a query and returns the top matching documents from the respective document store.
 
