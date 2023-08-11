@@ -1,0 +1,21 @@
+indexing:
+  elasticURL: # Please provide elastic path
+  elasticCertPath: # please provide certifacte path if requeires otherwise set false
+  indexName: superknowa_test # here you can pass index name bydeafult it is 
+  indexMapping: {
+    "mappings": {
+        "properties": {
+            "id": {"type": "text"},
+            "published_source": {"type": "text"},
+            "content": {"type": "text"},
+            "url": {"type": "text"},
+            "keywords": {"type": "text"},
+            "categories": {"type": "text"},
+            "publish_date": {"type": "date"},
+            "last_update_date": {"type": "date"},
+            "indexing_date": {"type": "date"}
+            
+        }
+    }
+}
+  indexFileFolderPath: # here you can provide cleaned files folder path 

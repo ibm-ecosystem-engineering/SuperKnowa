@@ -34,7 +34,7 @@ Let's unlock the potential of Generative AI with SuperKnowa and shape the future
 
 1. [In-context learning using LLM](/4.%20In-context%20learning%20using%20LLM/)
 
-1. [LLM Eval Toolkit](/5.%20LLM%20Model%20Evaluations/)
+1. [LLM Evaluations](./5.%20LLM%20Model%20Evaluations/)
 
    1. [LLM Model Evaluation](/5.%20LLM%20Model%20Evaluations/I.%20LLM%20Eval%20Toolkit/)
 
@@ -53,6 +53,8 @@ Let's unlock the potential of Generative AI with SuperKnowa and shape the future
    1. [Backend](./8.%20Deploy%20%26%20Infer/Backend/)
 
    1. [Deployment](./8.%20Deploy%20%26%20Infer/Deployment/)
+
+1. [AI Alignment Tool](./9.%20AI%20Alignment%20Tool/)
 
 1. [Enterprise LLM Use Cases](./Enterprise%20LLM%20Use%20Cases/)
 
@@ -85,19 +87,31 @@ The MLflow_Package is a comprehensive toolkit designed to integrate the results 
 ### 1. Conversational Q&A on Private Knowledge Base
 Engage in natural language conversations with SuperKnowa's conversational Question & Answer (Q&A) system. Ask questions based on the private enterprise knowledge base, and receive detailed, context-aware responses.
 
+<img src="https://media.giphy.com/media/AmvB3Wwox8JqXqrd1k/giphy.gif" alt="GIF Description" width="500" height="300">
+
 ### 2. Ask Your Pdf/Documents
 Leverage SuperKnowa's "Ask your documents" feature to unlock the potential of your PDFs and text documents. SuperKnowa can help you extract relevant information, answer specific questions, and assist in information retrieval.
+
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOGJtb3gzbmZpcHFycGd5NXlwZTNnenFldXVzNnlqd2x4Z2w2ZWxkbiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/RHiZsJJMAGURFWplHL/giphy.gif" alt="SuperKnowa PDF version"
+width="500" height="300">
 
 ### 3. Summarisation
 Effortlessly generate coherent and informative summaries with SuperKnowa's summarization feature across large text corpus using FlanT5 and UL2. Extract the main points and essential details from articles, reports, and other texts, allowing for efficient content comprehension.
 
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZTk3NWJtczFsaGp6aXd2Z2hoM3pzeHNwcm1ocWVvOHZjeGJubzh2YSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/5Z5wAc62XXZNlCgvOO/giphy.gif" alt="SuperKnowa PDF version"
+width="500" height="300">
+
 ### 4. Key Points from your PDF
 SuperKnowa's abstractive summarisation feature goes beyond simple extraction using FlanUL2, and LLAMA2. It can analyze lengthy PDF documents and generate concise abstractive summaries, capturing the essence of the content. Additionally, SuperKnowa identifies key points, making it easier to comprehend and communicate complex information.
+
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExa2wyN3NjNmVsbHhoaXJ3ODRzazJ4bnU2Z2p5ZWtmcTNvY3RmNjN4NSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/tQO2UoGJO8zEuGK4OC/giphy.gif" alt="PDF Understanding" width="500" height="300">
 
 ### 5. Text to SQL
 Experience the power of SuperKnowa's Text-to-SQL capability, which transforms natural language queries into structured SQL queries. Interact with databases using plain language, eliminating the need for expertise in SQL.
 
-=====================================================================
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMTV1MTF2bXdicW83ZGpqcGM3ZDA2MTluaTQ2cm1nNWFtZnkwZXdqNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/XW5a5FF0wF9PudBzuz/giphy.gif" alt="GIF Description" width="500" height="300">
+
+
 ## Build Team 
 
 Owner: Kunal Sawarkar, Chief Data Scientist

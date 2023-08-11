@@ -2,7 +2,7 @@
 
 This use case demonstrates a solution for converting natural language text into SQL queries using Language Model (LLM) powered by watsonx.ai. The directory consists of Python scripts, Jupyter Notebooks, and an Excel file that work together to achieve this goal.
 
-<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZmJkcnc5MndjcWVjdTU4dnFoZXVhdzYxY3lhdXR5aW1qNW52MGUzMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/b4Y1nmTCFv4fjnH745/giphy.gif" alt="GIF Description" width="500" height="300">
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMTV1MTF2bXdicW83ZGpqcGM3ZDA2MTluaTQ2cm1nNWFtZnkwZXdqNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/XW5a5FF0wF9PudBzuz/giphy.gif" alt="GIF Description" width="500" height="300">
 
 
 ## Files and Descriptions
