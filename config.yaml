@@ -15,4 +15,6 @@ LLMQnA:
   question: What is IBM Data and Analytics Reference Architecture
   resPath: resultLLMQnA
   context: resultReranker
-
+  MODEL_AUTH_TOKEN : #enter the model api token
+  model_url : #enter the model api url
+  model_id : google/flan-ul2
