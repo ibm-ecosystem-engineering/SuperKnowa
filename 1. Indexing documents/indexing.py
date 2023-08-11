@@ -68,7 +68,7 @@ def get_all_files(folder_name):
 
 
 ## Assuming files are in text format and cleaned
-def indexing_documnet(indexName,file_path,es_client):
+def indexing_document(indexName,file_path,es_client):
      today = date.today()
      with open(file_path, 'r', encoding="latin1") as file:
         if ".txt" in file_path:
@@ -135,7 +135,4 @@ es_client = create_elastic_instance(cfg['elasticURL'],cfg['elasticCertPath'])
 create_index(indexName,cfg['indexMapping'],es_client)
 file_list = get_all_files(cfg['indexFileFolderPath'])
 for file in file_list:
-    indexing_documnet(indexName,file,es_client)
-
-
-    
+    indexing_document(indexName,file,es_client)
