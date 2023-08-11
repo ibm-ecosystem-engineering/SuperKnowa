@@ -1,5 +1,7 @@
 # In-Context Learning with LLM
 
+Read more about In-context learning in our [blog](https://medium.com/towards-generative-ai/understanding-in-context-learning-for-language-models-7086747b8512).
+
 <img src="https://ai.stanford.edu/blog/assets/img/posts/2022-08-01-understanding-incontext/images/image13.gif" alt="GIF Description" width="600" height="400">
 
 Image Source - http://ai.stanford.edu/blog/understanding-incontext/
