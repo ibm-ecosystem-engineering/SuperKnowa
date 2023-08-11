@@ -12,6 +12,24 @@ SuperKnowa is a powerful framework developed using watsonx (watch the video on w
 - 
 
 ## Getting Started
+
+You can get started by updating the [`config.yaml`](./config.yaml) file and run the [LLMQnA.py](./4.%20In-context%20learning%20using%20LLM/LLMQnA.py) script for quicky configuring your RAG pipeline:
+
+```
+retriever:
+  indexName: superknowa
+  query: What is IBM Cloud?
+  ....
+
+reranker:
+  query: What is IBM Data and Analytics Reference Architecture?
+  ...
+
+LLMQnA:
+  question: What is IBM Data and Analytics Reference Architecture?
+  ...
+```
+
 To explore SuperKnowa's features and capabilities, refer to the [blog series](https://medium.com/towards-generative-ai/unleashing-the-power-of-the-information-retriever-in-the-retrieval-augmented-generation-pipeline-a782c7287e9b), code examples, and resources provided in this repository.
 
 For detailed instructions and examples, navigate to each component's directory. Unleash the potential of Large Language Models in your projects using SuperKnowa's Generative AI Lego Components!
