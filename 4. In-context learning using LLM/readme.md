@@ -4,15 +4,20 @@
 
 Image Source - http://ai.stanford.edu/blog/understanding-incontext/
 
-
-
-This directory contains a Jupyter notebook that demonstrates in-context learning using LLM. The script prompts the user for a context and a question based on that context, and then uses an LLM model to generate an answer to the question.
+## Directory content:
+This directory contains a Jupyter notebook and a Python script that demonstrates in-context learning using LLM. The script prompts the user for a context and a question based on that context, and then uses an LLM model to generate an answer to the question.
 
 ![In-context learning](https://production-media.paperswithcode.com/thumbnails/task/c9598674-b034-477e-b5ec-a7e324336280.jpg) 
 
 Image Source: https://paperswithcode.com/task/question-answering
 
-## Usage
+## Getting Started
+
+1. Clone this repository.
+2. Modify the [config.yaml](../config.yaml) to update the `LLMQnA` component with your credentials and model
+3. Run the [LLMQnA.py](./LLMQnA.py) to see the the In-context learning module in action.
+
+## Example Usage in notebook
 
 To use the script, simply run the `process_watsonx_request` function. You will be prompted to enter a context and a question. The context should be a paragraph or two describing a situation or concept. The question should be something that can be answered based on the provided context.
 

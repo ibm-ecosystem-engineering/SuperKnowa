@@ -31,8 +31,8 @@ These scripts and notebooks are  helpful guidebooks. They show you how to pull d
 ## Getting Started
 
 1. Clone this repository.
-3. Modify the [config.yaml](../config.yaml) to update the `reranker` model if required
-4. Run the [reranker.py](./reranker.py) to see the Reranker module in action.
+2. Modify the [config.yaml](../config.yaml) to update the `reranker` model if required
+3. Run the [reranker.py](./reranker.py) to see the Reranker module in action.
 
 ## Reference
 [DrDecr Re-ranking model](https://huggingface.co/PrimeQA/DrDecr_XOR-TyDi_whitebox)
