@@ -109,7 +109,7 @@ SuperKnowa's abstractive summarisation feature goes beyond simple extraction usi
 ### 5. Text to SQL
 Experience the power of SuperKnowa's Text-to-SQL capability, which transforms natural language queries into structured SQL queries. Interact with databases using plain language, eliminating the need for expertise in SQL.
 
-<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZmJkcnc5MndjcWVjdTU4dnFoZXVhdzYxY3lhdXR5aW1qNW52MGUzMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/b4Y1nmTCFv4fjnH745/giphy.gif" alt="GIF Description" width="500" height="300">
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMTV1MTF2bXdicW83ZGpqcGM3ZDA2MTluaTQ2cm1nNWFtZnkwZXdqNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/XW5a5FF0wF9PudBzuz/giphy.gif" alt="GIF Description" width="500" height="300">
 
 
 ## Build Team 
