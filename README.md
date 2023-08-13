@@ -85,7 +85,6 @@ Let's unlock the potential of Generative AI with SuperKnowa and shape the future
 
 ## AI Alignment Tool  
 Measure the alignment of AI models on the metrics of helpfulness, harmfulness and accuracy by capturing human inputs. 
-![image](https://github.com/ibm-ecosystem-engineering/SuperKnowa/assets/21246183/07dc9a49-850d-4402-b0f9-31da92d9754b)
 
 ### Results Dashboard
 Build your various online & offline experiments for evaluations and compare the AI alignment results using an interactive dashboard. 
