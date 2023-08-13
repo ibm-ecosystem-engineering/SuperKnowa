@@ -8,8 +8,6 @@ Welcome to the SuperKnowa GitHub repository! Here, you'll find a diverse collect
 SuperKnowa is a powerful framework developed using watsonx (watch the video on watsonx.ai [here](https://cdnapisec.kaltura.com/index.php/extwidget/preview/partner_id/1773841/uiconf_id/27941801/entry_id/1_yola7kmy/embed/dynamic)) that harnesses the capabilities of Large Language Models (LLMs) to offer a range of advanced Generative AI use cases. This repository introduces you to the various use cases covered by SuperKnowa.
 
 
-## RAG Architecture on Steriods 
-- 
 
 ## Getting Started
 
@@ -132,11 +130,11 @@ Experience the power of SuperKnowa's Text-to-SQL capability, which transforms na
 <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMTV1MTF2bXdicW83ZGpqcGM3ZDA2MTluaTQ2cm1nNWFtZnkwZXdqNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/XW5a5FF0wF9PudBzuz/giphy.gif" alt="GIF Description" width="500" height="300">
 
 
-## Build Team 
+## Build Lab Team 
 
 Owner: Kunal Sawarkar, Chief Data Scientist
 
-Build Squad
+Builders
 - Shivam Solanki, Senior Advisory Data Scientist
 - Michael Spriggs, Principal Architect
 - Kevin Huang, Sr. ML-Ops Engineer 
@@ -144,4 +142,4 @@ Build Squad
 - Sahil Desai, Data Scientist
 - Amit Khandelwal- Senior Data Scientist
 - Himadri Talukder - Senior Software Engineer
-- Tyler 
+- Tyler Berns- Data Scientist
