@@ -42,6 +42,8 @@ Let's unlock the potential of Generative AI with SuperKnowa and shape the future
    1. [Elastic Search](./1.%20Indexing%20documents/Elastic%20Search/)
 
    1. [Solr](./1.%20Indexing%20documents/Solr/)
+      
+   3. Watson Discovery
 
 1. [Neural Retriever](/2.%20Neural%20Retriever/)
 
@@ -64,6 +66,7 @@ Let's unlock the potential of Generative AI with SuperKnowa and shape the future
    1. [Instruct DB](./6.%20Fine-Tuning/1.%20Instruct%20DB/)
 
    1. [Fine Tuning Falcon 7B using QLORA](./6.%20Fine-Tuning/2.%20Falcon-7B/)
+   2. Fine Tuning LLAMA2 7B using QLORA
 
 1. [RLHF Model](./7.%20RLHF%20Model/)
 
@@ -74,6 +77,8 @@ Let's unlock the potential of Generative AI with SuperKnowa and shape the future
    1. [Deployment](./8.%20Deploy%20%26%20Infer/Deployment/)
 
 1. [AI Alignment Tool](./9.%20AI%20Alignment%20Tool/)
+   1. Capture Human Feedback
+   2. Admin Dashboard for AI Alignment Results
 
 1. [Enterprise LLM Use Cases](./Enterprise%20LLM%20Use%20Cases/)
 
