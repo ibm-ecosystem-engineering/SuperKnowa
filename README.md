@@ -84,11 +84,15 @@ Let's unlock the potential of Generative AI with SuperKnowa and shape the future
 
 
 
+
 ## LLM Eval Toolkit with MLFlow
 
 ### [Eval_Package](5.%20LLM%20Model%20Evaluations/I.%20LLM%20Eval%20Toolkit/Eval_Package)
   
 The Eval_Package is a tool designed to evaluate the performance of the LLM (Language Model) on a dataset containing questions, context, and ideal answers. It allows you to run evaluations on various datasets and assess how well the Model generates the answer.
+
+![Screen_Recording_2023-08-13_at_1_03_10_PM_AdobeExpress](https://github.com/ibm-ecosystem-engineering/SuperKnowa/assets/21246183/0715a4c6-3422-4940-863e-4d6918e1be15)
+
 
 ### Features 
    - Evaluate LLM Model on custom datasets: Use the Eval_Package to assess the performance of your Model on datasets of your choice.
