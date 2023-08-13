@@ -83,9 +83,18 @@ Let's unlock the potential of Generative AI with SuperKnowa and shape the future
 1. [Enterprise LLM Use Cases](./Enterprise%20LLM%20Use%20Cases/)
 
 
+## AI Alignment Tool  
+Measure the alignment of AI models on the metrics of helpfulness, harmfulness and accuracy by capturing human inputs. 
+![image](https://github.com/ibm-ecosystem-engineering/SuperKnowa/assets/21246183/07dc9a49-850d-4402-b0f9-31da92d9754b)
+
+### Results Dashboard
+Build your various online & offline experiments for evaluations and compare the AI alignment results using an interactive dashboard. 
+
+![AI_Alignement_tool_AdobeExpress](https://github.com/ibm-ecosystem-engineering/SuperKnowa/assets/21246183/82d51bd1-0fcb-4836-91a1-a2d80932e3c7)
 
 
-## LLM Eval Toolkit with MLFlow
+
+## LLM Eval Toolkit 
 
 ### [Eval_Package](5.%20LLM%20Model%20Evaluations/I.%20LLM%20Eval%20Toolkit/Eval_Package)
   
