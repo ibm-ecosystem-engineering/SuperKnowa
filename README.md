@@ -90,7 +90,9 @@ Measure the alignment of AI models on the metrics of helpfulness, harmfulness an
 ### Results Dashboard
 Build your various online & offline experiments for evaluations and compare the AI alignment results using an interactive dashboard. 
 
-![AI_Alignement_tool_AdobeExpress](https://github.com/ibm-ecosystem-engineering/SuperKnowa/assets/21246183/82d51bd1-0fcb-4836-91a1-a2d80932e3c7)
+
+
+![ezgif com-video-to-gif](https://github.com/ibm-ecosystem-engineering/SuperKnowa/assets/21246183/5e2f6dbe-fb26-4aca-a34c-d62cc6185e40)
 
 
 
