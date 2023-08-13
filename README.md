@@ -34,7 +34,8 @@ For detailed instructions and examples, navigate to each component's directory. 
 
 Let's unlock the potential of Generative AI with SuperKnowa and shape the future of AI-powered knowledge processing!
 
-## Repository Contents
+
+# Repository Contents
 
 1. [Indexing Documents](/1.%20Indexing%20documents/)
 
@@ -76,7 +77,7 @@ Let's unlock the potential of Generative AI with SuperKnowa and shape the future
 
 1. [Enterprise LLM Use Cases](./Enterprise%20LLM%20Use%20Cases/)
 
-================================================================================
+
 
 ## LLM Eval Toolkit with MLFlow
 
@@ -98,7 +99,7 @@ The MLflow_Package is a comprehensive toolkit designed to integrate the results 
    - Experiment tracking: Utilize MLflow to keep a record of experiments, including parameters, metrics, and model artifacts generated during evaluations.
    - Leaderboard creation: The package allows you to create a leaderboard, making it easy to compare the performance of different  Models across multiple datasets.
    - Metric visualization: Generate insightful charts and graphs through the dashboard, allowing you to visualize and analyze evaluation metrics easily.
-===============================================================================
+
 
 ## Enterprise LLM Use Cases
 
@@ -143,3 +144,5 @@ Builders
 - Amit Khandelwal- Senior Data Scientist
 - Himadri Talukder - Senior Software Engineer
 - Tyler Berns- Data Scientist
+
+Disclaimer - Please note that this content is made available to foster Embedded AI technology adoption. The content may include systems & methods pending patent with USPTO and protected under US Patent Laws. Copyright - 2023 IBM Corporation. In case of any questions or support needed, please reach out at kunal@ibm.com
