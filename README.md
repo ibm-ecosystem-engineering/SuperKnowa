@@ -101,7 +101,9 @@ The MLflow_Package is a comprehensive toolkit designed to integrate the results 
    - Metric visualization: Generate insightful charts and graphs through the dashboard, allowing you to visualize and analyze evaluation metrics easily.
 
 
-## Enterprise LLM Use Cases
+# Enterprise LLM Use Cases
+
+Below is the list of some Generative AI use cases built using the SuperKnowa framework.
 
 ### 1. Conversational Q&A on Private Knowledge Base
 Engage in natural language conversations with SuperKnowa's conversational Question & Answer (Q&A) system. Ask questions based on the private enterprise knowledge base, and receive detailed, context-aware responses.
