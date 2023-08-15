@@ -22,7 +22,7 @@ Rating feedback involves assigning a numerical value to a model's response based
 
 ### Ranking
 
-Ranking feedback requires users to compare and rank different model responses according to their preference. This feedback mechanism provides a finer level of bias between responses and allows the model to learn the relative quality of outputs.
+Ranking feedback requires users to compare and rank responses from different models. This feedback mechanism provides a finer level of bias between responses and allows the model to learn the relative quality of outputs.
 
 We are using drag and drop mechanism to rank the models based on the model’s response.
 
