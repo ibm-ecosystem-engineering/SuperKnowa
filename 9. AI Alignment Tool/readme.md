@@ -28,7 +28,7 @@ We gather feedback through various mechanisms.
 
 ### The system returns an answer 
 
-The user has the ability to rate the answer that was returned. 
+The user has the ability to rate the answer that was returned, using a 5-star rating system.
 
 ![image](https://github.com/ibm-ecosystem-engineering/SuperKnowa/assets/111310676/cabbfc7d-74af-4ec0-8dd7-2a6dea3a4984)
 
