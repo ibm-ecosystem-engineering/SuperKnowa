@@ -20,16 +20,20 @@ We gather feedback through various mechanisms.
 
 ![superknowa](https://github.com/EnterpriseLLM/SuperKnowa/assets/111310676/278bced3-9253-4cf7-9b2f-0690b72a9f0b)
 
-## Screenshots
+## Workflow
 
-### Question-answering inferface
+### User poses a question
 
 ![image](https://github.com/ibm-ecosystem-engineering/SuperKnowa/assets/111310676/5db727f1-8a50-427f-89ed-458bb3a98252)
 
-### 
+### The system returns an answer 
+
+The user has the ability to rate the answer that was returned. 
 
 ![image](https://github.com/ibm-ecosystem-engineering/SuperKnowa/assets/111310676/cabbfc7d-74af-4ec0-8dd7-2a6dea3a4984)
 
 ### Collecting feedback
+
+
 
 
