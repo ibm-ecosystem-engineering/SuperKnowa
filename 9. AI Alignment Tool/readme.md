@@ -2,8 +2,6 @@
 
 **Code Coming Soon**
 
-## Human Feedback
-
 The focus of this subdirectory is the SuperKnowa mechanism for collecting human feedback. Collecting input from users can play a crucial role in assessing a model’s response and enhancing its performance and implementing for a Retrieval-Augmented Generation (RAG) pipeline.
 
 We focus on fine-grained human feedback on the basis of the following criteria:
@@ -13,6 +11,8 @@ We focus on fine-grained human feedback on the basis of the following criteria:
 - Does the generated output include all relevant information? Partial information?
 
 We gather feedback through various mechanisms.
+
+## Feedback Mechanisms
 
 ### Ratings 
 
