@@ -3,7 +3,6 @@
 **Code Coming Soon**
 
 The focus of this subdirectory is the SuperKnowa mechanism for collecting human feedback. 
-
 ## Reference Architecture
 
 ![superknowa](https://github.com/EnterpriseLLM/SuperKnowa/assets/111310676/278bced3-9253-4cf7-9b2f-0690b72a9f0b)
