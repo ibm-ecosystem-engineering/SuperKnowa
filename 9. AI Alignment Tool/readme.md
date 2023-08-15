@@ -26,7 +26,7 @@ Ranking feedback requires users to compare and rank different model responses ac
 
 We are using drag and drop mechanism to rank the models based on the model’s response.
 
-![image](https://github.com/ibm-ecosystem-engineering/SuperKnowa/assets/111310676/cabbfc7d-74af-4ec0-8dd7-2a6dea3a4984)
+![image](https://github.com/ibm-ecosystem-engineering/SuperKnowa/assets/49033907/bbd6caa4-33eb-4a2f-ae8d-074912e49a38)
 
 ### Questionnaires
 
