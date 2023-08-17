@@ -19,3 +19,6 @@ indexing:
     }
 }
   indexFileFolderPath: # here you can provide cleaned files folder path 
+parsing:
+  parsingFileFolderPath: # here you can provide cleaned files folder path
+
