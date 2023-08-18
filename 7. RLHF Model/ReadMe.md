@@ -1,5 +1,6 @@
 # RLHF - Reinforcement Learning using Human Feedback 
-This repo contains notebook to train a reward model and then finetune the LLM using Reinforcement Learning. 
+
+This directory contains notebooks that can be used to train a reward model, and then fine-tune the LLM using Reinforcement Learning. 
 
 ![RLHF](./Screenshots/Screenshot%202023-07-21%20at%209.27.53%20AM.png)
 To find a detailed overview of Reward Modeling and RLHF, refer to the medium blog:
