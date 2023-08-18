@@ -19,7 +19,7 @@ This directory consists of code implementations for retrieving data (from Solr, 
 
 ### Watson Discovery <img src="https://www.cloudcreations.com/wp-content/uploads/2020/10/icon_ibmwatson_5.png" height="50" width="50"> 
 
-    1. [Re-ranker.ipynb](../3.%20Re-ranker/Watson%20Discovery/Re-ranker.ipynb): This Jupyter notebook outlines the data retrieval process from Watson Discovery and the subsequent application of the Colbert Re-Ranker algorithm.
+1. [Re-ranker.ipynb](../3.%20Re-ranker/Watson%20Discovery/Re-ranker.ipynb): This Jupyter notebook outlines the data retrieval process from Watson Discovery and the subsequent application of the Colbert Re-Ranker algorithm.
 
 ### [Reranker.py](./reranker.py): 
 Reusable script to rank  and get document that is the closest match to given query. 
