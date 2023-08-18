@@ -18,6 +18,7 @@ This directory consists of code implementations for retrieving data (from Solr, 
     2. [solr_retriever_reranker.py](../3.%20Re-ranker/Solr/solr_retriever_reranker.py): This Python script programmatically retrieves data from the Solr database and applies the Colbert Re-Ranker algorithm using a Deep learning model.
 
 ### Watson Discovery <img src="https://www.cloudcreations.com/wp-content/uploads/2020/10/icon_ibmwatson_5.png" height="50" width="50"> 
+
     1. [Re-ranker.ipynb](../3.%20Re-ranker/Watson%20Discovery/Re-ranker.ipynb): This Jupyter notebook outlines the data retrieval process from Watson Discovery and the subsequent application of the Colbert Re-Ranker algorithm.
 
 ### [Reranker.py](./reranker.py): 
