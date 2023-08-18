@@ -2,8 +2,8 @@
 
 This directory contains notebooks that can be used to train a reward model, and then fine-tune the LLM using Reinforcement Learning. For a detailed overview of Reward Modeling and RLHF, refer to:
 
-- blog1.com
-- blog2.com
+- [RLHF Reward Model Training](https://medium.com/towards-generative-ai/reward-model-training-2209d1befb5f)
+- [Measuring AI Alignment using Human Feedback for RAG Architecture](https://medium.com/towards-generative-ai/human-feedback-evaluation-for-rag-pipeline-93e008c69890)
 
 ## Architecture
 
