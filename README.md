@@ -8,9 +8,9 @@ Welcome to the SuperKnowa GitHub repository! Here, you will find a diverse colle
 
 SuperKnowa is a powerful framework developed using watsonx (watch the video on watsonx.ai [here](https://cdnapisec.kaltura.com/index.php/extwidget/preview/partner_id/1773841/uiconf_id/27941801/entry_id/1_yola7kmy/embed/dynamic)) that harnesses the capabilities of Large Language Models (LLMs) to offer a range of advanced Generative AI use cases. This repository introduces you to the various use cases covered by SuperKnowa.
 
-## Try the Application
+## Live Q&A Application
 
-Try the SuperKnowa application live (requires an IBM ID): [https://superknowa.tsglwatson.buildlab.cloud/](https://superknowa.tsglwatson.buildlab.cloud/)
+Try SuperKnowa live (requires an IBM ID): [https://superknowa.tsglwatson.buildlab.cloud/](https://superknowa.tsglwatson.buildlab.cloud/). 
 
 ## Getting Started
 
