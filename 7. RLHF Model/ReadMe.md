@@ -5,9 +5,12 @@ This directory contains notebooks that can be used to train a reward model, and 
 - blog1.com
 - blog2.com
 
+## Architecture
+
 ![RLHF](./Screenshots/Screenshot%202023-07-21%20at%209.27.53%20AM.png)
 
-## Notebook :
+## Notebooks
+
 1. [rewardModelTraining.ipynb](../7.%20Feedback%20%26%20Reward%20Model/notebooks/rewardModelTraining.ipynb) : This notebook takes in user preference data as input and trains a model of choice to output scaler reward.
 
 <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExeXBjaTc5cWJzbnBnaXZydTYyYnlqcHpxMDFpdmNyejZudTNidjFsYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3PyP8FDINh3MZji2Cw/giphy.gif" alt="GIF Description" width="500" height="300">
