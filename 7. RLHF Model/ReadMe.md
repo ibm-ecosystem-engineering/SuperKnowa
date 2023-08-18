@@ -1,13 +1,11 @@
 # RLHF - Reinforcement Learning using Human Feedback 
 
-This directory contains notebooks that can be used to train a reward model, and then fine-tune the LLM using Reinforcement Learning. 
-
-![RLHF](./Screenshots/Screenshot%202023-07-21%20at%209.27.53%20AM.png)
-
-For a detailed overview of Reward Modeling and RLHF, refer to:
+This directory contains notebooks that can be used to train a reward model, and then fine-tune the LLM using Reinforcement Learning. For a detailed overview of Reward Modeling and RLHF, refer to:
 
 - blog1.com
 - blog2.com
+
+![RLHF](./Screenshots/Screenshot%202023-07-21%20at%209.27.53%20AM.png)
 
 ## Notebook :
 1. [rewardModelTraining.ipynb](../7.%20Feedback%20%26%20Reward%20Model/notebooks/rewardModelTraining.ipynb) : This notebook takes in user preference data as input and trains a model of choice to output scaler reward.
