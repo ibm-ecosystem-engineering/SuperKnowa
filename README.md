@@ -1,17 +1,16 @@
 # SuperKnowa 
 ## Fast Framework to build RAG (Retriever Augmented Generation) Pipelines at Scale - powered by watsonx
 
-Welcome to the SuperKnowa GitHub repository! Here, you'll find a diverse collection of pluggable components designed to tackle various Generative AI use cases using Large Language Models (LLMs). Think of these components as building blocks, much like Lego pieces, that you can assemble to address a wide range of challenges in the realm of AI-driven text generation.
+Welcome to the SuperKnowa GitHub repository! Here, you will find a diverse collection of pluggable components designed to tackle various Generative AI use cases using Large Language Models (LLMs). Think of these components as building blocks, much like Lego pieces, that you can assemble to address a wide range of challenges in the realm of AI-driven text generation.
 
 <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNjZpZXlpMGxxODZqdHhqYm90YXVzYmIxdHlyeG9tcWg2YXhxcW5hcCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/QM8szBdDLn7dT90CV6/giphy.gif" alt="GIF Description" width="500" height="300">
 
 SuperKnowa is a powerful framework developed using watsonx (watch the video on watsonx.ai [here](https://cdnapisec.kaltura.com/index.php/extwidget/preview/partner_id/1773841/uiconf_id/27941801/entry_id/1_yola7kmy/embed/dynamic)) that harnesses the capabilities of Large Language Models (LLMs) to offer a range of advanced Generative AI use cases. This repository introduces you to the various use cases covered by SuperKnowa.
 
 
-
 ## Getting Started
 
-You can get started by updating the [`config.yaml`](./config.yaml) file and run the [LLMQnA.py](./4.%20In-context%20learning%20using%20LLM/LLMQnA.py) script for quicky configuring your RAG pipeline:
+You can get started by updating the [`config.yaml`](./config.yaml) file and run the [LLMQnA.py](./4.%20In-context%20learning%20using%20LLM/LLMQnA.py) script for quickly configuring your RAG pipeline:
 
 ```
 retriever:
@@ -122,14 +121,14 @@ The MLflow_Package is a comprehensive toolkit designed to integrate the results 
 
 # Enterprise LLM Use Cases
 
-Below is the list of some Generative AI use cases built using the SuperKnowa framework.
+Below is a list of Generative AI use cases built using the SuperKnowa framework.
 
 ### 1. Conversational Q&A on Private Knowledge Base
 Engage in natural language conversations with SuperKnowa's conversational Question & Answer (Q&A) system. Ask questions based on the private enterprise knowledge base, and receive detailed, context-aware responses.
 
 <img src="https://media.giphy.com/media/AmvB3Wwox8JqXqrd1k/giphy.gif" alt="GIF Description" width="500" height="300">
 
-### 2. Ask Your Pdf/Documents
+### 2. Ask Your PDF/Documents
 Leverage SuperKnowa's "Ask your documents" feature to unlock the potential of your PDFs and text documents. SuperKnowa can help you extract relevant information, answer specific questions, and assist in information retrieval.
 
 <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOGJtb3gzbmZpcHFycGd5NXlwZTNnenFldXVzNnlqd2x4Z2w2ZWxkbiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/RHiZsJJMAGURFWplHL/giphy.gif" alt="SuperKnowa PDF version"
