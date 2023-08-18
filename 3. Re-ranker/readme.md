@@ -13,16 +13,16 @@ This directory consists of code implementations for retrieving data (from Solr, 
     1. [es_retriever_reranker.ipynb](../3.%20Re-ranker/Elastic%20Search/es_%20reteriver_reranker.ipynb): This Jupyter notebook explains the process of retrieving data from the ES index and applying the Colbert based DrDecr re-Ranker algorithm using a Deep learning model.
 
 ### Solr <img src="https://norconex.com/wp-content/uploads/Solr_Logo_on_white_web.png" height="50" width="50"> 
-- Solr retrieval works best for really long documents like books with hundreds of pages. 
+- Solr retrieval works best for very long documents, e.g. books with hundreds of pages. 
     1. [solr_retriever_reranker.ipynb](../3.%20Re-ranker/Solr/solr_retriever_reranker.ipynb): This Jupyter notebook explains the process of retrieving data from the Solr database and applying the Colbert Re-Ranker algorithm using a Deep learning model.
     2. [solr_retriever_reranker.py](../3.%20Re-ranker/Solr/solr_retriever_reranker.py): This Python script programmatically retrieves data from the Solr database and applies the Colbert Re-Ranker algorithm using a Deep learning model.
 
 ### Watson Discovery <img src="https://www.cloudcreations.com/wp-content/uploads/2020/10/icon_ibmwatson_5.png" height="50" width="50"> 
 
-1. [Re-ranker.ipynb](../3.%20Re-ranker/Watson%20Discovery/Re-ranker.ipynb): This Jupyter notebook outlines the data retrieval process from Watson Discovery and the subsequent application of the Colbert Re-Ranker algorithm.
+- [Re-ranker.ipynb](../3.%20Re-ranker/Watson%20Discovery/Re-ranker.ipynb): This Jupyter notebook outlines the data retrieval process from Watson Discovery and the subsequent application of the Colbert Re-Ranker algorithm.
 
 ### [Reranker.py](./reranker.py): 
-Reusable script to rank  and get document that is the closest match to given query. 
+- A reusable script to rank and get document that is the closest match to given query. 
 
 These scripts and notebooks are  helpful guidebooks. They demonstrate how to pull data from different places and make your search results better by using something called the re-ranking algorithm. This algorithm considers how closely a query matches and the data quality, to ensure the best possible results.
 
