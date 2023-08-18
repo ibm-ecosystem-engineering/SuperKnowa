@@ -11,7 +11,7 @@ The service exposes an API that is intended to be called by a front-end applicat
 
 ![superknowa](https://github.com/EnterpriseLLM/SuperKnowa/assets/111310676/278bced3-9253-4cf7-9b2f-0690b72a9f0b)
 
-The basic flow is:
+## Workflow
 
 1. A user submits a question in natural language to a front-end application.
 2. The front-end application forwards the request to the SuperKnowa Backend.
