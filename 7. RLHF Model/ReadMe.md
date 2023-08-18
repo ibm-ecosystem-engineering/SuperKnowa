@@ -3,7 +3,9 @@
 This directory contains notebooks that can be used to train a reward model, and then fine-tune the LLM using Reinforcement Learning. 
 
 ![RLHF](./Screenshots/Screenshot%202023-07-21%20at%209.27.53%20AM.png)
-To find a detailed overview of Reward Modeling and RLHF, refer to the medium blog:
+
+For a detailed overview of Reward Modeling and RLHF, refer to:
+
 - blog1.com
 - blog2.com
 
@@ -16,13 +18,7 @@ To find a detailed overview of Reward Modeling and RLHF, refer to the medium blo
 
 <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExa21kdHFnbzhocG10ZGozZnUycnYxYWhtbzFtc2FmeWRpdGkweXh6cSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Hxpvnqe4pZ0L7G12OX/giphy.gif" alt="GIF Description" width="500" height="300">
 
-## Output :
-The trained model gets saved in this folder
-
-## Input :
-The input dataset is placed here, which can be used to train SFT LLM and reward model.
-
-## References :
+## References 
 
 1. https://github.com/lvwerra/trl
 2. https://argilla.io/blog/argilla-for-llms/
