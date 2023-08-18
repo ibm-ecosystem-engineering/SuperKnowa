@@ -1,12 +1,10 @@
 # SuperKnowa: Generative AI (LLM) Use Cases
 
-This directory showcases a range of Generative AI use cases that empower you to interact with, analyze, and extract insights from various types of content.
+This directory showcases a range of Generative AI use cases that empower you to interact with, analyze, and extract insights from various types of content. Each subdirectory represents a different use case and contains code examples, documentation, and guides for the use case.
 
-## Directory Structure
+## Contents
 
-This repository is organized into subdirectories, each representing a different use case. Navigate to the respective directory to explore specific code examples, documentation, and guides for each use case.
-
-- [Conversational Q&A on Private Knowledge Base](./1.%20Conversational%20Q&A/): Code and resources for the Conversational Q&A use case.
+- [Conversational Q&A on a Private Knowledge Base](./1.%20Conversational%20Q&A/): Code and resources for the Conversational Q&A use case.
 - [Ask Your PDF/Document](./2.%20Ask%20your%20documents/): Code and resources for asking questions based on your PDF.
 - [Summarization](./3.%20Summarization/): Code and resources for generating informative content summaries.
 - [PDF Understanding](./4.%20PDF%20Understanding%20-%20Key%20Points/): Code and resources for interacting with PDF documents.
