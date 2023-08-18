@@ -16,18 +16,17 @@ The MLflow_Package is a comprehensive toolkit designed to integrate the results 
 
 <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYjJod3pnZG1hbjloano0cmhxZ3JrbDJsbXgxM2t5enF5eXI3cWZvaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/6FV33YFa0HxuDxjPv9/giphy.gif" alt="GIF Description" width="500" height="300">
 
- # Experiment Visualisation using Leaderboard
+ # Experiment Visualization using Leaderboard
 
 ### Features 
-   - Experiment tracking: Utilize MLflow to keep a record of experiments, including parameters, metrics, and model artifacts generated during evaluations.
-   - Leaderboard creation: The package allows you to create a leaderboard, making it easy to compare the performance of different  Models across multiple datasets.
-   - Metric visualization: Generate insightful charts and graphs through the dashboard, allowing you to visualize and analyze evaluation metrics easily.
+
+   - **Experiment tracking:** Use MLflow to keep a record of experiments, including parameters, metrics, and model artifacts generated during evaluations.
+   - **Leaderboard creation:** The package allows you to create a leaderboard, making it easy to compare the performance of different  Models across multiple datasets.
+   - **Metric visualization:** Generate insightful charts and graphs through the dashboard, allowing you to visualize and analyze evaluation metrics easily.
 
 ![ML-Flow-Dashboard](https://github.com/EnterpriseLLM/SuperKnowa/assets/112084296/2b3ca47b-e779-4411-8c8a-2d4715bdc9fe)
 
 ## Directory contents
-
-This folder contains toolkit for evaluating RAG pipeline as listed below:
 
 <img src="https://github.com/EnterpriseLLM/SuperKnowa/assets/112084296/23766e0c-a39c-4139-ad78-a7c9ad2420cf" alt="image" width="700" height="300">
 
