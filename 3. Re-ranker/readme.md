@@ -21,7 +21,7 @@ This directory consists of code implementations for retrieving data (from Solr, 
     1. [Re-ranker.ipynb](../3.%20Re-ranker/Watson%20Discovery/Re-ranker.ipynb): This Jupyter notebook outlines the data retrieval process from Watson Discovery and the subsequent application of the Colbert Re-Ranker algorithm.
 
 ### [Reranker.py](./reranker.py): 
-    Reusable script to rank  and get document that is the closest match to given query. 
+Reusable script to rank  and get document that is the closest match to given query. 
 
 These scripts and notebooks are  helpful guidebooks. They demonstrate how to pull data from different places and make your search results better by using something called the re-ranking algorithm. This algorithm considers how closely a query matches and the data quality, to ensure the best possible results.
 
