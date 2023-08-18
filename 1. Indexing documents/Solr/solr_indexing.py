@@ -330,7 +330,7 @@ def ibm_cloud_docs():
                     source ="IBM Developer docs"
                     print(content)
                 
-                file_name_val = file_name.replace("/Users/abhilashamangal/Documents/GitHub/ibm_cloud_docs_process_metdata_new/","")
+                file_name_val = file_name.replace("/ibm_cloud_docs_process_metdata_new/","")
                 id = file_name_val.replace(".txt","")+"_"+source+str(i)
                 if extracted_text is not None:
                             solrdocs.append({
@@ -426,17 +426,17 @@ def downloadFile(url, fileName):
 
 
 # Directory containing the documents
-ibm_docs_dir = '/Users/abhilashamangal/Documents/GitHub/Foundation-models_main/Scraper/scrape_data/ibm_developer_metadata/'
-white_paper_docs_dir ='/Users/abhilashamangal/Documents/GitHub/Foundation-models_main/Scraper/scrape_data/white_paper_metadata/data-2/'
-redbooks_data_dir ='/Users/abhilashamangal/Documents/GitHub/Foundation-models_main/Scraper/scrape_data/redbooks_data/'
-ibm_cloud_docs_dir ='/Users/abhilashamangal/Documents/GitHub/ibm_cloud_docs_process_metdata_new/'
-ibm_cloud_metadta_file ='/Users/abhilashamangal/Documents/GitHub/ibm_cloud_docs_metadata5.txt'
-ibm_medium_blog ='/Users/abhilashamangal/Documents/GitHub/Foundation-models_main/Scraper/scrape_data/Medium/text'
-ibm_medium_blog_csv ='/Users/abhilashamangal/Documents/GitHub/Foundation-models_main/Scraper/scrape_data/Medium/csv'
+ibm_docs_dir = '/Scraper/scrape_data/ibm_docs/data-2/' 
+white_paper_docs_dir ='/Scraper/scrape_data/white_paper_metadata/data-2/'
+redbooks_data_dir ='/Scraper/scrape_data/redbooks_data/'
+ibm_cloud_docs_dir ='/ibm_cloud_docs_process_metdata_new/'
+ibm_cloud_metadta_file ='/ibm_cloud_docs_metadata5.txt'
+ibm_medium_blog ='/Scraper/scrape_data/Medium/text'
+ibm_medium_blog_csv ='/Scraper/scrape_data/Medium/csv'
 
 
-# Connect to Solr
-solr = pysolr.Solr('http://150.239.171.68:8983/solr/superknowa/', always_commit=True,timeout=50)
+# Connect to Solr Please provide your solr url 
+solr = pysolr.Solr('XXXXX', always_commit=True,timeout=50) 
 # Iterate over the files in the directory
 solrdocs =[]
 i = 0
