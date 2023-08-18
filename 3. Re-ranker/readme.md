@@ -6,6 +6,8 @@ Source:https://www.semanticscholar.org/paper/ColBERT%3A-Efficient-and-Effective-
 
 This directory consists of code implementations for retrieving data (from Solr, Watson Discovery and Elasticsearch) and applying the Re-Ranking algorithm to create a more efficient search result. This example demonstrates ColBert based **DrDecr reranker model** here but you can also replace it with any other re-ranking model such as **Perplexity ranking model**.
 
+Read our blog for more detailed explanation - https://medium.com/towards-generative-ai/improving-rag-retrieval-augmented-generation-answer-quality-with-re-ranker-55a19931325
+
 ## Directory Content:
 
 ### Elasticsearch
