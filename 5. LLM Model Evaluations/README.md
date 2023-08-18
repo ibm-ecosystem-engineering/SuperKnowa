@@ -1,5 +1,7 @@
 # RAG evaluation packages
 
+<img src="https://github.com/EnterpriseLLM/SuperKnowa/assets/112084296/23766e0c-a39c-4139-ad78-a7c9ad2420cf" alt="image" width="700" height="300">
+
 ## [Eval_Package](./I.%20LLM%20Eval%20Toolkit/Eval_Package/)
   
 The Eval_Package is a tool designed to evaluate the performance of the LLM (Language Model) on a dataset containing questions, context, and ideal answers. It allows you to run evaluations on various datasets and assess how well the Model generates the answer.
@@ -27,8 +29,6 @@ The MLflow_Package is a comprehensive toolkit designed to integrate the results 
 ![ML-Flow-Dashboard](https://github.com/EnterpriseLLM/SuperKnowa/assets/112084296/2b3ca47b-e779-4411-8c8a-2d4715bdc9fe)
 
 ## Directory contents
-
-<img src="https://github.com/EnterpriseLLM/SuperKnowa/assets/112084296/23766e0c-a39c-4139-ad78-a7c9ad2420cf" alt="image" width="700" height="300">
 
 -  [I. LLM Eval Toolkit](I.%20LLM%20Eval%20Toolkit): Toolkit for evaluating RAG pipeline
 
