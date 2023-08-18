@@ -1,6 +1,6 @@
 # SuperKnowa: Generative AI (LLM) Use Cases
 
-This directory showcases a range of Generative AI use cases that empower you to interact with, analyze, and extract insights from various types of content. Each subdirectory represents a different use case and contains code examples, documentation, and guides for the use case.
+This directory showcases a range of Generative AI use cases that empower you to interact with, analyze, and extract insights from various types of content. Each subdirectory represents a different use case and contains code examples, documentation, and guides pertaining to that use case.
 
 ## Contents
 
