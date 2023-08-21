@@ -10,7 +10,8 @@ SuperKnowa is a powerful framework developed using watsonx (watch the video on w
 
 ## Live Q&A Application
 
-Try SuperKnowa live (requires an IBM ID): [https://superknowa.tsglwatson.buildlab.cloud/](https://superknowa.tsglwatson.buildlab.cloud/). 
+Try SuperKnowa live: [https://superknowa.tsglwatson.buildlab.cloud/](https://superknowa.tsglwatson.buildlab.cloud/)
+(In case you don't have IBM ID, please get it here - https://www.ibm.com/account/reg/us-en/signup?formid=urx-19776) 
 
 ## Getting Started
 
