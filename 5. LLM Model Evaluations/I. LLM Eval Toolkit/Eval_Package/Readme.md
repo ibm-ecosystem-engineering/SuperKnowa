@@ -3,8 +3,8 @@
 
 ## Step 1
 
-### install all dependency (Library)
-Run `pip install -r setup.txt` 
+### Install dependencies
+Run `pip3 install -r setup.txt` 
 
 #### Setup the bleurt package
 ```pip install --upgrade pip  # ensures that pip is current
@@ -87,7 +87,7 @@ flan-t5-xxl_passageAvailable_NA_NA_QuAC.csv
 
 Run the evaluation script
 
-`python eval_script.py  `
+`python eval_script.py`
 
 Evaluation 
 Run the evaluation result will be generated into a provided path for `result_file`.  

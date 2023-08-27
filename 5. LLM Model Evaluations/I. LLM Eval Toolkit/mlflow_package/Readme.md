@@ -3,8 +3,8 @@
 
 ## Step 1
 
-### install all dependency (Library)
-Run `python setup.py install` 
+### Install dependencies
+Run `python3 setup.py install` 
 
 ## Step 2
 
@@ -13,11 +13,15 @@ Run `python setup.py install`
 
 ## Step 3
 
-`path="set the path of your evalution result DIR"`
-`mlflow_utils.run_mlflow(path)`
+### Set the path of your evaluation directory
+
+```
+path="set the path of your evalution result DIR"
+mlflow_utils.run_mlflow(path)
+```
 
 ## Step 4
-### Check MLFLow dashboards (run in the terminal)
+### Start the MLFLow dashboards locally
 
 `mlflow ui`
 
