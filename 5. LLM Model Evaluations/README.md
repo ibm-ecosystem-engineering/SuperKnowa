@@ -2,6 +2,8 @@
 
 <img src="https://github.com/EnterpriseLLM/SuperKnowa/assets/112084296/23766e0c-a39c-4139-ad78-a7c9ad2420cf" alt="image" width="700" height="300">
 
+For a detailed overview of RAG evaluation package refer to the [Medium Blog](https://medium.com/towards-generative-ai/llm-evaluation-toolkit-for-rag-pipelines-9c37eb543614).
+
 ## [Eval_Package](./I.%20LLM%20Eval%20Toolkit/Eval_Package/)
   
 The Eval_Package is a tool designed to evaluate the performance of the LLM (Language Model) on a dataset containing questions, context, and ideal answers. It allows you to run evaluations on various datasets and assess how well the Model generates the answer.
