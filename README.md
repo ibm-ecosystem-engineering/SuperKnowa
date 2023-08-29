@@ -96,7 +96,7 @@ Build your various online & offline experiments for evaluations and compare the 
 
 
 
-![ezgif com-video-to-gif](https://github.com/ibm-ecosystem-engineering/SuperKnowa/assets/21246183/5e2f6dbe-fb26-4aca-a34c-d62cc6185e40)
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMW1jeW82cWRtemo5cHN5dm0yMGFyazR5ajY5M2J1ZnNiNGkwenF2ZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Q4V3CoTxQ5jJqbIuWp/giphy.gif" alt="GIF Description" width="500" height="300">
 
 
 
@@ -106,7 +106,7 @@ Build your various online & offline experiments for evaluations and compare the 
   
 The Eval_Package is a tool designed to evaluate the performance of the LLM (Language Model) on a dataset containing questions, context, and ideal answers. It allows you to run evaluations on various datasets and assess how well the Model generates the answer.
 
-![Screen_Recording_2023-08-13_at_1_03_10_PM_AdobeExpress](https://github.com/ibm-ecosystem-engineering/SuperKnowa/assets/21246183/0715a4c6-3422-4940-863e-4d6918e1be15)
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNDZva3lueGt4YnE2dTh3a3k3bDR6cnU4b240dWo4d2cwYWR4bGZuciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/wiyxKC8oFQeviD2ZvJ/giphy.gif" alt="GIF Description" width="500" height="300">
 
 
 ### Features 
