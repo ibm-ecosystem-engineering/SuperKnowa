@@ -171,4 +171,5 @@ Builders
 - Himadri Talukder - Senior Software Engineer
 - Tyler Berns- Data Scientist
 
-Disclaimer - Please note that this content is made available to foster Embedded AI technology adoption. The content may include systems & methods pending patent with USPTO and protected under US Patent Laws. Copyright - 2023 IBM Corporation. In case of any questions or support needed, please reach out at kunal@ibm.com
+### Disclaimer 
+Please note that this content is made available to foster Embedded AI technology adoption. The content may include systems & methods pending patent with the USPTO and protected under US Patent Laws. SuperKnowa is not a product but a framework built on the top of IBM watsonx along with other products like LLAMA models from Meta & ML Flow from Databricks. Using SuperKnowa implicitly requires agreeing to the Terms and conditions of those products. This framework is made available on an as-is basis to accelerate Enterprise GenAI applications. Copyright - 2023 IBM Corporation. In case of any questions, please reach out to kunal@ibm.com
