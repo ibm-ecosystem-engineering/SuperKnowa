@@ -1,24 +1,36 @@
 # SuperKnowa 
 
-**Fast Framework to build RAG (Retriever Augmented Generation) Pipelines at Scale - powered by watsonx**
+**Fast Framework to build Enterprise RAG (Retriever Augmented Generation) Pipelines at Scale - powered by watsonx**
 
-Welcome to the SuperKnowa GitHub repository! Here, you will find a diverse collection of pluggable components designed to tackle various Generative AI use cases using Large Language Models (LLMs). Think of these components as building blocks, much like Lego pieces, that you can assemble to address a wide range of challenges in the realm of AI-driven text generation.
+Welcome to the SuperKnowa GitHub repository! SuperKnowa framework accelerates your Enterprise Generative AI applications to get prod-ready solutions quickly on your private data. Here, you will find a diverse collection of pluggable components designed to tackle various Generative AI use cases using Large Language Models (LLMs). Think of these components as building blocks, much like Lego pieces, that you can assemble to address a wide range of challenges in the realm of AI-driven text generation. These are battle-tested from 1M to 200M private knowledge base & scaled to billions of retriever tokens. 
 
-Overall pipeline of the SuperKnowa RAG framework:
+The overall pipeline of the SuperKnowa RAG framework & key building blocks:
 
 <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcWxqd3FvdHYwcnllNWt3Y2k4OHl2bXV2NHN6M21sM3Z2ZXRncmY3NSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/c1v4nFUXthHQUH1EEE/giphy.gif" alt="GIF Description" width="500" height="300">
 
-Pluggable components for the SuperKnowa RAG pipeline:
+Configurable components for the SuperKnowa RAG pipeline using a single file:
 
 <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNjZpZXlpMGxxODZqdHhqYm90YXVzYmIxdHlyeG9tcWg2YXhxcW5hcCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/QM8szBdDLn7dT90CV6/giphy.gif" alt="GIF Description" width="500" height="300">
 
 SuperKnowa is a powerful framework developed using watsonx (watch the video on watsonx.ai [here](https://cdnapisec.kaltura.com/index.php/extwidget/preview/partner_id/1773841/uiconf_id/27941801/entry_id/1_yola7kmy/embed/dynamic)) that harnesses the capabilities of Large Language Models (LLMs) to offer a range of advanced Generative AI use cases. This repository introduces you to the various use cases covered by SuperKnowa.
 
-📖 Learn more about SuperKnowa in our insightful blog post: Cover Blog - SuperKnowa: Building Enterprise RAG Solutions at Scale https://medium.com/towards-generative-ai/superknowa-simplest-framework-yet-to-swiftly-build-enterprise-rag-solutions-at-scale-ca90b49be28a
 
-## Live Q&A Application
+📖 Learn more about SuperKnowa in our insightful blog post:
 
-Try SuperKnowa live (requires an IBM ID): [https://superknowa.tsglwatson.buildlab.cloud/](https://superknowa.tsglwatson.buildlab.cloud/). 
+
+Cover Blog - SuperKnowa: Building Enterprise RAG Solutions at Scale https://medium.com/towards-generative-ai/superknowa-simplest-framework-yet-to-swiftly-build-enterprise-rag-solutions-at-scale-ca90b49be28a
+
+
+
+###  Application for Live Q&A On Private Knowledge Base 
+
+Try the SuperKnowa framework with a live application built on the private knowledge base of 1M diverse docs:
+
+
+[https://superknowa.tsglwatson.buildlab.cloud/](https://superknowa.tsglwatson.buildlab.cloud/)
+
+
+(In case you don't have IBM ID, please get it here - https://www.ibm.com/account/reg/us-en/signup?formid=urx-19776) 
 
 ## Getting Started
 
@@ -110,7 +122,7 @@ Build your various online & offline experiments for evaluations and compare the 
 
 ### [Eval_Package](5.%20LLM%20Model%20Evaluations/I.%20LLM%20Eval%20Toolkit/Eval_Package)
   
-The Eval_Package is a tool designed to evaluate the performance of the LLM (Language Model) on a dataset containing questions, context, and ideal answers. It allows you to run evaluations on various datasets and assess how well the Model generates the answer.
+The Eval_Package is a tool designed to evaluate the performance of the LLM (Language Model) on a dataset containing questions, context, and ideal answers. It allows you to run evaluations on various datasets and assess how well the Model generates the answer on dozens of statistical metrics like BLUE, ROUGE, etc. 
 
 
 ### Features 
@@ -120,8 +132,6 @@ The Eval_Package is a tool designed to evaluate the performance of the LLM (Lang
 ## [MLflow_Package](5.%20LLM%20Model%20Evaluations/I.%20LLM%20Eval%20Toolkit/mlflow_package)
 
 The MLflow_Package is a comprehensive toolkit designed to integrate the results from the Eval_Package and efficiently track and manage experiments. It also enables you to create a leaderboard for evaluation comparisons and visualize metrics through a dashboard.
-
-<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbXhlcTVsZXYwNDQ3aDBza3Z6OWVzZ3lkajA5ZnNpcGtkMGdhbmJydyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/lNfigU3KtoL4oytcIn/giphy.gif" alt="GIF Description" width="500" height="300">
 
 ### Features 
    - Statistical Metrics Supported are BLEU, METEOR, ROUGE, SentenceSim Score, SimHash Score, Perplexity Score, BLEURT Score, F1 Score and BERT score.
@@ -176,4 +186,10 @@ Builders
 - Himadri Talukder - Senior Software Engineer
 - Tyler Berns- Data Scientist
 
-Disclaimer - Please note that this content is made available to foster Embedded AI technology adoption. The content may include systems & methods pending patent with USPTO and protected under US Patent Laws. Copyright - 2023 IBM Corporation. In case of any questions or support needed, please reach out at kunal@ibm.com
+  
+
+### Disclaimer 
+This framework is developed by Build Lab, IBM Ecosystem. Please note that this content is made available to foster Embeddable AI technology adoption and serve ecosystem partners. The content may include systems & methods pending patent with the USPTO and protected under US Patent Laws. SuperKnowa is not a product but a framework built on the top of IBM watsonx along with other products like LLAMA models from Meta & ML Flow from Databricks. Using SuperKnowa implicitly requires agreeing to the Terms and conditions of those products. This framework is made available on an as-is basis to accelerate Enterprise GenAI applications development. In case of any questions, please reach out to kunal@ibm.com.  
+
+
+Copyright @ 2023 IBM Corporation. 
