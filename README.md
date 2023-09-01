@@ -122,7 +122,7 @@ Build your various online & offline experiments for evaluations and compare the 
 
 ### [Eval_Package](5.%20LLM%20Model%20Evaluations/I.%20LLM%20Eval%20Toolkit/Eval_Package)
   
-The Eval_Package is a tool designed to evaluate the performance of the LLM (Language Model) on a dataset containing questions, context, and ideal answers. It allows you to run evaluations on various datasets and assess how well the Model generates the answer.
+The Eval_Package is a tool designed to evaluate the performance of the LLM (Language Model) on a dataset containing questions, context, and ideal answers. It allows you to run evaluations on various datasets and assess how well the Model generates the answer on dozens of statistical metrics like BLUE, ROUGE, etc. 
 
 <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNDZva3lueGt4YnE2dTh3a3k3bDR6cnU4b240dWo4d2cwYWR4bGZuciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/wiyxKC8oFQeviD2ZvJ/giphy.gif" alt="GIF Description" width="500" height="300">
 
@@ -135,9 +135,10 @@ The Eval_Package is a tool designed to evaluate the performance of the LLM (Lang
 
 The MLflow_Package is a comprehensive toolkit designed to integrate the results from the Eval_Package and efficiently track and manage experiments. It also enables you to create a leaderboard for evaluation comparisons and visualize metrics through a dashboard.
 
-
+<Add gif showing experiments results with stats metrics
 
 ### Features 
+   - Statistical Metrics Supported are <>
    - Experiment tracking: Utilize MLflow to keep a record of experiments, including parameters, metrics, and model artifacts generated during evaluations.
    - Leaderboard creation: The package allows you to create a leaderboard, making it easy to compare the performance of different  Models across multiple datasets.
    - Metric visualization: Generate insightful charts and graphs through the dashboard, allowing you to visualize and analyze evaluation metrics easily.
@@ -192,7 +193,7 @@ Builders
   
 
 ### Disclaimer 
-Please note that this content is made available to foster Embeddable AI technology adoption and serve ecosystem partners. The content may include systems & methods pending patent with the USPTO and protected under US Patent Laws. SuperKnowa is not a product but a framework built on the top of IBM watsonx along with other products like LLAMA models from Meta & ML Flow from Databricks. Using SuperKnowa implicitly requires agreeing to the Terms and conditions of those products. This framework is made available on an as-is basis to accelerate Enterprise GenAI applications development. In case of any questions, please reach out to kunal@ibm.com.  
+This framework is developed by Build Lab, IBM Ecosystem. Please note that this content is made available to foster Embeddable AI technology adoption and serve ecosystem partners. The content may include systems & methods pending patent with the USPTO and protected under US Patent Laws. SuperKnowa is not a product but a framework built on the top of IBM watsonx along with other products like LLAMA models from Meta & ML Flow from Databricks. Using SuperKnowa implicitly requires agreeing to the Terms and conditions of those products. This framework is made available on an as-is basis to accelerate Enterprise GenAI applications development. In case of any questions, please reach out to kunal@ibm.com.  
 
 
 Copyright @ 2023 IBM Corporation. 
