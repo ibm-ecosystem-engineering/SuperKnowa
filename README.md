@@ -135,10 +135,10 @@ The Eval_Package is a tool designed to evaluate the performance of the LLM (Lang
 
 The MLflow_Package is a comprehensive toolkit designed to integrate the results from the Eval_Package and efficiently track and manage experiments. It also enables you to create a leaderboard for evaluation comparisons and visualize metrics through a dashboard.
 
-<Add gif showing experiments results with stats metrics
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbXhlcTVsZXYwNDQ3aDBza3Z6OWVzZ3lkajA5ZnNpcGtkMGdhbmJydyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/lNfigU3KtoL4oytcIn/giphy.gif" alt="GIF Description" width="500" height="300">
 
 ### Features 
-   - Statistical Metrics Supported are <>
+   - Statistical Metrics Supported are BLEU, METEOR, ROUGE, SentenceSim Score, SimHash Score, Perplexity Score, BLEURT Score, F1 Score and BERT score.
    - Experiment tracking: Utilize MLflow to keep a record of experiments, including parameters, metrics, and model artifacts generated during evaluations.
    - Leaderboard creation: The package allows you to create a leaderboard, making it easy to compare the performance of different  Models across multiple datasets.
    - Metric visualization: Generate insightful charts and graphs through the dashboard, allowing you to visualize and analyze evaluation metrics easily.
