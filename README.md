@@ -185,7 +185,7 @@ Builders
 - Sahil Desai, Data Scientist
 - Amit Khandelwal- Senior Data Scientist
 - Himadri Talukder - Senior Software Engineer
-- Tyler Berns- Data Scientist
+- Tyler Benson- Data Scientist
 
   
 
