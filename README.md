@@ -175,7 +175,7 @@ Experience the power of SuperKnowa's Text-to-SQL capability, which transforms na
 
 ## Build Lab Team 
 
-Owner: Kunal Sawarkar, Chief Data Scientist
+Created By: Kunal Sawarkar, Chief Data Scientist
 
 Builders
 - Shivam Solanki, Senior Advisory Data Scientist
