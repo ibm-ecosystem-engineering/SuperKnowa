@@ -13,7 +13,6 @@ RUN npm install
 # Copy the rest of the application files to the container
 COPY ./src ./src
 COPY ./public ./public
-COPY ./.env ./.env
 # Build the React app
 RUN npm run build
 
