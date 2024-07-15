@@ -24,7 +24,7 @@ import TextField from "@mui/material/TextField";
 import { additionalFeedback } from "../api/feedback/feedback_api";
 import { Box, Grid, Typography } from "@mui/material";
 
-const feedbackQustions = [
+const feedbackQuestions = [
   "Is the response relevant and coherent?",
   "Was this a useful response with an appropriate amount of information?",
   "Is the response factual and accurate, based on the document?",
@@ -72,7 +72,7 @@ export default function AnswerFeedbackDialog({
           </DialogContentText>
           <Grid container rowSpacing={1}>
             <Grid item xs={9}>
-              <Typography lineHeight={"40px"}>{feedbackQustions[0]}</Typography>
+              <Typography lineHeight={"40px"}>{feedbackQuestions[0]}</Typography>
             </Grid>
             <Grid item xs={3} padding={"0px"}>
               <FormControl>
@@ -112,7 +112,7 @@ export default function AnswerFeedbackDialog({
               </FormControl>
             </Grid>
             <Grid item xs={9}>
-              <Typography lineHeight={"40px"}>{feedbackQustions[1]}</Typography>
+              <Typography lineHeight={"40px"}>{feedbackQuestions[1]}</Typography>
             </Grid>
             <Grid item xs={3} padding={"0px"}>
               <FormControl>
@@ -152,7 +152,7 @@ export default function AnswerFeedbackDialog({
               </FormControl>
             </Grid>
             <Grid item xs={9}>
-              <Typography lineHeight={"40px"}>{feedbackQustions[2]}</Typography>
+              <Typography lineHeight={"40px"}>{feedbackQuestions[2]}</Typography>
             </Grid>
             <Grid item xs={3} padding={"0px"}>
               <FormControl>
