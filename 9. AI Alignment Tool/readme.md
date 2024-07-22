@@ -1,6 +1,5 @@
 # AI Alignment Tool
 
-**Code Coming Soon**
 
 The focus of this subdirectory is the SuperKnowa mechanism for collecting human feedback. Collecting input from users can play a crucial role in assessing a model’s response and enhancing its performance and implementing for a Retrieval-Augmented Generation (RAG) pipeline.
 
