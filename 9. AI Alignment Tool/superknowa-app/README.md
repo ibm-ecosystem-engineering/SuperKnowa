@@ -2,13 +2,13 @@
 
 ## Prerequisites
 
-- Node.js v18 or higher
-- IBM AppID for application authentication
-- A backend server to serve LLM Service
+- [Node.js](https://nodejs.org/en) v18 or higher
+- [IBM AppID](https://www.ibm.com/products/app-id) for application authentication
+- A backend server to serve LLM Service, supported OpenAPI spec can be found [here](backend-openapi-document.json)
 
 ### IBM AppID Setup
 
-Please provision an IBM AppID instance or replace the authentication with your choice. Modify the code in `App.js` as necessary.
+Please provision an [IBM AppID instance](https://www.ibm.com/products/app-id) or replace the authentication with your choice. Modify the code in `App.js` as necessary.
 
 ```js
 const appID = useMemo(() => {
@@ -55,17 +55,17 @@ A backend server is required to communicate with watsonx.ai. Open API documentat
 
 ## Project Configuration and Details
 
-- **Configuration**: Located in `src/api/config.jsx`
-- **Landing Screen & Page Titles**: Controlled from `src/api/staticdb.jsx`
-- **Color and Theme**: Managed in `src/theme.js`
-- **Application State & Histories**: Stored in the Redux store (`src/redux`)
-- **Main Screens**: Located in `src/scenes`
-- **Custom Components**: Found in `src/components`
+- **Configuration**: Located in [src/api/config.jsx](src/api/config.jsx)
+- **Landing Screen & Page Titles**: Controlled from [src/api/staticdb.jsx](src/api/staticdb.jsx)
+- **Color and Theme**: Managed in [src/theme.js](src/theme.js)
+- **Application State & Histories**: Stored in the Redux store [src/redux](src/redux)
+- **Main Screens**: Located in [src/scenes](src/scenes)
+- **Custom Components**: Found in [src/components](src/components)
 - **Docker File**: Provided to build a container
 
 ## Available Scripts
 
-To start the project, run the following commands in the project directory:
+To start the project, run the following commands in the project directory: `superknowa-app`
 
 ### Install Dependencies
 
