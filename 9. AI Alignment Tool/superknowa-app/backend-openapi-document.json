@@ -1,0 +1,374 @@
+{
+    "openapi": "3.1.0",
+    "info": {
+        "title": "Superknowa API Service",
+        "description": "Superknowa API service, for making LLM call",
+        "version": "1.0.1-fastapi"
+    },
+    "servers": [
+        {
+            "url": "http://localhost:3001"
+        }
+    ],
+    "paths": {
+        "/api/v1/chat/generate/{retriever}": {
+            "post": {
+                "summary": "Text Generation Single Model",
+                "operationId": "text_generation_single_model_api_v1_chat_generate__retriever__post",
+                "parameters": [
+                    {
+                        "name": "retriever",
+                        "in": "path",
+                        "required": true,
+                        "schema": {
+                            "title": "Retriever"
+                        }
+                    }
+                ],
+                "requestBody": {
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "$ref": "#/components/schemas/Question"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "Successful Response",
+                        "content": {
+                            "application/json": {
+                                "schema": {}
+                            }
+                        }
+                    },
+                    "422": {
+                        "description": "Validation Error",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/HTTPValidationError"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/api/v1/chat/generate/multi/{retriever}/{no_model}": {
+            "post": {
+                "summary": "Chat Multi Model",
+                "operationId": "chat_multi_model_api_v1_chat_generate_multi__retriever___no_model__post",
+                "parameters": [
+                    {
+                        "name": "retriever",
+                        "in": "path",
+                        "required": true,
+                        "schema": {
+                            "type": "string",
+                            "title": "Retriever"
+                        }
+                    },
+                    {
+                        "name": "no_model",
+                        "in": "path",
+                        "required": true,
+                        "schema": {
+                            "type": "integer",
+                            "title": "No Model"
+                        }
+                    }
+                ],
+                "requestBody": {
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "$ref": "#/components/schemas/Question"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "Successful Response",
+                        "content": {
+                            "application/json": {
+                                "schema": {}
+                            }
+                        }
+                    },
+                    "422": {
+                        "description": "Validation Error",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/HTTPValidationError"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/api/v1/chat/context/generate": {
+            "post": {
+                "summary": "Generate With Given Context",
+                "operationId": "generate_with_given_context_api_v1_chat_context_generate_post",
+                "requestBody": {
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "$ref": "#/components/schemas/CustomContextQuestion"
+                            }
+                        }
+                    },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Successful Response",
+                        "content": {
+                            "application/json": {
+                                "schema": {}
+                            }
+                        }
+                    },
+                    "422": {
+                        "description": "Validation Error",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/HTTPValidationError"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/api/v1/chat/context/upload": {
+            "post": {
+                "summary": "Upload Custom Context File",
+                "operationId": "upload_custom_context_file_api_v1_chat_context_upload_post",
+                "responses": {
+                    "200": {
+                        "description": "Successful Response",
+                        "content": {
+                            "application/json": {
+                                "schema": {}
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/api/v1/chat/test": {
+            "get": {
+                "summary": "Upload Custom Context Res",
+                "operationId": "upload_custom_context_res_api_v1_chat_test_get",
+                "responses": {
+                    "200": {
+                        "description": "Successful Response",
+                        "content": {
+                            "application/json": {
+                                "schema": {}
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/api/v1/feedback/add/{mongo_ref}": {
+            "put": {
+                "summary": "Add Feedback",
+                "operationId": "add_feedback_api_v1_feedback_add__mongo_ref__put",
+                "parameters": [
+                    {
+                        "name": "mongo_ref",
+                        "in": "path",
+                        "required": true,
+                        "schema": {
+                            "title": "Mongo Ref"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Successful Response",
+                        "content": {
+                            "application/json": {
+                                "schema": {}
+                            }
+                        }
+                    },
+                    "422": {
+                        "description": "Validation Error",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/HTTPValidationError"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/api/v1/feedback/add/multi_additional/{feedback_id}": {
+            "post": {
+                "summary": "Add Additional Feedback Feedback",
+                "operationId": "add_additional_feedback_feedback_api_v1_feedback_add_multi_additional__feedback_id__post",
+                "parameters": [
+                    {
+                        "name": "feedback_id",
+                        "in": "path",
+                        "required": true,
+                        "schema": {
+                            "title": "Feedback Id"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Successful Response",
+                        "content": {
+                            "application/json": {
+                                "schema": {}
+                            }
+                        }
+                    },
+                    "422": {
+                        "description": "Validation Error",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/HTTPValidationError"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/api/v1/feedback/update/{feedback_id}": {
+            "post": {
+                "summary": "Update Feedback",
+                "operationId": "update_feedback_api_v1_feedback_update__feedback_id__post",
+                "parameters": [
+                    {
+                        "name": "feedback_id",
+                        "in": "path",
+                        "required": true,
+                        "schema": {
+                            "title": "Feedback Id"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Successful Response",
+                        "content": {
+                            "application/json": {
+                                "schema": {}
+                            }
+                        }
+                    },
+                    "422": {
+                        "description": "Validation Error",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/HTTPValidationError"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "components": {
+        "schemas": {
+            "CustomContextQuestion": {
+                "properties": {
+                    "question": {
+                        "type": "string",
+                        "title": "Question"
+                    },
+                    "paragraph": {
+                        "type": "string",
+                        "title": "Paragraph"
+                    }
+                },
+                "type": "object",
+                "required": [
+                    "question",
+                    "paragraph"
+                ],
+                "title": "CustomContextQuestion"
+            },
+            "HTTPValidationError": {
+                "properties": {
+                    "detail": {
+                        "items": {
+                            "$ref": "#/components/schemas/ValidationError"
+                        },
+                        "type": "array",
+                        "title": "Detail"
+                    }
+                },
+                "type": "object",
+                "title": "HTTPValidationError"
+            },
+            "Question": {
+                "properties": {
+                    "question": {
+                        "type": "string",
+                        "title": "Question"
+                    }
+                },
+                "type": "object",
+                "required": [
+                    "question"
+                ],
+                "title": "Question"
+            },
+            "ValidationError": {
+                "properties": {
+                    "loc": {
+                        "items": {
+                            "anyOf": [
+                                {
+                                    "type": "string"
+                                },
+                                {
+                                    "type": "integer"
+                                }
+                            ]
+                        },
+                        "type": "array",
+                        "title": "Location"
+                    },
+                    "msg": {
+                        "type": "string",
+                        "title": "Message"
+                    },
+                    "type": {
+                        "type": "string",
+                        "title": "Error Type"
+                    }
+                },
+                "type": "object",
+                "required": [
+                    "loc",
+                    "msg",
+                    "type"
+                ],
+                "title": "ValidationError"
+            }
+        }
+    }
+}
